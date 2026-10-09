@@ -1,0 +1,14 @@
+{
+  "captured_utc": "2026-10-09T04:59:52.732984+00:00",
+  "label": "menu13-started-before-mission",
+  "source": "http://10.0.0.24:8097",
+  "payload": {
+    "version": "0.4.1",
+    "title": "PPSA01317",
+    "gameRunning": 1,
+    "blocked": false,
+    "platform": "PS5"
+  },
+  "bytes": 176626,
+  "sha256": "34e65a4cbe039874c5b6310d1bf18d8c99643dbadbd864541fdaa3a49104f9fc"
+}

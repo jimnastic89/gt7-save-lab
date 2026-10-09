@@ -1,0 +1,14 @@
+{
+  "captured_utc": "2026-10-09T03:34:05.751663+00:00",
+  "label": "menu11-claimed-no-active-book",
+  "source": "http://10.0.0.24:8097",
+  "payload": {
+    "version": "0.4.1",
+    "title": "PPSA01317",
+    "gameRunning": 1,
+    "blocked": false,
+    "platform": "PS5"
+  },
+  "bytes": 173422,
+  "sha256": "27bf5d67ee010c64b927a04bcb72edffb29c7b04980d15a4abedfbe30bd9cc9b"
+}

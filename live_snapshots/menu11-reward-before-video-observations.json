@@ -1,0 +1,83 @@
+{
+  "before": "20261009T042714.730479Z-menu11-peugeot-completed-before-cafe.bin",
+  "after": "20261009T043239.497179Z-menu11-reward-received-before-finishing-video.bin",
+  "user_state": "Entered Cafe, received2-star ticket, returned home with no active book. French-car finishing video not watched; next book not yet made available through that sequence.",
+  "credits": 47850,
+  "gift_counts": [
+    90,
+    91
+  ],
+  "new_ticket_json": [
+    "{\"car_\":{\"carCode_\":-1,\"cpjson_\":[],\"styleid_\":0,\"variation_\":-1},\"count_\":1,\"createTime_\":212658280634,\"expireTime_\":212660872634,\"itemId_\":9007199254751616,\"msgkey_\":\"DELITEM_9007199254751616\",\"parts_\":{\"carCode_\":-1,\"category_\":-1,\"engineCode_\":-1,\"index_\":0},\"thumbnail_\":\"\",\"ticket_\":{\"rouletteid_\":2,\"seed_\":-2090073542},\"tuner_\":{\"tunerCode_\":-1},\"version_\":6}"
+  ],
+  "archive_added": [
+    624
+  ],
+  "quest624_before": [
+    {
+      "slot": 7,
+      "id": 624,
+      "stage": 3,
+      "value": 3
+    }
+  ],
+  "quest624_after": [],
+  "changes": {
+    "CARCOLIV": {
+      "sizes": [
+        4950,
+        4950
+      ],
+      "bytes": [
+        {
+          "offset": "0x33",
+          "before": 15,
+          "after": 16
+        }
+      ]
+    },
+    "GAMECTX": {
+      "sizes": [
+        992,
+        992
+      ]
+    },
+    "GMSTATS": {
+      "sizes": [
+        672,
+        672
+      ]
+    },
+    "GIFTIV": {
+      "sizes": [
+        40566,
+        41016
+      ]
+    },
+    "PROGRESS": {
+      "sizes": [
+        784,
+        784
+      ],
+      "bytes": [
+        {
+          "offset": "0x138",
+          "before": 1,
+          "after": 0
+        }
+      ]
+    },
+    "QSTARCIV": {
+      "sizes": [
+        1238,
+        1304
+      ]
+    },
+    "QUEST": {
+      "sizes": [
+        23908,
+        23908
+      ]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "captured_utc": "2026-10-09T04:32:39.497179+00:00",
+  "label": "menu11-reward-received-before-finishing-video",
+  "source": "http://10.0.0.24:8097",
+  "payload": {
+    "version": "0.4.1",
+    "title": "PPSA01317",
+    "gameRunning": 1,
+    "blocked": false,
+    "platform": "PS5"
+  },
+  "bytes": 173422,
+  "sha256": "11cc2de2d84ae71c09e07c164b05a1bd4947679a81377990979bf8107e99f6b6"
+}

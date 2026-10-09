@@ -1,0 +1,64 @@
+{
+  "before": "20261009T045808.087803Z-menu12-cafe-missions-unlocked-next-not-started.bin",
+  "after": "20261009T045952.732984Z-menu13-started-before-mission.bin",
+  "user": {
+    "book": 13,
+    "title": "Try Your Hand at a Mission",
+    "started": true,
+    "book12_finishing_video": false,
+    "exact_objective_text": "Not yet supplied"
+  },
+  "credits": 122850,
+  "gift_counts": [
+    91,
+    91
+  ],
+  "changed_quest_slots": {
+    "10": {
+      "before": null,
+      "after": {
+        "id": 620,
+        "stage": 1,
+        "objective_value": 0
+      }
+    }
+  },
+  "changes": {
+    "GAMECTX": {
+      "sizes": [
+        992,
+        992
+      ]
+    },
+    "GMSTATS": {
+      "sizes": [
+        672,
+        672
+      ]
+    },
+    "PROGRESS": {
+      "sizes": [
+        784,
+        784
+      ],
+      "bytes": [
+        {
+          "offset": "0x5d",
+          "before": 1,
+          "after": 2
+        },
+        {
+          "offset": "0x139",
+          "before": 0,
+          "after": 1
+        }
+      ]
+    },
+    "QUEST": {
+      "sizes": [
+        23908,
+        23924
+      ]
+    }
+  }
+}

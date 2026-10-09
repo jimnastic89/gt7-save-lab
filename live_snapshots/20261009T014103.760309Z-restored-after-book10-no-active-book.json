@@ -1,0 +1,14 @@
+{
+  "captured_utc": "2026-10-09T01:41:03.760309+00:00",
+  "label": "restored-after-book10-no-active-book",
+  "source": "http://10.0.0.24:8097",
+  "payload": {
+    "version": "0.4.1",
+    "title": "PPSA01317",
+    "gameRunning": 1,
+    "blocked": false,
+    "platform": "PS5"
+  },
+  "bytes": 158408,
+  "sha256": "4cc4204a7264794dc797e9a62f34fc34042738009dacc5894fc8f46a5735450a"
+}

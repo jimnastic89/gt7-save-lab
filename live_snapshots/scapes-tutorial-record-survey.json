@@ -1,0 +1,45 @@
+{
+  "a472515d4eb4d1f5161ef051ca4eb0fadd9fb45d97d29cd6ea933d5d3e3b6ef8": {
+    "bytes": "53 43 50 53 00 05 00 00 00 00 00 00 00 60 60 d8 bd 6d 64 d2 fb 79 34 61 2a cb 36 78 5b bd ec 1e 0e 1e 13 09 61 4d f4 66 d0 38 1d eb 04 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 36 83 44 01 00 00 00 07 00 00 00 0a 00 00 00 00 00 00 00 00 00 00 00 25 00 00 00 00 00 00 00 00 00 00",
+    "samples": [
+      "20261008T091934.592894Z-initial-live-after-B2.bin",
+      "20261008T143632.044171Z-menu09-before-tokyo-highway-parade.bin",
+      "20261008T150237.531417Z-menu09-completed-before-prize.bin",
+      "20261008T150921.485901Z-menu09-prize-claimed-book10-not-started.bin",
+      "20261008T151010.634653Z-menu09-prize-claimed-book10-not-started.bin",
+      "20261008T151413.683148Z-menu10-started-no-other-actions.bin",
+      "20261008T151829.263810Z-menu10-objectives-viewed-mazda-acquired.bin",
+      "20261008T213617.998922Z-menu10-silvia-acquired-first-10000cr.bin",
+      "20261008T214648.052356Z-menu10-corolla-completed-before-prize.bin",
+      "20261008T222754.574642Z-menu10-claimed-next-not-started.bin",
+      "20261008T230305.829790Z-after-seven-car-ticket-removals-restart.bin",
+      "20261009T014103.760309Z-restored-after-book10-no-active-book.bin",
+      "20261009T015048.817128Z-menu11-started-renault-owned-no-races.bin",
+      "20261009T020201.797585Z-menu11-ds3-acquired-deep-forest-first.bin",
+      "20261009T032917.396747Z-menu11-peugeot-acquired-sardegna-before-cafe.bin",
+      "20261009T033405.751663Z-menu11-claimed-no-active-book.bin",
+      "20261009T041930.654551Z-menu11-ds3-acquired-deep-forest-first.bin",
+      "20261009T042714.730479Z-menu11-peugeot-completed-before-cafe.bin",
+      "20261009T043239.497179Z-menu11-reward-received-before-finishing-video.bin",
+      "20261009T043436.382722Z-menu11-finishing-video-watched-next-not-started.bin",
+      "20261009T043925.471744Z-menu12-started-before-championship.bin",
+      "20261009T045518.708142Z-menu12-championship-completed-before-cafe.bin",
+      "20261009T045808.087803Z-menu12-cafe-missions-unlocked-next-not-started.bin",
+      "20261009T045952.732984Z-menu13-started-before-mission.bin",
+      "20261009T050545.813586Z-menu13-mission-completed-before-cafe.bin",
+      "20261009T050945.678448Z-menu13-claimed-three-tracks-unlocked-book14-unstarted.bin"
+    ]
+  },
+  "93898f685555964cf342833224329f99a308049e35bb58386e4e4b68ac71310c": {
+    "bytes": "53 43 50 53 00 05 00 00 00 00 00 00 00 60 60 d8 bd 6d 64 d2 fb 79 34 61 2a cb 36 78 5b bd ec 1e 0e 1e 13 09 61 4d f4 66 d0 38 1d eb 04 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 36 83 44 01 00 00 00 0b 00 00 00 0a 00 00 00 00 00 00 00 00 00 00 00 25 00 00 00 00 00 00 00 00 00 00",
+    "samples": [
+      "20261008T231532.935365Z-book16-scapes-active-restored-save.bin",
+      "20261008T234652.316422Z-book16-after-scapes-experiment-cafe-still-in-progress.bin",
+      "20261009T004222.478870Z-book16-after-progress138-still-in-progress.bin",
+      "20261009T004705.651584Z-book16-scapes-marker-cleared-cafe-in-progress.bin",
+      "20261009T051852.538058Z-scapes-restored-before-second-experiment.bin",
+      "20261009T052619.906621Z-scapes-second-experiment-cafe-still-in-progress.bin",
+      "20261009T053159.026389Z-scapes-tail-sentinel-failed-tutorial-investigation.bin"
+    ]
+  }
+}

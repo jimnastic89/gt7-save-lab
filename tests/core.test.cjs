@@ -2,7 +2,7 @@ const assert=require('node:assert/strict');
 const fs=require('node:fs');
 const path=require('node:path');
 const G=require('../web/core.js');
-const root=path.resolve(__dirname,'../../download_analysis');
+const root=path.resolve(__dirname,'../download_analysis');
 const saves=[1,2,3].map(n=>G.parse(fs.readFileSync(path.join(root,String(n),'gt7save.bin'))));
 assert.deepEqual(saves.map(s=>s.records.length),[38,38,38]);
 assert.deepEqual(saves.map(s=>G.giftInfo(s).count),[59,68,77]);

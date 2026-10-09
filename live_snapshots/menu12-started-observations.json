@@ -1,0 +1,254 @@
+{
+  "before": "20261009T043436.382722Z-menu11-finishing-video-watched-next-not-started.bin",
+  "after": "20261009T043925.471744Z-menu12-started-before-championship.bin",
+  "user": {
+    "book": 12,
+    "title": "Championship: Petite Course de France",
+    "objective": "Finish in top three of championship",
+    "location": "Alsace",
+    "possible_unlock": "Alsace may have just unlocked; user did not check beforehand, unconfirmed",
+    "state": "Started, returned home; gold World Circuits marker; no races yet"
+  },
+  "credits": 47850,
+  "gift_counts": [
+    91,
+    91
+  ],
+  "quests_before": {
+    "0": {
+      "id": 127,
+      "stage": 1,
+      "objective_value": 0
+    },
+    "1": {
+      "id": 141,
+      "stage": 1,
+      "objective_value": 0
+    },
+    "2": {
+      "id": 110,
+      "stage": 0,
+      "objective_value": 0
+    },
+    "3": {
+      "id": 121,
+      "stage": 0,
+      "objective_value": 0
+    },
+    "4": {
+      "id": 122,
+      "stage": 0,
+      "objective_value": 0
+    },
+    "5": {
+      "id": 123,
+      "stage": 0,
+      "objective_value": 0
+    },
+    "6": {
+      "id": 104,
+      "stage": 0,
+      "objective_value": 0
+    },
+    "8": {
+      "id": 137,
+      "stage": 0,
+      "objective_value": 0
+    },
+    "9": {
+      "id": 131,
+      "stage": 3,
+      "objective_value": 0
+    }
+  },
+  "quests_after": {
+    "0": {
+      "id": 127,
+      "stage": 1,
+      "objective_value": 0
+    },
+    "1": {
+      "id": 141,
+      "stage": 1,
+      "objective_value": 0
+    },
+    "2": {
+      "id": 110,
+      "stage": 0,
+      "objective_value": 0
+    },
+    "3": {
+      "id": 121,
+      "stage": 0,
+      "objective_value": 0
+    },
+    "4": {
+      "id": 122,
+      "stage": 0,
+      "objective_value": 0
+    },
+    "5": {
+      "id": 123,
+      "stage": 0,
+      "objective_value": 0
+    },
+    "6": {
+      "id": 104,
+      "stage": 0,
+      "objective_value": 0
+    },
+    "7": {
+      "id": 629,
+      "stage": 1,
+      "objective_value": 0
+    },
+    "8": {
+      "id": 137,
+      "stage": 0,
+      "objective_value": 0
+    },
+    "9": {
+      "id": 131,
+      "stage": 3,
+      "objective_value": 0
+    }
+  },
+  "changes": {
+    "GAMECTX": {
+      "sizes": [
+        992,
+        992
+      ]
+    },
+    "GMSTATS": {
+      "sizes": [
+        672,
+        672
+      ]
+    },
+    "PROGRESS": {
+      "sizes": [
+        784,
+        784
+      ],
+      "bytes": [
+        {
+          "offset": "0x135",
+          "before": 0,
+          "after": 1
+        },
+        {
+          "offset": "0x2cf",
+          "before": 2,
+          "after": 3
+        },
+        {
+          "offset": "0x2db",
+          "before": 0,
+          "after": 3
+        },
+        {
+          "offset": "0x2df",
+          "before": 1,
+          "after": 0
+        },
+        {
+          "offset": "0x2e3",
+          "before": 5,
+          "after": 1
+        },
+        {
+          "offset": "0x2e7",
+          "before": 0,
+          "after": 5
+        },
+        {
+          "offset": "0x2eb",
+          "before": 2,
+          "after": 0
+        },
+        {
+          "offset": "0x2ef",
+          "before": 7,
+          "after": 2
+        },
+        {
+          "offset": "0x2f3",
+          "before": 1,
+          "after": 7
+        },
+        {
+          "offset": "0x2f4",
+          "before": 4,
+          "after": 0
+        },
+        {
+          "offset": "0x2f5",
+          "before": 6,
+          "after": 0
+        },
+        {
+          "offset": "0x2f7",
+          "before": 0,
+          "after": 1
+        },
+        {
+          "offset": "0x2f8",
+          "before": 0,
+          "after": 4
+        },
+        {
+          "offset": "0x2f9",
+          "before": 0,
+          "after": 6
+        },
+        {
+          "offset": "0x2ff",
+          "before": 255,
+          "after": 0
+        },
+        {
+          "offset": "0x300",
+          "before": 255,
+          "after": 0
+        },
+        {
+          "offset": "0x301",
+          "before": 255,
+          "after": 0
+        },
+        {
+          "offset": "0x302",
+          "before": 255,
+          "after": 0
+        },
+        {
+          "offset": "0x303",
+          "before": 0,
+          "after": 255
+        },
+        {
+          "offset": "0x304",
+          "before": 0,
+          "after": 255
+        },
+        {
+          "offset": "0x305",
+          "before": 0,
+          "after": 255
+        },
+        {
+          "offset": "0x306",
+          "before": 0,
+          "after": 255
+        }
+      ]
+    },
+    "QUEST": {
+      "sizes": [
+        23908,
+        23924
+      ]
+    }
+  }
+}

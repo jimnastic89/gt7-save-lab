@@ -11,7 +11,7 @@ import time
 import unittest
 
 ROOT=Path(__file__).resolve().parents[1]
-FIXTURE=ROOT.parent/'download_analysis/3/gt7save.bin'
+FIXTURE=ROOT/'download_analysis/3/gt7save.bin'
 
 
 class ServerTests(unittest.TestCase):

@@ -1,0 +1,11 @@
+{
+  "source": "20261009T052619.906621Z-scapes-second-experiment-cafe-still-in-progress.bin",
+  "result": "Cafe still In Progress",
+  "quest_id": 625,
+  "stage": 3,
+  "objective": 0,
+  "tail": "0000000000000000",
+  "progress130": 0,
+  "progress138": 1,
+  "next_candidate": "Eight-byte region entry+0x15F through+0x166, natural mission completion changed to FF. Test is hypothetical; not applied; prefer controlled comparison over changing IDs."
+}

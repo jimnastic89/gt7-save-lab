@@ -1,0 +1,78 @@
+{
+  "before": "20261009T045518.708142Z-menu12-championship-completed-before-cafe.bin",
+  "after": "20261009T045808.087803Z-menu12-cafe-missions-unlocked-next-not-started.bin",
+  "user_state": "Entered Cafe; Missions unlocked, only reported change. Returned home; next book not started. Separate finishing video not established.",
+  "credits": 122850,
+  "gift_counts": [
+    91,
+    91
+  ],
+  "archive_added": [
+    629
+  ],
+  "quest629_present_after": false,
+  "changes": {
+    "GAMECTX": {
+      "sizes": [
+        992,
+        992
+      ]
+    },
+    "GMSTATS": {
+      "sizes": [
+        672,
+        672
+      ]
+    },
+    "PROGRESS": {
+      "sizes": [
+        784,
+        784
+      ],
+      "bytes": [
+        {
+          "offset": "0x5a",
+          "before": 255,
+          "after": 0
+        },
+        {
+          "offset": "0x5b",
+          "before": 255,
+          "after": 0
+        },
+        {
+          "offset": "0x5c",
+          "before": 255,
+          "after": 0
+        },
+        {
+          "offset": "0x5d",
+          "before": 255,
+          "after": 1
+        },
+        {
+          "offset": "0x138",
+          "before": 1,
+          "after": 0
+        },
+        {
+          "offset": "0x151",
+          "before": 9,
+          "after": 10
+        }
+      ]
+    },
+    "QSTARCIV": {
+      "sizes": [
+        1304,
+        1370
+      ]
+    },
+    "QUEST": {
+      "sizes": [
+        23924,
+        23908
+      ]
+    }
+  }
+}

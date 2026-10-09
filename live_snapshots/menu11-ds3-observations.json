@@ -1,0 +1,157 @@
+{
+  "before": "20261009T015048.817128Z-menu11-started-renault-owned-no-races.bin",
+  "after": "20261009T020201.797585Z-menu11-ds3-acquired-deep-forest-first.bin",
+  "user_actions": {
+    "upgrade_spending": [
+      3800,
+      17600,
+      15000,
+      1000,
+      3000
+    ],
+    "total_spending": 40400,
+    "tuned": "Renault Clio handling",
+    "race": "Deep Forest Raceway",
+    "position": 1,
+    "total_time": "3:44.902",
+    "base_prize": 10000,
+    "clean_race_bonus": "Reported, amount not supplied",
+    "reward_car": "DS Automobiles DS 3",
+    "returned_home_for_autosave": true
+  },
+  "credits_before": 63250,
+  "credits_after": 37850,
+  "inferred_bonus": 5000,
+  "gift_counts": [
+    80,
+    81
+  ],
+  "quest624": {
+    "slot": 7,
+    "stage": 1,
+    "objective_value": 1
+  },
+  "changes": {
+    "CARCOLIV": {
+      "sizes": [
+        4950,
+        4950
+      ],
+      "bytes": [
+        {
+          "offset": "0x24a",
+          "before": 0,
+          "after": 64
+        }
+      ]
+    },
+    "EVTRECIV": {
+      "sizes": [
+        3888,
+        3986
+      ]
+    },
+    "GAMECTX": {
+      "sizes": [
+        992,
+        992
+      ]
+    },
+    "GMSTATS": {
+      "sizes": [
+        672,
+        672
+      ]
+    },
+    "GARAGE": {
+      "sizes": [
+        8210,
+        8724
+      ]
+    },
+    "GIFTIV": {
+      "sizes": [
+        36066,
+        36516
+      ]
+    },
+    "PROGRESS": {
+      "sizes": [
+        784,
+        784
+      ],
+      "bytes": [
+        {
+          "offset": "0xc1",
+          "before": 2,
+          "after": 0
+        },
+        {
+          "offset": "0x154",
+          "before": 247,
+          "after": 147
+        },
+        {
+          "offset": "0x155",
+          "before": 18,
+          "after": 218
+        },
+        {
+          "offset": "0x160",
+          "before": 8,
+          "after": 9
+        },
+        {
+          "offset": "0x161",
+          "before": 208,
+          "after": 73
+        },
+        {
+          "offset": "0x162",
+          "before": 224,
+          "after": 248
+        },
+        {
+          "offset": "0x2f4",
+          "before": 3,
+          "after": 4
+        }
+      ]
+    },
+    "QUEST": {
+      "sizes": [
+        23924,
+        23924
+      ],
+      "bytes": [
+        {
+          "offset": "0xce2",
+          "before": 0,
+          "after": 1
+        }
+      ]
+    },
+    "STGDBK": {
+      "sizes": [
+        31780,
+        33820
+      ]
+    },
+    "STYLEIV": {
+      "sizes": [
+        5714,
+        6068
+      ]
+    }
+  },
+  "earlier_same_label_capture": "20261009T020201.797585Z-menu11-ds3-acquired-deep-forest-first.bin",
+  "latest_vs_earlier_changed_payloads": [
+    "GAMECTX",
+    "GMSTATS",
+    "GIFTIV",
+    "QUEST"
+  ],
+  "latest_capture": "20261009T041930.654551Z-menu11-ds3-acquired-deep-forest-first.bin",
+  "latest_gift_count": 90,
+  "latest_quest_header": "Shrank112 to96; header list cleared; nested quest624 still stage1/objective1. Do not confuse header-list changes with losing the active quest."
+}

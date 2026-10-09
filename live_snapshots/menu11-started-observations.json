@@ -1,0 +1,214 @@
+{
+  "before": "20261009T014103.760309Z-restored-after-book10-no-active-book.bin",
+  "after": "20261009T015048.817128Z-menu11-started-renault-owned-no-races.bin",
+  "user": {
+    "book": 11,
+    "title": "Collection: French Hot Hatches",
+    "required_cars": [
+      "DS AUTOMOBILES DS 3 Racing '11",
+      "Peugeot 208 GTi by Peugeot Sport '14",
+      "Renault Clio R.S. 220 Trophy '16"
+    ],
+    "already_acquired": "Renault Clio",
+    "actions": "Started book, returned home for autosave; no races completed",
+    "markers": "World Circuits and two remaining races"
+  },
+  "credits": 63250,
+  "gift_counts": [
+    71,
+    80
+  ],
+  "quests_before": {
+    "0": {
+      "id": 127,
+      "stage": 1,
+      "objective": 0
+    },
+    "1": {
+      "id": 141,
+      "stage": 1,
+      "objective": 0
+    },
+    "2": {
+      "id": 110,
+      "stage": 0,
+      "objective": 0
+    },
+    "3": {
+      "id": 121,
+      "stage": 0,
+      "objective": 0
+    },
+    "4": {
+      "id": 122,
+      "stage": 0,
+      "objective": 0
+    },
+    "5": {
+      "id": 123,
+      "stage": 0,
+      "objective": 0
+    },
+    "6": {
+      "id": 104,
+      "stage": 0,
+      "objective": 0
+    },
+    "8": {
+      "id": 137,
+      "stage": 0,
+      "objective": 0
+    },
+    "9": {
+      "id": 131,
+      "stage": 3,
+      "objective": 0
+    }
+  },
+  "quests_after": {
+    "0": {
+      "id": 127,
+      "stage": 1,
+      "objective": 0
+    },
+    "1": {
+      "id": 141,
+      "stage": 1,
+      "objective": 0
+    },
+    "2": {
+      "id": 110,
+      "stage": 0,
+      "objective": 0
+    },
+    "3": {
+      "id": 121,
+      "stage": 0,
+      "objective": 0
+    },
+    "4": {
+      "id": 122,
+      "stage": 0,
+      "objective": 0
+    },
+    "5": {
+      "id": 123,
+      "stage": 0,
+      "objective": 0
+    },
+    "6": {
+      "id": 104,
+      "stage": 0,
+      "objective": 0
+    },
+    "7": {
+      "id": 624,
+      "stage": 1,
+      "objective": 0
+    },
+    "8": {
+      "id": 137,
+      "stage": 0,
+      "objective": 0
+    },
+    "9": {
+      "id": 131,
+      "stage": 3,
+      "objective": 0
+    }
+  },
+  "changes": {
+    "CARCOLIV": {
+      "sizes": [
+        4950,
+        4950
+      ],
+      "bytes": [
+        {
+          "offset": "0x24b",
+          "before": 0,
+          "after": 64
+        }
+      ]
+    },
+    "GAMECTX": {
+      "sizes": [
+        992,
+        992
+      ],
+      "bytes": [
+        {
+          "offset": "0xaa",
+          "before": 36,
+          "after": 38
+        },
+        {
+          "offset": "0xe6",
+          "before": 205,
+          "after": 212
+        }
+      ]
+    },
+    "GMSTATS": {
+      "sizes": [
+        672,
+        672
+      ],
+      "bytes": [
+        {
+          "offset": "0x34",
+          "before": 53,
+          "after": 54
+        },
+        {
+          "offset": "0x35",
+          "before": 62,
+          "after": 145
+        },
+        {
+          "offset": "0x16d",
+          "before": 10,
+          "after": 11
+        },
+        {
+          "offset": "0x16e",
+          "before": 163,
+          "after": 155
+        },
+        {
+          "offset": "0x1c6",
+          "before": 37,
+          "after": 196
+        },
+        {
+          "offset": "0x232",
+          "before": 65,
+          "after": 68
+        },
+        {
+          "offset": "0x25e",
+          "before": 20,
+          "after": 22
+        }
+      ]
+    },
+    "GIFTIV": {
+      "sizes": [
+        32016,
+        36066
+      ]
+    },
+    "PROGRESS": {
+      "sizes": [
+        768,
+        784
+      ]
+    },
+    "QUEST": {
+      "sizes": [
+        23908,
+        23924
+      ]
+    }
+  }
+}

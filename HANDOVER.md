@@ -2,6 +2,28 @@
 
 Updated 2026-10-09. This is the authoritative current summary. [Historical notes](HANDOVER_HISTORY_2026-10-09.md) preserve the full earlier chronology, including superseded hypotheses and instructions. Do not follow historical next-step instructions without checking this document.
 
+## Latest checkpoint: Book11 DS3 acquired; Peugeot still outstanding
+
+Read-only snapshot live_snapshots/20261009T020201.797585Z-menu11-ds3-acquired-deep-forest-first.bin,165946 bytes. User spent3800+17600+15000+1000+3000=40400 on Clio upgrades, tuned handling, then won Deep Forest in3:44.902, receiving DS3 and10000 plus clean bonus. Balance63250→37850 reconciles exactly with15000 total payout, hence5000 bonus assuming the reported transactions are complete.
+
+QUEST ID624 remains stage1; its only payload change is+0xCE2 0→1 (entry+350). CARCOLIV+0x24A 00→40. QSTARCIV unchanged. Tickets80→81 (one new ticket, cause not established); do not conflate with nine-ticket startup batch. Other changes include race records, garage, tuning/settings, stats and style inventory. Full report: live_snapshots/menu11-ds3-observations.json. This is a race-plus-upgrades checkpoint, not a pure car acquisition.
+
+Next: win Peugeot, return home for autosave, pause before entering Cafe. Record payout and any spending. Then capture Cafe-open before claim separately if possible, and finally after claim. No console writes by assistant.
+
+## Previous checkpoint: Book11 started
+
+Read-only capture live_snapshots/20261009T015048.817128Z-menu11-started-renault-owned-no-races.bin (162490 bytes). User started Menu Book11 Collection: French Hot Hatches and returned home to autosave, without racing. Required DS AUTOMOBILES DS3 Racing11, Peugeot208 GTi by Peugeot Sport14, Renault Clio R.S.220 Trophy16. Renault already acquired. Gold marker at World Circuits and at two remaining races.
+
+Compared with no-active-book baseline: newly populated QUEST slot7 ID624 stage1/objective0; CARCOLIV+0x24B 00→40; PROGRESS grows768→784; QUEST grows23908→23924. Credits remain63250; gifts71→80, so capture also includes startup issuance and is not a pure start-only change across every record. Full report: live_snapshots/menu11-started-observations.json. Collection mapping ID624 is supported by this controlled start. Objective0 despite Renault already acquired is further evidence that this field is not a simple acquired-car count.
+
+Next capture after earning one missing car, before the second race. Record awarded car/credits/bonus and any spending. Then capture after final objective before entering Cafe; then Cafe before claim and after claim. No console edits made.
+
+## Previous baseline: restored after Book10, no active menu book
+
+User restored the earlier save after claiming Book10, unlocking Deep Forest and removing tickets. Read-only capture: live_snapshots/20261009T014103.760309Z-restored-after-book10-no-active-book.bin,158408 bytes,SHA2564cc4204a7264794dc797e9a62f34fc34042738009dacc5894fc8f46a5735450a. v0.4.1,gameRunning=1. Credits63250,gifts71; PROGRESS130/135/138 all0,151=9. Compared with the earlier after-seven-car-ticket-removals-restart snapshot, only GAMECTX payload differs. Progression and inventories are identical. User confirms no menu book active. Preserve this as the new controlled baseline and capture after starting the next book, before objectives. Do not carry Scapes edit instructions onto this branch.
+
+User moved download_analysis into this project for GitHub maintenance. Tests and root-level analysis/extraction helpers now use the new location. See EXTRACTING_IMAGES.md for manual read-only extraction. No console writes were performed.
+
 ## Objective and authorization
 
 Build a PS5 web save editor for the user's owned GT7 v1.71 with an offline patch, title PPSA01317, firmware12.40. Payload Manager runs on port8084; Save Lab is http://10.0.0.24:8097/. Workspace: C:/Users/james/Downloads/gt7-saveData.
@@ -18,7 +40,7 @@ Shortcut installation remains disabled, including the API. Earlier v0.2.x builds
 
 User cannot see /data/gt7-save-lab over FTP. It is the configured log/mount/backup directory, not a confirmed FTP-accessible location. Do not claim logging succeeded or assume backup retrieval through that FTP namespace. The payload reports backup paths after writes. Full download0.dat backups remain the practical recovery baseline.
 
-Latest captured console save is a later restored Book16 branch, not the controlled Book9/10 branch. It contains three cumulative experiments (seven edited bytes in total), all retained by the game. **Menu completion is not working.** Do not describe the experimental button as a working menu-book editor.
+The Book16 experimental branch contained three cumulative experiments (seven edited bytes in total), all retained by the game. The user has now restored the earlier post-Book10/ticket-removal branch; see the new baseline below. **Menu completion is not working.** Do not describe the experimental button as a working menu-book editor.
 
 ## Book16 failure and experiments
 
@@ -78,7 +100,7 @@ Book10 required Silvia Q's(S13)'88, Eunos Roadster(NA)'89, Corolla Levin1600GT A
 
 ## Save storage and framing
 
-Relevant image: /user/download/PPSA01317/download0.dat,10,549,002,240-byte little-endian UFS2 filesystem with64KiB blocks. It contains gt7save.bin. Earlier Garlic memory.dat dumps were zero-filled and irrelevant. Live path: /mnt/sandbox/download/PPSA01317/gt7save.bin. inspect_download_images.py uses WSL SleuthKit fls/icat; extracts are in ../download_analysis/{1,2,3,4}/. compare_gt7_records.py parses and compares payloads. FTP scanner exclusions remain /user/data/homebrew/PPSA01317-app/contents and /user/data/homebrew/PPSA99*.
+Relevant image: /user/download/PPSA01317/download0.dat,10,549,002,240-byte little-endian UFS2 filesystem with64KiB blocks. It contains gt7save.bin. Earlier Garlic memory.dat dumps were zero-filled and irrelevant. Live path: /mnt/sandbox/download/PPSA01317/gt7save.bin. inspect_download_images.py uses WSL SleuthKit fls/icat; extracts are in download_analysis/{1,2,3,4}/. compare_gt7_records.py parses and compares payloads. FTP scanner exclusions remain /user/data/homebrew/PPSA01317-app/contents and /user/data/homebrew/PPSA99*.
 
 38 concatenated records. Each has56-byte header: LEu64 index+0, LEu32 flag+8, LEu32 payload length+12, LEu64 pointer-like value+16,32-byte NUL-padded ASCII name+24; then payload. Match records by name, not whole-file offset. Preserve pointer-like bytes; payloads mostly big endian.
 

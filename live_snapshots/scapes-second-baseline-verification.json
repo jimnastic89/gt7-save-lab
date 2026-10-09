@@ -1,0 +1,60 @@
+{
+  "source": "20261009T051852.538058Z-scapes-restored-before-second-experiment.bin",
+  "gameRunning": 1,
+  "changed_payloads_vs_original": [
+    "GAMECTX"
+  ],
+  "quest625_id": 625,
+  "quest_tail_preserved_zero": true,
+  "checks": [
+    {
+      "record": "QUEST",
+      "payload_offset": "0x779",
+      "before": 0,
+      "after": 2,
+      "actual": 0,
+      "matches": true
+    },
+    {
+      "record": "QUEST",
+      "payload_offset": "0x77d",
+      "before": 2,
+      "after": 3,
+      "actual": 2,
+      "matches": true
+    },
+    {
+      "record": "QUEST",
+      "payload_offset": "0x78f",
+      "before": 1,
+      "after": 2,
+      "actual": 1,
+      "matches": true
+    },
+    {
+      "record": "QUEST",
+      "payload_offset": "0x87d",
+      "before": 1,
+      "after": 3,
+      "actual": 1,
+      "matches": true
+    },
+    {
+      "record": "PROGRESS",
+      "payload_offset": "0x130",
+      "before": 1,
+      "after": 0,
+      "actual": 1,
+      "matches": true
+    },
+    {
+      "record": "PROGRESS",
+      "payload_offset": "0x138",
+      "before": 0,
+      "after": 1,
+      "actual": 0,
+      "matches": true
+    }
+  ],
+  "write_status": "Not applied; game must be fully closed and UI freshly read before staging"
+}

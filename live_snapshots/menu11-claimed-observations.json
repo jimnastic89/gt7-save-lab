@@ -1,0 +1,203 @@
+{
+  "before": "20261009T032917.396747Z-menu11-peugeot-acquired-sardegna-before-cafe.bin",
+  "after": "20261009T033405.751663Z-menu11-claimed-no-active-book.bin",
+  "user": {
+    "cafe_opened": true,
+    "ticket": "2-star",
+    "menu_book_active": false
+  },
+  "payload": {
+    "version": "0.4.1",
+    "gameRunning": 1,
+    "bytes": 173422,
+    "sha256": "27bf5d67ee010c64b927a04bcb72edffb29c7b04980d15a4abedfbe30bd9cc9b"
+  },
+  "credits": [
+    47850,
+    47850
+  ],
+  "gifts": {
+    "before": 90,
+    "after": 91,
+    "added": [
+      {
+        "id": "9007199254751616",
+        "roulette": 2,
+        "msgkey": "DELITEM_9007199254751616",
+        "stars": 2,
+        "label": "2-star",
+        "confidence": "Inferred from 69-ticket census"
+      }
+    ],
+    "removed": []
+  },
+  "progressFlags": {
+    "0x130": [
+      0,
+      0
+    ],
+    "0x135": [
+      0,
+      0
+    ],
+    "0x138": [
+      1,
+      0
+    ],
+    "0x151": [
+      9,
+      9
+    ],
+    "0x15A": [
+      6,
+      6
+    ]
+  },
+  "menuInfo": [
+    {
+      "claimed": 9,
+      "active": 0,
+      "pending": 1,
+      "id": null,
+      "mapped": null,
+      "state": "Completed — prize unclaimed"
+    },
+    {
+      "claimed": 9,
+      "active": 0,
+      "pending": 0,
+      "id": null,
+      "mapped": null,
+      "state": "No active book indicated"
+    }
+  ],
+  "quest624": {
+    "before": {
+      "slot": 7,
+      "offset": 2932,
+      "id": 624,
+      "stage": 3,
+      "objectiveBits": 3
+    },
+    "after": null
+  },
+  "questHeaders": {
+    "before": {
+      "size": 23908,
+      "segment": 96,
+      "nestedCount": 64,
+      "headerCount": 0,
+      "headerId": null,
+      "entry": {
+        "slot": 7,
+        "offset": 2932,
+        "id": 624,
+        "stage": 3,
+        "objectiveBits": 3
+      },
+      "keyBytes": {
+        "+55": 2,
+        "+59": 3,
+        "+6b": 2,
+        "+159": 3,
+        "+15e": 3
+      }
+    },
+    "after": {
+      "size": 23908,
+      "segment": 96,
+      "nestedCount": 64,
+      "headerCount": 0,
+      "headerId": null,
+      "entry": null,
+      "keyBytes": {}
+    }
+  },
+  "qstarciv": {
+    "sizes": [
+      1238,
+      1304
+    ],
+    "counts": [
+      18,
+      19
+    ],
+    "addedIds": [
+      624
+    ]
+  },
+  "garageSizes": [
+    9222,
+    9222
+  ],
+  "changedRecords": [
+    {
+      "name": "CARCOLIV",
+      "changed": 1,
+      "oldSize": 4950,
+      "newSize": 4950
+    },
+    {
+      "name": "GAMECTX",
+      "changed": 2,
+      "oldSize": 992,
+      "newSize": 992
+    },
+    {
+      "name": "GMSTATS",
+      "changed": 7,
+      "oldSize": 672,
+      "newSize": 672
+    },
+    {
+      "name": "GIFTIV",
+      "changed": 37753,
+      "oldSize": 40566,
+      "newSize": 41016
+    },
+    {
+      "name": "PROGRESS",
+      "changed": 1,
+      "oldSize": 784,
+      "newSize": 784
+    },
+    {
+      "name": "QSTARCIV",
+      "changed": 1023,
+      "oldSize": 1238,
+      "newSize": 1304
+    },
+    {
+      "name": "QUEST",
+      "changed": 54,
+      "oldSize": 23908,
+      "newSize": 23908
+    }
+  ],
+  "CARCOLIV": {
+    "sizes": [
+      4950,
+      4950
+    ],
+    "bytes": [
+      {
+        "offset": "0x33",
+        "before": 15,
+        "after": 16
+      }
+    ]
+  },
+  "PROGRESS": {
+    "sizes": [
+      784,
+      784
+    ],
+    "bytes": [
+      {
+        "offset": "0x138",
+        "before": 1,
+        "after": 0
+      }
+    ]
+  }
+}

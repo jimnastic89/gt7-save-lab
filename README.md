@@ -101,7 +101,7 @@ python3 tests/server_test.py
 node tests/core.test.cjs
 ```
 
-Tests use the extracted private fixtures in the parent workspace's `download_analysis/` directory. Those fixtures are not distributed with the release. Host testing uses disposable copies, never the console image. Example:
+Tests use the extracted private fixtures in the project's `download_analysis/` directory. Those fixtures are not distributed with the release. Host testing uses disposable copies, never the console image. Example:
 
 ```sh
 ./build/gt7-save-lab-host --file /absolute/path/to/copy.bin --backups /absolute/path/to/backups --port 8098

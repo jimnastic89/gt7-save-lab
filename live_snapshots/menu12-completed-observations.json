@@ -1,0 +1,390 @@
+{
+  "before": "20261009T043925.471744Z-menu12-started-before-championship.bin",
+  "after": "20261009T045518.708142Z-menu12-championship-completed-before-cafe.bin",
+  "user": {
+    "race1": {
+      "position": 1,
+      "time": "4:49.279",
+      "clean_bonus": true
+    },
+    "race2": {
+      "position": 1,
+      "time": "4:54.503",
+      "clean_bonus": true
+    },
+    "reward_car": "Chevrolet Corvette Convertible (C3) '69",
+    "car_received": "Immediately after race, before Cafe",
+    "state": "Home screen Completed banner and gold Cafe marker",
+    "payout_amounts": "Not supplied",
+    "spending": "Not specified"
+  },
+  "credits": [
+    47850,
+    122850
+  ],
+  "net_credit_change": 75000,
+  "gift_counts": [
+    91,
+    91
+  ],
+  "quest629": {
+    "slots": [
+      7,
+      7
+    ],
+    "header_lengths": [
+      112,
+      112
+    ],
+    "stages": [
+      1,
+      3
+    ],
+    "objective_values": [
+      0,
+      1
+    ],
+    "entry_changes": [
+      {
+        "offset": "0x55",
+        "before": 0,
+        "after": 2
+      },
+      {
+        "offset": "0x59",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "offset": "0x6b",
+        "before": 1,
+        "after": 2
+      },
+      {
+        "offset": "0x159",
+        "before": 1,
+        "after": 3
+      },
+      {
+        "offset": "0x15e",
+        "before": 0,
+        "after": 1
+      }
+    ]
+  },
+  "changes": {
+    "CARCOLIV": {
+      "sizes": [
+        4950,
+        4950
+      ],
+      "bytes": [
+        {
+          "offset": "0x44a",
+          "before": 0,
+          "after": 128
+        }
+      ]
+    },
+    "EVTRECIV": {
+      "sizes": [
+        4084,
+        4378
+      ]
+    },
+    "GAMECTX": {
+      "sizes": [
+        992,
+        992
+      ]
+    },
+    "GMSTATS": {
+      "sizes": [
+        672,
+        672
+      ]
+    },
+    "GARAGE": {
+      "sizes": [
+        9222,
+        9720
+      ]
+    },
+    "PROGRESS": {
+      "sizes": [
+        784,
+        784
+      ],
+      "bytes": [
+        {
+          "offset": "0x135",
+          "before": 1,
+          "after": 0
+        },
+        {
+          "offset": "0x138",
+          "before": 0,
+          "after": 1
+        },
+        {
+          "offset": "0x153",
+          "before": 0,
+          "after": 1
+        },
+        {
+          "offset": "0x154",
+          "before": 186,
+          "after": 223
+        },
+        {
+          "offset": "0x155",
+          "before": 234,
+          "after": 226
+        },
+        {
+          "offset": "0x160",
+          "before": 9,
+          "after": 10
+        },
+        {
+          "offset": "0x161",
+          "before": 191,
+          "after": 189
+        },
+        {
+          "offset": "0x162",
+          "before": 40,
+          "after": 16
+        },
+        {
+          "offset": "0x193",
+          "before": 3,
+          "after": 5
+        },
+        {
+          "offset": "0x197",
+          "before": 7,
+          "after": 5
+        },
+        {
+          "offset": "0x19b",
+          "before": 1,
+          "after": 3
+        },
+        {
+          "offset": "0x19f",
+          "before": 10,
+          "after": 7
+        },
+        {
+          "offset": "0x1a3",
+          "before": 5,
+          "after": 1
+        },
+        {
+          "offset": "0x1a7",
+          "before": 5,
+          "after": 10
+        },
+        {
+          "offset": "0x1ab",
+          "before": 6,
+          "after": 2
+        },
+        {
+          "offset": "0x1af",
+          "before": 4,
+          "after": 8
+        },
+        {
+          "offset": "0x1b3",
+          "before": 4,
+          "after": 7
+        },
+        {
+          "offset": "0x1b7",
+          "before": 6,
+          "after": 3
+        },
+        {
+          "offset": "0x1bb",
+          "before": 2,
+          "after": 11
+        },
+        {
+          "offset": "0x1bf",
+          "before": 8,
+          "after": 0
+        },
+        {
+          "offset": "0x1c3",
+          "before": 7,
+          "after": 4
+        },
+        {
+          "offset": "0x1c7",
+          "before": 3,
+          "after": 6
+        },
+        {
+          "offset": "0x1cb",
+          "before": 8,
+          "after": 6
+        },
+        {
+          "offset": "0x1cf",
+          "before": 2,
+          "after": 4
+        },
+        {
+          "offset": "0x1d3",
+          "before": 10,
+          "after": 9
+        },
+        {
+          "offset": "0x1d7",
+          "before": 0,
+          "after": 1
+        },
+        {
+          "offset": "0x1db",
+          "before": 11,
+          "after": 10
+        },
+        {
+          "offset": "0x1e3",
+          "before": 9,
+          "after": 8
+        },
+        {
+          "offset": "0x1e7",
+          "before": 1,
+          "after": 2
+        },
+        {
+          "offset": "0x1fb",
+          "before": 2,
+          "after": 4
+        },
+        {
+          "offset": "0x1ff",
+          "before": 8,
+          "after": 6
+        },
+        {
+          "offset": "0x203",
+          "before": 1,
+          "after": 2
+        },
+        {
+          "offset": "0x207",
+          "before": 10,
+          "after": 8
+        },
+        {
+          "offset": "0x20b",
+          "before": 4,
+          "after": 1
+        },
+        {
+          "offset": "0x20f",
+          "before": 6,
+          "after": 10
+        },
+        {
+          "offset": "0x213",
+          "before": 6,
+          "after": 3
+        },
+        {
+          "offset": "0x217",
+          "before": 4,
+          "after": 7
+        },
+        {
+          "offset": "0x21b",
+          "before": 3,
+          "after": 6
+        },
+        {
+          "offset": "0x21f",
+          "before": 7,
+          "after": 4
+        },
+        {
+          "offset": "0x223",
+          "before": 5,
+          "after": 11
+        },
+        {
+          "offset": "0x227",
+          "before": 5,
+          "after": 0
+        },
+        {
+          "offset": "0x233",
+          "before": 10,
+          "after": 5
+        },
+        {
+          "offset": "0x237",
+          "before": 0,
+          "after": 5
+        },
+        {
+          "offset": "0x23b",
+          "before": 9,
+          "after": 8
+        },
+        {
+          "offset": "0x23f",
+          "before": 1,
+          "after": 2
+        },
+        {
+          "offset": "0x243",
+          "before": 11,
+          "after": 9
+        },
+        {
+          "offset": "0x247",
+          "before": 0,
+          "after": 1
+        },
+        {
+          "offset": "0x24b",
+          "before": 8,
+          "after": 10
+        },
+        {
+          "offset": "0x24f",
+          "before": 2,
+          "after": 0
+        },
+        {
+          "offset": "0x25f",
+          "before": 15,
+          "after": 21
+        }
+      ]
+    },
+    "QUEST": {
+      "sizes": [
+        23924,
+        23924
+      ]
+    },
+    "STGDBK": {
+      "sizes": [
+        35796,
+        37772
+      ]
+    },
+    "STYLEIV": {
+      "sizes": [
+        6422,
+        6776
+      ]
+    }
+  }
+}

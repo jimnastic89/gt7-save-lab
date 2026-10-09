@@ -1,0 +1,124 @@
+{
+  "before": "20261009T043239.497179Z-menu11-reward-received-before-finishing-video.bin",
+  "after": "20261009T043436.382722Z-menu11-finishing-video-watched-next-not-started.bin",
+  "user_state": "Watched finishing video and returned home; next book not started per agreed procedure, title not supplied",
+  "credits": 47850,
+  "gift_counts": [
+    91,
+    91
+  ],
+  "changes": {
+    "CARCOLIV": {
+      "sizes": [
+        4950,
+        4950
+      ],
+      "bytes": [
+        {
+          "offset": "0x24b",
+          "before": 128,
+          "after": 192
+        }
+      ]
+    },
+    "GAMECTX": {
+      "sizes": [
+        992,
+        992
+      ],
+      "bytes": [
+        {
+          "offset": "0xaa",
+          "before": 39,
+          "after": 40
+        },
+        {
+          "offset": "0xe6",
+          "before": 241,
+          "after": 244
+        }
+      ]
+    },
+    "GMSTATS": {
+      "sizes": [
+        672,
+        672
+      ],
+      "bytes": [
+        {
+          "offset": "0x34",
+          "before": 58,
+          "after": 60
+        },
+        {
+          "offset": "0x35",
+          "before": 254,
+          "after": 43
+        },
+        {
+          "offset": "0x16e",
+          "before": 5,
+          "after": 185
+        },
+        {
+          "offset": "0x1c6",
+          "before": 228,
+          "after": 252
+        },
+        {
+          "offset": "0x232",
+          "before": 74,
+          "after": 75
+        },
+        {
+          "offset": "0x25e",
+          "before": 23,
+          "after": 24
+        }
+      ]
+    }
+  },
+  "unchanged_payloads": [
+    "BRCRPLY",
+    "CARDICIV",
+    "CUSSTSIV",
+    "DATALOGGER",
+    "ETMTIV",
+    "EVTRECIV",
+    "FVTDCAL",
+    "GARAGE",
+    "INVITEIV",
+    "GIFTIV",
+    "LRDTINV",
+    "LCLRKG",
+    "LRTTINV",
+    "MLSTNACV",
+    "MISC",
+    "OPTION",
+    "PAINTIV",
+    "PPRECIV",
+    "PROGRESS",
+    "QSTARCIV",
+    "QUEST",
+    "RACEASST",
+    "RESID",
+    "SCAPES",
+    "STGDBK",
+    "STOCKPIV",
+    "DRIVERIV",
+    "DRFILEIV",
+    "LIVERYIV",
+    "STYLEIV",
+    "VCIV",
+    "WHEELIV",
+    "BCWLIV",
+    "LCWLIV",
+    "UCWLIV"
+  ],
+  "next_available_book": {
+    "number": 12,
+    "title": "Championship: Petite Course de France",
+    "started": false,
+    "source": "User confirmation after post-video capture"
+  }
+}

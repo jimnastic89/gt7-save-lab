@@ -1,0 +1,70 @@
+{
+  "before": "20261009T050545.813586Z-menu13-mission-completed-before-cafe.bin",
+  "after": "20261009T050945.678448Z-menu13-claimed-three-tracks-unlocked-book14-unstarted.bin",
+  "user": {
+    "unlocks": [
+      "Blue Moon Bay Speedway",
+      "WeatherTech Raceway Laguna Seca",
+      "Willow Springs International Raceway"
+    ],
+    "next_book": {
+      "number": 14,
+      "title": "Collection: Mustang",
+      "started": false
+    },
+    "state": "Back home after Cafe"
+  },
+  "credits": 128850,
+  "gift_counts": [
+    91,
+    91
+  ],
+  "archive_added": [
+    620
+  ],
+  "quest620_present_after": false,
+  "changes": {
+    "GAMECTX": {
+      "sizes": [
+        992,
+        992
+      ]
+    },
+    "GMSTATS": {
+      "sizes": [
+        672,
+        672
+      ]
+    },
+    "PROGRESS": {
+      "sizes": [
+        784,
+        800
+      ]
+    },
+    "QSTARCIV": {
+      "sizes": [
+        1370,
+        1436
+      ]
+    },
+    "QUEST": {
+      "sizes": [
+        23924,
+        23908
+      ]
+    }
+  },
+  "progress_fixed_prefix_changes": [
+    {
+      "offset": "0xd",
+      "before": 16,
+      "after": 32
+    },
+    {
+      "offset": "0x138",
+      "before": 1,
+      "after": 0
+    }
+  ]
+}

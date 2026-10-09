@@ -1,0 +1,14 @@
+{
+  "captured_utc": "2026-10-09T05:05:45.813586+00:00",
+  "label": "menu13-mission-completed-before-cafe",
+  "source": "http://10.0.0.24:8097",
+  "payload": {
+    "version": "0.4.1",
+    "title": "PPSA01317",
+    "gameRunning": 1,
+    "blocked": false,
+    "platform": "PS5"
+  },
+  "bytes": 177410,
+  "sha256": "bea27f2c938aade6b8e7af7d1da68b4e017419411f3e55b3edf69e2cc64c28d3"
+}

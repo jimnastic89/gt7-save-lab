@@ -1,0 +1,166 @@
+{
+  "before": "20261009T041930.654551Z-menu11-ds3-acquired-deep-forest-first.bin",
+  "after": "20261009T042714.730479Z-menu11-peugeot-completed-before-cafe.bin",
+  "user": {
+    "race": "Sardegna",
+    "position": 1,
+    "time": "3:32.313",
+    "prize": 10000,
+    "clean_bonus": 0,
+    "car": "Peugeot 208 GTi",
+    "state": "Home menu Completed banner, gold Cafe marker; Cafe not yet entered"
+  },
+  "credits": [
+    37850,
+    47850
+  ],
+  "gifts": [
+    90,
+    90
+  ],
+  "quest624": {
+    "slots": [
+      7,
+      7
+    ],
+    "header_lengths": [
+      96,
+      96
+    ],
+    "stages": [
+      1,
+      3
+    ],
+    "objective_values": [
+      1,
+      3
+    ],
+    "entry_changes": [
+      {
+        "offset": "0x55",
+        "before": 0,
+        "after": 2
+      },
+      {
+        "offset": "0x59",
+        "before": 2,
+        "after": 3
+      },
+      {
+        "offset": "0x6b",
+        "before": 1,
+        "after": 2
+      },
+      {
+        "offset": "0x159",
+        "before": 1,
+        "after": 3
+      },
+      {
+        "offset": "0x15e",
+        "before": 1,
+        "after": 3
+      }
+    ]
+  },
+  "changes": {
+    "CARCOLIV": {
+      "sizes": [
+        4950,
+        4950
+      ],
+      "bytes": [
+        {
+          "offset": "0x24a",
+          "before": 64,
+          "after": 192
+        },
+        {
+          "offset": "0x24b",
+          "before": 64,
+          "after": 128
+        }
+      ]
+    },
+    "EVTRECIV": {
+      "sizes": [
+        3986,
+        4084
+      ]
+    },
+    "GAMECTX": {
+      "sizes": [
+        992,
+        992
+      ]
+    },
+    "GMSTATS": {
+      "sizes": [
+        672,
+        672
+      ]
+    },
+    "GARAGE": {
+      "sizes": [
+        8724,
+        9222
+      ]
+    },
+    "PROGRESS": {
+      "sizes": [
+        784,
+        784
+      ],
+      "bytes": [
+        {
+          "offset": "0x135",
+          "before": 1,
+          "after": 0
+        },
+        {
+          "offset": "0x138",
+          "before": 0,
+          "after": 1
+        },
+        {
+          "offset": "0x154",
+          "before": 147,
+          "after": 186
+        },
+        {
+          "offset": "0x155",
+          "before": 218,
+          "after": 234
+        },
+        {
+          "offset": "0x161",
+          "before": 73,
+          "after": 191
+        },
+        {
+          "offset": "0x162",
+          "before": 248,
+          "after": 40
+        }
+      ]
+    },
+    "QUEST": {
+      "sizes": [
+        23908,
+        23908
+      ]
+    },
+    "STGDBK": {
+      "sizes": [
+        33820,
+        35796
+      ]
+    },
+    "STYLEIV": {
+      "sizes": [
+        6068,
+        6422
+      ]
+    }
+  }
+}

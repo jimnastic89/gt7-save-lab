@@ -1,0 +1,14 @@
+{
+  "captured_utc": "2026-10-09T04:19:30.654551+00:00",
+  "label": "menu11-ds3-acquired-deep-forest-first",
+  "source": "http://10.0.0.24:8097",
+  "payload": {
+    "version": "0.4.1",
+    "title": "PPSA01317",
+    "gameRunning": 1,
+    "blocked": false,
+    "platform": "PS5"
+  },
+  "bytes": 169980,
+  "sha256": "c580d64fd593d247601cdeec8da8b8bce3ab4979ff3c40962c2a36497ed718e0"
+}

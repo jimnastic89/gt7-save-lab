@@ -1,0 +1,14 @@
+{
+  "captured_utc": "2026-10-09T03:29:17.396747+00:00",
+  "label": "menu11-peugeot-acquired-sardegna-before-cafe",
+  "source": "http://10.0.0.24:8097",
+  "payload": {
+    "version": "0.4.1",
+    "title": "PPSA01317",
+    "gameRunning": 1,
+    "blocked": false,
+    "platform": "PS5"
+  },
+  "bytes": 172906,
+  "sha256": "ff87d93a2361dca88de4a64ae4578f94a87ad1326ef39127306c96b3a1bdfcb2"
+}
