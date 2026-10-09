@@ -1,0 +1,14 @@
+{
+  "captured_utc": "2026-10-08T23:03:05.829790+00:00",
+  "label": "after-seven-car-ticket-removals-restart",
+  "source": "http://10.0.0.24:8097",
+  "payload": {
+    "version": "0.3.1",
+    "title": "PPSA01317",
+    "gameRunning": 1,
+    "blocked": false,
+    "platform": "PS5"
+  },
+  "bytes": 158408,
+  "sha256": "d7ca819b6d208fc02b0285906d5dcf344ec8be979d275630fbf0159c0c7875a5"
+}

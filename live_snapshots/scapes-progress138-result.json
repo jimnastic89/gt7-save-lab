@@ -1,0 +1,19 @@
+{
+  "source": "20261009T004222.478870Z-book16-after-progress138-still-in-progress.bin",
+  "result": "Cafe still in progress",
+  "quest_unchanged_from_previous": true,
+  "progress_changes": [
+    {
+      "offset": "0x138",
+      "before": 0,
+      "after": 1
+    }
+  ],
+  "next_candidate": {
+    "offset": "0x130",
+    "before": 1,
+    "after": 0,
+    "meaning": "possible Scapes-active indicator; unconfirmed",
+    "applied": false
+  }
+}

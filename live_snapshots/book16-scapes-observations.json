@@ -1,0 +1,22 @@
+{
+  "snapshot": "20261008T231532.935365Z-book16-scapes-active-restored-save.bin",
+  "sha256": "004bd4a903f41bc0f245ab246842dc378fd3d15c466a51693af7a954b11c584f",
+  "bytes": 244802,
+  "payload_version": "0.3.2",
+  "user_report": {"restored_different_save": true, "menu_book": 16, "title": "Take a Photo of Your Car in Scapes", "state": "active/in progress"},
+  "findings": {
+    "outer_records": 38,
+    "credits": 59960,
+    "quest_size": 23908,
+    "quest_initial_segment_size": 96,
+    "quest_nested_entry_size": 368,
+    "quest_nested_entry_count": 64,
+    "quest_archive_entries": 26,
+    "progress_0x135": 0,
+    "progress_0x138": 0,
+    "progress_0x151": 10,
+    "collector_candidate": 9,
+    "nonempty_nested_quest_slots": [0,1,2,3,4,5,7,8]
+  },
+  "notes": ["No console writes performed.", "Save is structurally compatible and useful; no replay of Books11-15 required for analysis.", "Book16 is user-confirmed active despite both v0.3.2 high-level flag candidates being0. Existing UI may incorrectly say no active book indicated; these flags are not a universal menu-book state.", "Do not transplant Book10 flag changes. Decode nested QUEST slot/objective structure and identify Scapes quest before an experimental completion patch.", "Restored save is a separate branch of progression, not a clean transition from the preceding ticket-removal snapshot."]
+}

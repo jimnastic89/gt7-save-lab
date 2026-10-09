@@ -1,0 +1,33 @@
+{
+  "date_local": "2026-10-09",
+  "timezone": "Australia/Sydney",
+  "snapshot": "20261008T151010.634653Z-menu09-prize-claimed-book10-not-started.bin",
+  "sha256": "a085d05bc0cf1c354a7b2077950ec826ce98fd0e886784d9ae9fd150b5ae9510",
+  "bytes": 151476,
+  "payload_version": "0.1.0",
+  "user_observations": {
+    "prize": "1-Star Roulette Ticket",
+    "ticket_availability_date_verbatim": "8/11/2026 2:14",
+    "new_menu_book": {"number": 10, "name": "Collection: Japanese FR Sports Cars", "started": false, "requires_manual_start": true},
+    "sections_unlocked_after_claim": ["Sport", "Multiplayer", "Power Pack"],
+    "unlock_causality": "Observed after claiming prize; not independently established as rewards for Book 9"
+  },
+  "save_observations": {
+    "credits": 69900,
+    "gift_count_before": 68,
+    "gift_count_after": 69,
+    "all_old_gifts_byte_identical": true,
+    "new_gift_id": "9007199254751611",
+    "new_gift_roulette_id": 1,
+    "new_gift_create_time_raw": 212658232448,
+    "new_gift_expire_time_raw": 212660824448,
+    "new_gift_seed": -2090121733,
+    "archive_entry_count_before": 15,
+    "archive_entry_count_after": 16,
+    "new_archive_candidate_id": 619,
+    "all_old_archive_entries_byte_identical": true,
+    "progress_byte_0x151_before": 8,
+    "progress_byte_0x151_after": 9
+  },
+  "notes": ["No new dashboard screenshot supplied for this stage; do not report its displayed count as observed.", "Ticket availability wording preserved verbatim; raw timestamp epoch not established.", "No console writes performed."]
+}

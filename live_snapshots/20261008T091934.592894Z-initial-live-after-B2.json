@@ -1,0 +1,14 @@
+{
+  "captured_utc": "2026-10-08T09:19:34.592894+00:00",
+  "label": "initial-live-after-B2",
+  "source": "http://10.0.0.24:8097",
+  "payload": {
+    "version": "0.1.0",
+    "title": "PPSA01317",
+    "gameRunning": 1,
+    "blocked": false,
+    "platform": "PS5"
+  },
+  "bytes": 159174,
+  "sha256": "11be0293ccfc3702e191c0e021ca81e3ead2f0ae4acd6ed0c68780213a06d7ef"
+}

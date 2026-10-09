@@ -1,0 +1,26 @@
+{
+  "date_local": "2026-10-09",
+  "snapshot": "20261008T213617.998922Z-menu10-silvia-acquired-first-10000cr.bin",
+  "sha256": "7664c1390117878c074e57a37e2dfbb2ef3f7aae52fefe5d46bac056bb1e89b2",
+  "bytes": 154450,
+  "payload_version": "0.1.0",
+  "user_report": {"finish_position": 1, "car_reward": "Nissan Silvia Q's (S13) '88", "credit_reward": 10000, "payload_restarted_after_connection_refused": true},
+  "comparison": {
+    "baseline": "20261008T151829.263810Z-menu10-objectives-viewed-mazda-acquired.bin",
+    "changed_records": ["CARCOLIV", "EVTRECIV", "GAMECTX", "GMSTATS", "GARAGE", "PROGRESS", "QUEST", "STGDBK", "STYLEIV"],
+    "credits_before": 69900,
+    "credits_after": 48250,
+    "expected_credits_if_only_reward": 79900,
+    "unexplained_difference_from_expected": -31650,
+    "garage_entry_count_before": 14,
+    "garage_entry_count_after": 15,
+    "gift_count_before": 69,
+    "gift_count_after": 69,
+    "quest_archive_unchanged": true,
+    "car_dictionary_unchanged": true,
+    "quest_payload_only_change": {"offset": "0x1132", "before": 0, "after": 1},
+    "carcol_payload_only_change": {"offset": "0x20A", "entry_key": 15, "entry_relative_offset": 52, "before": 128, "after": 192},
+    "progress_flags": {"0x135": 1, "0x138": 0, "0x151": 9}
+  },
+  "notes": ["Read-only capture; no console writes.", "Credit discrepancy requires user clarification; do not assume pure reward-only transition.", "QUEST offset is specific to this structural layout, not a universal fixed offset.", "Silvia acquisition correlates with the single QUEST byte change; semantic mapping still requires further controlled evidence."]
+}

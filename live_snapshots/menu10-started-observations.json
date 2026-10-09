@@ -1,0 +1,21 @@
+{
+  "date_local": "2026-10-09",
+  "snapshot": "20261008T151413.683148Z-menu10-started-no-other-actions.bin",
+  "sha256": "ef5cf03b02527d8012fb08cce4e4573be894389ff873db7925729697e9ce4003",
+  "bytes": 151492,
+  "payload_version": "0.1.0",
+  "menu_book": {"number": 10, "name": "Collection: Japanese FR Sports Cars", "state": "started", "objectives_reported": "Collect three cars by winning races", "car_names": null},
+  "user_observations": {"other_actions": "None", "possibly_already_owned_objective_car": true, "checked_objective_car_ownership": false},
+  "save_observations": {
+    "changed_records": ["CARCOLIV", "GAMECTX", "GMSTATS", "PROGRESS", "QUEST"],
+    "credits": 69900,
+    "completed_book_candidate_byte": 9,
+    "gift_inventory_unchanged": true,
+    "garage_unchanged": true,
+    "quest_archive_unchanged": true,
+    "car_dictionary_unchanged": true,
+    "quest_id_candidate": 602,
+    "carcol_key_15_byte_53": {"before": 0, "after": 64}
+  },
+  "notes": ["Capture is read-only. No console edits.", "No new dashboard screenshot for this stage.", "The possible previously owned objective car is unverified; absence of garage changes does not determine objective credit."]
+}

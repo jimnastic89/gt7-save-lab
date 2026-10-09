@@ -1,0 +1,33 @@
+{
+  "source": "20261008T231532.935365Z-book16-scapes-active-restored-save.bin",
+  "status": "Experimental; not applied to console",
+  "questId": 625,
+  "slot": 4,
+  "changes": [
+    {
+      "payloadOffset": "0x779",
+      "before": "0",
+      "after": "2"
+    },
+    {
+      "payloadOffset": "0x77d",
+      "before": "2",
+      "after": "3"
+    },
+    {
+      "payloadOffset": "0x78f",
+      "before": "1",
+      "after": "2"
+    },
+    {
+      "payloadOffset": "0x87d",
+      "before": "1",
+      "after": "3"
+    },
+    {
+      "payloadOffset": "0x882",
+      "before": "0",
+      "after": "1"
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+[
+  {
+    "offset": 0,
+    "index": 0,
+    "flag": 1,
+    "size": 64,
+    "pointer": "0xe417a77cc0",
+    "name": "BRCRPLY",
+    "magic": "b'BRCR'",
+    "sha256": "bc2cd08c7365a03bfeed9c738eb4712f830b8100fa1b93471ed2fd96feb5e5db"
+  },
+  {
+    "offset": 120,
+    "index": 1,
+    "flag": 1,
+    "size": 4950,
+    "pointer": "0xe417a2c240",
+    "name": "CARCOLIV",
+    "magic": "b'CCIV'",
+    "sha256": "3cb8df20de392d510790af69e24e41b3cd1f8413cab8be809d6089cb61d29a10"
+  },
+  {
+    "offset": 5126,
+    "index": 4,
+    "flag": 1,
+    "size": 38000,
+    "pointer": "0xec0534b020",
+    "name": "CARDICIV",
+    "magic": "b'1iDC'",
+    "sha256": "0785de60c3b52ef008db75963b491ba4c5e501e63ad713028b08453d856df922"
+  },
+  {
+    "offset": 43182,
+    "index": 5,
+    "flag": 1,
+    "size": 180,
+    "pointer": "0xe417070300",
+    "name": "CUSSTSIV",
+    "magic": "b'csiv'",
+    "sha256": "3f31aff78789caf3490722730b412d01d1582cb8daba4ae903e83c330cbc71db"
+  },
+  {
+    "offset": 43418,
+    "index": 7,
+    "flag": 1,
+    "size": 64,
+    "pointer": "0xe417a77cc0",
+    "name": "DATALOGGER",
+    "magic": "b'DLOG'",
+    "sha256": "4724de15d00c5a9dc74dd374d261b2cf3d5174f7dba9eeae8537689923cbae53"
+  },
+  {
+    "offset": 43538,
+    "index": 8,
+    "flag": 1,
+    "size": 66,
+    "pointer": "0xe417a77cc0",
+    "name": "ETMTIV",
+    "magic": "b'ETIV'",
+    "sha256": "59c577b2b6674f8854252fea1a6d5e26b24cb07f9fdd1aba7919b30cfaee313d"
+  },
+  {
+    "offset": 43660,
+    "index": 10,
+    "flag": 1,
+    "size": 2418,
+    "pointer": "0xe417e6bc00",
+    "name": "EVTRECIV",
+    "magic": "b'EVRI'",
+    "sha256": "4a5f59251f15cac9de75ebf9b42d0f679b2dcb4ccf7ee0bd632a67403543b9fa"
+  },
+  {
+    "offset": 46134,
+    "index": 12,
+    "flag": 1,
+    "size": 64,
+    "pointer": "0xe417a77cc0",
+    "name": "FVTDCAL",
+    "magic": "b'CDVF'",
+    "sha256": "a9b510d36ce5393b13a3a735c01af6ab174646f8aa988158d0790636fb043757"
+  },
+  {
+    "offset": 46254,
+    "index": 13,
+    "flag": 1,
+    "size": 976,
+    "pointer": "0xe417a2f7c0",
+    "name": "GAMECTX",
+    "magic": "b'GCTX'",
+    "sha256": "ac39b438298d78300d54e3261e6cc8244cd47602f9a09e04e3c8bce44711f16f"
+  },
+  {
+    "offset": 47286,
+    "index": 14,
+    "flag": 1,
+    "size": 672,
+    "pointer": "0xe417a60720",
+    "name": "GMSTATS",
+    "magic": "b'GMST'",
+    "sha256": "2cc1a81423ad34fd3e356dd39d4054e52af8a2a6e4f5ae50076eb87bf34c601c"
+  },
+  {
+    "offset": 48014,
+    "index": 16,
+    "flag": 1,
+    "size": 6170,
+    "pointer": "0xe4155748a0",
+    "name": "GARAGE",
+    "magic": "b'\\xd0\\x06\\xb5\\xd7'",
+    "sha256": "b468625c79f0aeb4b3124e55da3702caa19251ab7e74da4aa603e01f5c9fee5e"
+  },
+  {
+    "offset": 54240,
+    "index": 17,
+    "flag": 1,
+    "size": 66,
+    "pointer": "0xe417a77cc0",
+    "name": "INVITEIV",
+    "magic": "b'\\x9a\\xa5vN'",
+    "sha256": "e8b29a7bc171b9ac754213db0327cbbb3ac5022e850ece6dc2f0484881d9b35f"
+  },
+  {
+    "offset": 54362,
+    "index": 19,
+    "flag": 1,
+    "size": 26616,
+    "pointer": "0xec0534b020",
+    "name": "GIFTIV",
+    "magic": "b'GFIV'",
+    "sha256": "4e6c58319ca64bd42e2930e9818f2281eaa0f0830907a42e45f5eb01f99e26c7"
+  },
+  {
+    "offset": 81034,
+    "index": 21,
+    "flag": 1,
+    "size": 50,
+    "pointer": "0xe417a77cc0",
+    "name": "LRDTINV",
+    "magic": "b'LRDI'",
+    "sha256": "530865a6bd2eb7f8d150b96e88b5d2e2648b0db8016c0e09a2611c7a34c5a006"
+  },
+  {
+    "offset": 81140,
+    "index": 23,
+    "flag": 1,
+    "size": 64,
+    "pointer": "0xe417a77cc0",
+    "name": "LCLRKG",
+    "magic": "b'GRCL'",
+    "sha256": "1bff4e6e42a1da9945f9e2fb140fbeefc9b7f14cc8c2617aefb9279fe4b3ae4f"
+  },
+  {
+    "offset": 81260,
+    "index": 24,
+    "flag": 1,
+    "size": 50,
+    "pointer": "0xe417a77cc0",
+    "name": "LRTTINV",
+    "magic": "b'LRTI'",
+    "sha256": "af5113d7401b7d8ace2493cc4b4b5da470bbd7858c3518fe575062c6845b8243"
+  },
+  {
+    "offset": 81366,
+    "index": 26,
+    "flag": 1,
+    "size": 96,
+    "pointer": "0xe417a77cc0",
+    "name": "MLSTNACV",
+    "magic": "b'MLST'",
+    "sha256": "6b2dc1d783da1b92636407a91e1f79b808b469609ddeaf45b12f62677f8825b7"
+  },
+  {
+    "offset": 81518,
+    "index": 27,
+    "flag": 1,
+    "size": 80,
+    "pointer": "0xe417a77cc0",
+    "name": "MISC",
+    "magic": "b'MISC'",
+    "sha256": "6130dbae7b7b5014b07044e4f40cf32ef980278886637d7881a2f6425bbc3e30"
+  },
+  {
+    "offset": 81654,
+    "index": 28,
+    "flag": 1,
+    "size": 1328,
+    "pointer": "0xe417a2f7c0",
+    "name": "OPTION",
+    "magic": "b'q7\\x1d4'",
+    "sha256": "2243e2ceb3e85bd759ac0b049bda4640b7beeb591cf8d13f7c5d205a6b7adec5"
+  },
+  {
+    "offset": 83038,
+    "index": 29,
+    "flag": 1,
+    "size": 50,
+    "pointer": "0xe417a77cc0",
+    "name": "PAINTIV",
+    "magic": "b'PTIV'",
+    "sha256": "4ea4f858f06e99dd5e2bfe1b3cf0256e45affba5af1988c41f58cca816b776ed"
+  },
+  {
+    "offset": 83144,
+    "index": 31,
+    "flag": 1,
+    "size": 82,
+    "pointer": "0xe417a77cc0",
+    "name": "PPRECIV",
+    "magic": "b'VIPP'",
+    "sha256": "416d4a44436f6b5779399541c5a9dfa74b399ad4051ec3a2ab03d55a89fa2a8d"
+  },
+  {
+    "offset": 83282,
+    "index": 33,
+    "flag": 1,
+    "size": 704,
+    "pointer": "0xe417a60720",
+    "name": "PROGRESS",
+    "magic": "b'\\x9c+J\\xa9'",
+    "sha256": "8b3e593872a66efa578293889ec844d95b58b260105d7d6d9f9fe7cbd36b11e9"
+  },
+  {
+    "offset": 84042,
+    "index": 34,
+    "flag": 1,
+    "size": 974,
+    "pointer": "0xe417a2f7c0",
+    "name": "QSTARCIV",
+    "magic": "b'qaiv'",
+    "sha256": "dd61233dc80d4fe33184e77e8aa60d3b5fb1c5337b352f7afb0727af1ccf5924"
+  },
+  {
+    "offset": 85072,
+    "index": 37,
+    "flag": 1,
+    "size": 23908,
+    "pointer": "0xec0534b020",
+    "name": "QUEST",
+    "magic": "b'\\x9a\\xd3 !'",
+    "sha256": "c126b60e30b3a9be7c1eb79f5d639cce136ea44741a825468be91978943148be"
+  },
+  {
+    "offset": 109036,
+    "index": 38,
+    "flag": 1,
+    "size": 80,
+    "pointer": "0xe417a77cc0",
+    "name": "RACEASST",
+    "magic": "b'RAST'",
+    "sha256": "6d5fa4422ef424481b89ac56befe024720fc6e33faaaa1426735028bc9d61423"
+  },
+  {
+    "offset": 109172,
+    "index": 39,
+    "flag": 1,
+    "size": 1232,
+    "pointer": "0xe417a2f7c0",
+    "name": "RESID",
+    "magic": "b'RESD'",
+    "sha256": "a7fbfdee110d44a45ff067895300eb9d6d2327adcf87ec4bc0b05a74cbfaa875"
+  },
+  {
+    "offset": 110460,
+    "index": 40,
+    "flag": 1,
+    "size": 96,
+    "pointer": "0xe417a77cc0",
+    "name": "SCAPES",
+    "magic": "b'SCPS'",
+    "sha256": "a472515d4eb4d1f5161ef051ca4eb0fadd9fb45d97d29cd6ea933d5d3e3b6ef8"
+  },
+  {
+    "offset": 110612,
+    "index": 41,
+    "flag": 1,
+    "size": 23860,
+    "pointer": "0xec0534b020",
+    "name": "STGDBK",
+    "magic": "b'\\x04f\\xf3t'",
+    "sha256": "db6faa685410d926981a4fa2c059cd07ceed786a07d0f1ed1f07b37f3976fadb"
+  },
+  {
+    "offset": 134528,
+    "index": 44,
+    "flag": 1,
+    "size": 66,
+    "pointer": "0xe417a77cc0",
+    "name": "STOCKPIV",
+    "magic": "b'1aPS'",
+    "sha256": "d0bd8402c558e5ecaf14e833a96a9dd8ba37e42e89ad40559f87c61711839ef5"
+  },
+  {
+    "offset": 134650,
+    "index": 45,
+    "flag": 1,
+    "size": 50,
+    "pointer": "0xe417a77cc0",
+    "name": "DRIVERIV",
+    "magic": "b'DRIV'",
+    "sha256": "4bc33f5533ae876e49115468598a9da20e6519f1c0979a7e148d12a2adcb6325"
+  },
+  {
+    "offset": 134756,
+    "index": 8589934638,
+    "flag": 4294967295,
+    "size": 0,
+    "pointer": "0x0",
+    "name": "DRFILEIV",
+    "magic": "b''",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "offset": 134812,
+    "index": 8589934640,
+    "flag": 4294967295,
+    "size": 0,
+    "pointer": "0x0",
+    "name": "LIVERYIV",
+    "magic": "b''",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "offset": 134868,
+    "index": 51,
+    "flag": 1,
+    "size": 4298,
+    "pointer": "0xe417a76000",
+    "name": "STYLEIV",
+    "magic": "b'STIV'",
+    "sha256": "155768a1e80ff8fbc19228b55524154cfb8620d88b34b8df7b46874b7cc96e9a"
+  },
+  {
+    "offset": 139222,
+    "index": 53,
+    "flag": 1,
+    "size": 50,
+    "pointer": "0xe417a77cc0",
+    "name": "VCIV",
+    "magic": "b'VCIV'",
+    "sha256": "43828e31ee949f4b1fa69a3004c4511c5d35e01749e1c3be04f7519a30e643bd"
+  },
+  {
+    "offset": 139328,
+    "index": 55,
+    "flag": 1,
+    "size": 116,
+    "pointer": "0xe417070300",
+    "name": "WHEELIV",
+    "magic": "b'\\xf9!\\xba\\x8d'",
+    "sha256": "08d657192aaca351bd31d7eedc4e7bdabaf5d562fa22e562516123134280ff66"
+  },
+  {
+    "offset": 139500,
+    "index": 57,
+    "flag": 1,
+    "size": 50,
+    "pointer": "0xe417a77cc0",
+    "name": "BCWLIV",
+    "magic": "b'LWCB'",
+    "sha256": "cdc68277dd687f361df945ca268779ba2d4999b81d527ec3e0b3e59947b270fa"
+  },
+  {
+    "offset": 139606,
+    "index": 58,
+    "flag": 1,
+    "size": 50,
+    "pointer": "0xe417a77cc0",
+    "name": "LCWLIV",
+    "magic": "b'LWCL'",
+    "sha256": "44b7f7fd6c1795677104c5bb1f149813a71c5e3bf97ef52d9486010a926e005b"
+  },
+  {
+    "offset": 139712,
+    "index": 59,
+    "flag": 1,
+    "size": 50,
+    "pointer": "0xe417a77cc0",
+    "name": "UCWLIV",
+    "magic": "b'LWCU'",
+    "sha256": "b0d5899ba144bdecb00b1c3e9d246a539818454e81d8ae82d0eb6fcde8c57c35"
+  }
+]

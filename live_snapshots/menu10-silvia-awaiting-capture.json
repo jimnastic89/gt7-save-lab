@@ -1,0 +1,7 @@
+{
+  "capture_status": "Resolved after user restarted payload: captured 20261008T213617.998922Z-menu10-silvia-acquired-first-10000cr.bin. See menu10-silvia-observations.json; actual credit balance differs from expectation.",
+  "user_report": {"menu_book": 10, "car_reward": "Nissan Silvia Q's (S13) '88", "finish_position": 1, "credit_reward": 10000},
+  "baseline": "20261008T151829.263810Z-menu10-objectives-viewed-mazda-acquired.bin",
+  "expected_credit_balance_if_no_other_changes": 79900,
+  "notes": ["Expected credit balance is arithmetic, not a save observation.", "Need payload restored or updated LAN URL before comparison. Keep Toyota objective pending."]
+}

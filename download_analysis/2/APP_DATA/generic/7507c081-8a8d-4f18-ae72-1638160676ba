@@ -1,0 +1,775 @@
+{
+  "schedule_": {
+    "title_": "WC_TITLE_2024_OCT_WEEK_1",
+    "desc_": "WC_COPY_GENERIC",
+    "startGMT_": 212657659200,
+    "endGMT_": 212658263999,
+    "events_": [
+      {
+        "clearRank_": 3,
+        "eventId_": 1266,
+        "frameId_": 970,
+        "online_": null
+      },
+      {
+        "clearRank_": 3,
+        "eventId_": 12098,
+        "frameId_": 3127,
+        "online_": null
+      },
+      {
+        "clearRank_": 3,
+        "eventId_": 14342,
+        "frameId_": 3781,
+        "online_": {
+          "gp_": {
+            "GTParameter::AIParameter": {
+              "AIScript": "",
+              "CancelPuddleDepth": false,
+              "FormationGapNarrow": false,
+              "FormationGapVFinal": 0
+            },
+            "GTParameter::BoostParameter": {},
+            "GTParameter::DriftLayoutParameter": {},
+            "GTParameter::DriverRegulationParameter": {},
+            "GTParameter::EntryListParameter": {
+              "EnemyShuffleIntensity": 0,
+              "EnemySortFluctuation": 0,
+              "Entries": [],
+              "GridInformation": [
+                {
+                  "GTParameter::GridParameter": {}
+                }
+              ],
+              "PlayerEntry": [
+                {
+                  "GTParameter::EntryParameter": {
+                    "CarCustom": {
+                      "ColorVariation": 0,
+                      "CustomDeckenNumber": 0,
+                      "CustomDeckenType": "DECKEN_TYPE_DEFAULT",
+                      "RandomVariation": false,
+                      "UseCustomDecken": false
+                    },
+                    "CarLabel": "_365_gtb4_71",
+                    "Drivers": [
+                      {
+                        "GTParameter::EntryDriverParameter": {
+                          "IsHuman": true
+                        }
+                      }
+                    ],
+                    "EngineTrouble": false,
+                    "IsPlayer": true,
+                    "Number": 0,
+                    "TireFront": "TIRE_CATEGORY_COMFORT_SOFT",
+                    "TireRear": "TIRE_CATEGORY_COMFORT_SOFT"
+                  }
+                }
+              ],
+              "PlayerGrid": 0,
+              "SelectedPlayerEntry": 0,
+              "StackType": "Order",
+              "WithoutPlayer": false
+            },
+            "GTParameter::EventParameter": {
+              "AdParameter": {
+                "PitBanner": true
+              },
+              "AdvertisementId": -1,
+              "CarLightingMode": "Auto",
+              "CompetitionGrade": "Local",
+              "CrowdLevel": 50,
+              "EntryMax": 1,
+              "EntryOverwrite": {
+                "CustomDeckenID": 0,
+                "CustomDeckenType": 0,
+                "CustomTireSetID": 4294967295,
+                "UseCustomDecken": false,
+                "UseCustomTireSetID": false
+              },
+              "EventCode": "weekly148_ce_drivingPark_01",
+              "EventID": 1014342,
+              "EventLogo": "-1.png",
+              "ExperienceTable": [
+                20,
+                12,
+                8
+              ],
+              "FinishAreaDisplay": "Section",
+              "FinishLineBanner": "Large",
+              "GameMode": "CircuitExperience",
+              "HideDriverThumbnail": false,
+              "HideErrorMessage": false,
+              "PlayerAvailableCars": {
+                "CarLabel": [
+                  "_365_gtb4_71"
+                ]
+              },
+              "PlayerSelectType": "FromPool",
+              "PrizeTable": [
+                30000,
+                18000,
+                12000
+              ],
+              "RacersMax": 1,
+              "RecommendedPP": -1,
+              "ReplayRankLimit": 10,
+              "WithGhost": true
+            },
+            "GTParameter::GameParameterIndexParameter": {
+              "Version": "test"
+            },
+            "GTParameter::LicenseParameter": {
+              "DisplayMode": "None",
+              "Enable": true,
+              "FailureCondition": [
+                {
+                  "GTParameter::LicenseCondition": {
+                    "CheckType": "HitWallLevel",
+                    "CheckValue": 2,
+                    "ConditionType": "GreaterOrEqual",
+                    "ConnectionType": "Or"
+                  }
+                },
+                {
+                  "GTParameter::LicenseCondition": {
+                    "CheckType": "CourseOutCount",
+                    "CheckValue": 1,
+                    "ConditionType": "GreaterOrEqual",
+                    "ConnectionType": "Or"
+                  }
+                }
+              ],
+              "MapWidthMode": "",
+              "PitLaneAsCourseOut": false,
+              "StopEnemyCars": false,
+              "StopOnFinish": false,
+              "SuccessCondition": [
+                {
+                  "GTParameter::LicenseCondition": {
+                    "CheckType": "TotalTime",
+                    "CheckValue": 51000,
+                    "ConditionType": "LessOrEqual",
+                    "ConnectionType": "And"
+                  }
+                },
+                {
+                  "GTParameter::LicenseCondition": {
+                    "CheckType": "TotalTime",
+                    "CheckValue": 52600,
+                    "ConditionType": "LessOrEqual",
+                    "ConnectionType": "And"
+                  }
+                },
+                {
+                  "GTParameter::LicenseCondition": {
+                    "CheckType": "TotalTime",
+                    "CheckValue": 56000,
+                    "ConditionType": "LessOrEqual",
+                    "ConnectionType": "And"
+                  }
+                },
+                {
+                  "GTParameter::LicenseCondition": {
+                    "CheckType": "TotalTime",
+                    "CheckValue": 56000,
+                    "ConditionType": "LessOrEqual",
+                    "ConnectionType": "And"
+                  }
+                }
+              ],
+              "SuccessMode": "MultipleLevels",
+              "UseBasicFinish": true,
+              "UseEnlargedMap": false,
+              "UseFinishArea": false
+            },
+            "GTParameter::OnlineParameter": {
+              "Championship": {},
+              "EnableSmoothPlayback": false,
+              "HasTrackParameter": false,
+              "HasWeatherParameter": false,
+              "Matching": "Normal",
+              "RankingID": "p_ot_1014342_001"
+            },
+            "GTParameter::PenaltyParameter": {
+              "AfterRacePenalty": 0,
+              "AIScript": "",
+              "ConsiderationType": 0,
+              "CourseOutPenaltyMargin": 0,
+              "EnablePenaltyConsumptionBySelf": true,
+              "EnablePenaltyLine": false,
+              "EnableVehicleViolation": false,
+              "GhostingLevel": 0,
+              "IsGuideCourseOff": false,
+              "NoCourseOutPenaltyMargin": false,
+              "PenaltyLevel": 0,
+              "PressPenaltyOnly": 0,
+              "ProcessDriverRating": true,
+              "ProcessSportsmanshipRating": true,
+              "ShortcutEstimatedTimeMod": 0,
+              "ShortcutModeForTurnInSpeedA2": 0,
+              "ShortcutNoTimeTogether": false,
+              "ShortcutPenaltyForceIssueTimeMSec": 3000,
+              "ShortcutPenaltyTimeMSecRawThreshold": 0,
+              "ShortcutRadiusForTurnInSpeedA2": 0,
+              "ShortcutSpeedRatioForTurnInSpeedA2": 0,
+              "ShortcutTurnInSpeedA": 0,
+              "ShortcutTurnInSpeedA2": 0,
+              "UsePresetPenaltyLine": false,
+              "WallPenaltyByAITime": false,
+              "WallPenaltyCondition": 0,
+              "WallPenaltyLevel": 0,
+              "WallTimeEstimatedTimeMod": 0,
+              "WallTimeNeedSumSpeedDiff": -1,
+              "WhitelineLevel": 0,
+              "WhitelineTimePenalty": -1
+            },
+            "GTParameter::PitParameter": {
+              "EnablePit": false,
+              "LaneControlMode": "Auto"
+            },
+            "GTParameter::PracticeParameter": {
+              "UsePractice": false
+            },
+            "GTParameter::QualifyParameter": {
+              "UseQualify": false
+            },
+            "GTParameter::RaceParameter": {
+              "Accumulation": true,
+              "BehaviorDamage": "Weak",
+              "BehaviorSlipStreamDownforceModifier": -1,
+              "BehaviorSlipStreamLength": 0,
+              "BehaviorSlipStreamMaxDragReduction": -1,
+              "BehaviorSlipStreamType": "Real",
+              "CancelReliefAtFuelExhaustion": false,
+              "CompleteType": "CompleteBySection",
+              "ConsumeFuel": 0,
+              "ConsumeTire": 0,
+              "CrashWallRecovery": false,
+              "CruiseSpeedForRolling": -1,
+              "DisableCollision": false,
+              "EnableDamage": true,
+              "EnableLappedGhost": false,
+              "FinishType": "TargetVehicle",
+              "GapVForRolling": 0,
+              "GoalV": 2394.259,
+              "GoalWidth": -1,
+              "GridList": [
+                0
+              ],
+              "ImmediateFinish": false,
+              "InitialBattery": -1,
+              "InitialFuel": -1,
+              "InitialTireTemp": 60,
+              "InitialTireWear": 0,
+              "LowMuType": "Modelate",
+              "MuRatio100": 100,
+              "NeedTireChange": false,
+              "NosAmountScale": 1,
+              "RaceLimitLaps": 1,
+              "RaceLimitMinute": 0,
+              "RaceType": "RaceCompetition",
+              "ReplaceAtCourseOut": false,
+              "ReplaceAtLongShortcut": true,
+              "ReplaceAtOffLimitsSurface": true,
+              "ReplaceAtOverturned": true,
+              "ReplaceAtPenaltySurface": true,
+              "ReplaceDisableAll": false,
+              "RuleSet": "Normal",
+              "Start": {
+                "EnableFlying": false,
+                "GapV": 0,
+                "GridColumn": 1,
+                "MaxSpeed": -1,
+                "PoleGridSide": "Left",
+                "Release": "TargetToLine",
+                "StartSpeed": 175,
+                "StartV": -1
+              },
+              "StartTimeRandom": false,
+              "StartType": "StartRolling",
+              "StartVForRolling": -1,
+              "TemperatureTire": false,
+              "TimeToFinish": 20000,
+              "TimeToStart": 6000,
+              "TireWearRandomRange": [
+                1,
+                1
+              ]
+            },
+            "GTParameter::RegulationParameter": {
+              "AllowMultipleCompounds": true,
+              "AspirationType": -1,
+              "CarClass": "CAR_CLASS_INVALID",
+              "DrivetrainType": -1,
+              "HorsePower": [
+                -1,
+                -1
+              ],
+              "Length": [
+                -1,
+                -1
+              ],
+              "LimitABS": false,
+              "LimitActiveSteering": false,
+              "LimitASM": false,
+              "LimitAutoDriveAssists": false,
+              "LimitBrakeBalance": false,
+              "LimitBrakingIndicator": "NoLimit",
+              "LimitBrakingMarker": "NoLimit",
+              "LimitCarSettings": true,
+              "LimitCarStyling": false,
+              "LimitDrivingLine": "NoLimit",
+              "LimitDrivingMarker": "NoLimit",
+              "LimitDrivingWheelShifter": false,
+              "LimitDrivingWheelTractionControl": false,
+              "LimitEmergencyBrake": false,
+              "LimitEngineSwap": "NoLimit",
+              "LimitKart": "ForOffline",
+              "LimitNOS": "NoLimit",
+              "LimitTireSimulation": "NoLimit",
+              "LimitTractionControl": false,
+              "LimitTransmission": "NoLimit",
+              "LimitUltimateParts": false,
+              "LimitWideFender": "NoLimit",
+              "PerformancePoint": [
+                -1,
+                -1
+              ],
+              "Tire": "Any",
+              "UseBalanceOfPower": false,
+              "Weight": [
+                -1,
+                -1
+              ],
+              "Year": [
+                -1,
+                -1
+              ]
+            },
+            "GTParameter::TrackParameter": {
+              "CourseCode": 376,
+              "CourseLabel": "drivingPark_01",
+              "CourseLayout": 1,
+              "DayTimeProgressSpeed": 0,
+              "Hour": 9,
+              "Minute": 0,
+              "OverrideDay": false,
+              "OverrideLimitTime": false,
+              "OverrideTime": true,
+              "WeatherID": 9759
+            },
+            "GTParameter::UVFAParameter": {},
+            "GTParameter::WeatherParameter": {
+              "DebugFlag": true,
+              "FixConditionAtStartTime": true,
+              "FixedRandomSeed": [
+                0,
+                0,
+                0
+              ],
+              "InitialSurfaceTemperatureCelsius": 30,
+              "InitialSurfaceTemperatureOuterCelsius": 30,
+              "LowLevelFlowSpeed": 10,
+              "LowLevelFlowSpeedEnabled": false,
+              "MainFlowAngle": 0,
+              "MainFlowAngleEnabled": false,
+              "MainFlowSpeed": 40,
+              "MainFlowSpeedEnabled": false,
+              "Precipitation": 0,
+              "Puddle": 0.0,
+              "PuddleOuter": 0.0,
+              "ScheduleList": {
+                "ClearSkyWeight": [
+                  {
+                    "GTParameter::WeatherCurveParameter": {
+                      "Center": 0.3,
+                      "Max": 0.3,
+                      "Min": 0.3,
+                      "SequenceRate": 0.0
+                    }
+                  },
+                  {
+                    "GTParameter::WeatherCurveParameter": {
+                      "Center": 0.3,
+                      "Max": 0.3,
+                      "Min": 0.3,
+                      "SequenceRate": 1.0
+                    }
+                  }
+                ],
+                "CumulusDensityHF": [
+                  {
+                    "GTParameter::WeatherCurveParameter": {
+                      "Center": 0.4,
+                      "Max": 0.4,
+                      "Min": 0.4,
+                      "SequenceRate": 0.0
+                    }
+                  },
+                  {
+                    "GTParameter::WeatherCurveParameter": {
+                      "Center": 0.4,
+                      "Max": 0.4,
+                      "Min": 0.4,
+                      "SequenceRate": 1.0
+                    }
+                  }
+                ],
+                "CumulusDensityLF": [
+                  {
+                    "GTParameter::WeatherCurveParameter": {
+                      "Center": 0.4,
+                      "Max": 0.4,
+                      "Min": 0.4,
+                      "SequenceRate": 0.0
+                    }
+                  },
+                  {
+                    "GTParameter::WeatherCurveParameter": {
+                      "Center": 0.4,
+                      "Max": 0.4,
+                      "Min": 0.4,
+                      "SequenceRate": 1.0
+                    }
+                  }
+                ],
+                "FogStrength": [
+                  {
+                    "GTParameter::WeatherCurveParameter": {
+                      "Center": 0.2,
+                      "Max": 0.2,
+                      "Min": 0.2,
+                      "SequenceRate": 0.0
+                    }
+                  },
+                  {
+                    "GTParameter::WeatherCurveParameter": {
+                      "Center": 0.2,
+                      "Max": 0.2,
+                      "Min": 0.2,
+                      "SequenceRate": 1.0
+                    }
+                  }
+                ],
+                "MainIndex": [
+                  {
+                    "GTParameter::WeatherCurveParameter": {
+                      "Center": 0.4,
+                      "Max": 0.4,
+                      "Min": 0.4,
+                      "SequenceRate": 0.0
+                    }
+                  },
+                  {
+                    "GTParameter::WeatherCurveParameter": {
+                      "Center": 0.4,
+                      "Max": 0.4,
+                      "Min": 0.4,
+                      "SequenceRate": 1.0
+                    }
+                  }
+                ],
+                "WindDirection": [
+                  {
+                    "GTParameter::WeatherCurveParameter": {
+                      "Center": 250,
+                      "Max": 250,
+                      "Min": 250,
+                      "SequenceRate": 0.0
+                    }
+                  },
+                  {
+                    "GTParameter::WeatherCurveParameter": {
+                      "Center": 250,
+                      "Max": 250,
+                      "Min": 250,
+                      "SequenceRate": 1.0
+                    }
+                  }
+                ],
+                "WindSpeed": [
+                  {
+                    "GTParameter::WeatherCurveParameter": {
+                      "Center": 2,
+                      "Max": 2,
+                      "Min": 2,
+                      "SequenceRate": 0.0
+                    }
+                  },
+                  {
+                    "GTParameter::WeatherCurveParameter": {
+                      "Center": 2,
+                      "Max": 2,
+                      "Min": 2,
+                      "SequenceRate": 1.0
+                    }
+                  }
+                ]
+              },
+              "ScheduleRaceProgress": false,
+              "SurfaceCarsEffect": 0,
+              "SurfaceTimeSpeedIn": 0,
+              "SurfaceTimeSpeedOut": 0,
+              "TimeProgressScale": 10,
+              "TimeSec": 43200,
+              "UseInitialSurfaceTemperature": false,
+              "UseSchedule": true,
+              "WaterRetention": 0.0,
+              "WaterRetentionOuter": 0.0,
+              "WetLineBoundaryWidth": 0,
+              "WetLineWidth": 0,
+              "WorldPositionOffsetKM": [
+                0,
+                0
+              ]
+            }
+          },
+          "table_": {
+            "frame_id": 3781,
+            "event_id": 1014342,
+            "file_no": -1,
+            "folder_code": "WeeklyChallenge_TimeTrial",
+            "folder_id": 305,
+            "order": 0,
+            "course_label": "drivingPark_01",
+            "title": "weekly148_ce_drivingPark_01_Title",
+            "event_target": "weekly148_ce_drivingPark_01_EventTarget",
+            "event_restrict": "weekly148_ce_drivingPark_01_EventRestrict",
+            "event_logo": "-1.png",
+            "game_mode": "CircuitExperience",
+            "car_label": "_365_gtb4_71",
+            "car_color": 0,
+            "style_id": 0,
+            "car_class": 0,
+            "disp_start_v": 1670.0,
+            "disp_goal_v": 4924.896,
+            "regulation1": 0,
+            "regulation2": 0,
+            "regulation3": 0,
+            "required_license_level": 0,
+            "board_id": "p_ot_1014342_001",
+            "race_grade": 0,
+            "difficulty": 0,
+            "recommend_cars1": "",
+            "recommend_cars2": "",
+            "recommend_cars3": ""
+          }
+        }
+      },
+      {
+        "clearRank_": 3,
+        "eventId_": 12099,
+        "frameId_": 3129,
+        "online_": null
+      },
+      {
+        "clearRank_": 3,
+        "eventId_": 12640,
+        "frameId_": 3279,
+        "online_": null
+      }
+    ],
+    "rewards_": [
+      {
+        "clearCount_": 1,
+        "reward_": {
+          "car_": {
+            "carCode_": -1,
+            "cpjson_": [],
+            "styleid_": 0,
+            "variation_": -1
+          },
+          "count_": 100000,
+          "createTime_": 0,
+          "expireTime_": 212660251199,
+          "itemId_": 2886807361144489516,
+          "msgkey_": "DELITEM_Weekly_Challenge_Login_Bonus",
+          "parts_": {
+            "carCode_": -1,
+            "category_": -1,
+            "engineCode_": -1,
+            "index_": 0
+          },
+          "thumbnail_": "",
+          "ticket_": {
+            "rouletteid_": 0,
+            "seed_": 0
+          },
+          "tuner_": {
+            "tunerCode_": -1
+          },
+          "version_": 6
+        },
+        "rewardId_": 409
+      },
+      {
+        "clearCount_": 3,
+        "reward_": {
+          "car_": {
+            "carCode_": -1,
+            "cpjson_": [],
+            "styleid_": 0,
+            "variation_": -1
+          },
+          "count_": 200000,
+          "createTime_": 0,
+          "expireTime_": 212660251199,
+          "itemId_": 2886807361144489517,
+          "msgkey_": "DELITEM_Weekly_Challenge_Login_Bonus",
+          "parts_": {
+            "carCode_": -1,
+            "category_": -1,
+            "engineCode_": -1,
+            "index_": 0
+          },
+          "thumbnail_": "",
+          "ticket_": {
+            "rouletteid_": 0,
+            "seed_": 0
+          },
+          "tuner_": {
+            "tunerCode_": -1
+          },
+          "version_": 6
+        },
+        "rewardId_": 410
+      },
+      {
+        "clearCount_": 5,
+        "reward_": {
+          "car_": {
+            "carCode_": -1,
+            "cpjson_": [],
+            "styleid_": 0,
+            "variation_": -1
+          },
+          "count_": 1,
+          "createTime_": 0,
+          "expireTime_": 212660251199,
+          "itemId_": 2891310960771860014,
+          "msgkey_": "DELITEM_Weekly_Challenge_Login_Bonus",
+          "parts_": {
+            "carCode_": -1,
+            "category_": -1,
+            "engineCode_": -1,
+            "index_": 0
+          },
+          "thumbnail_": "",
+          "ticket_": {
+            "rouletteid_": 6,
+            "seed_": 0
+          },
+          "tuner_": {
+            "tunerCode_": -1
+          },
+          "version_": 6
+        },
+        "rewardId_": 413
+      }
+    ],
+    "powerpackRewards_": [
+      {
+        "clearCount_": 1,
+        "reward_": {
+          "car_": {
+            "carCode_": -1,
+            "cpjson_": [],
+            "styleid_": 0,
+            "variation_": -1
+          },
+          "count_": 100000,
+          "createTime_": 0,
+          "expireTime_": 212660251199,
+          "itemId_": 2886807361144489519,
+          "msgkey_": "DELITEM_PowerPack_Challenge_Reward",
+          "parts_": {
+            "carCode_": -1,
+            "category_": -1,
+            "engineCode_": -1,
+            "index_": 0
+          },
+          "thumbnail_": "",
+          "ticket_": {
+            "rouletteid_": 0,
+            "seed_": 0
+          },
+          "tuner_": {
+            "tunerCode_": -1
+          },
+          "version_": 6
+        },
+        "rewardId_": 1131
+      },
+      {
+        "clearCount_": 2,
+        "reward_": {
+          "car_": {
+            "carCode_": -1,
+            "cpjson_": [],
+            "styleid_": 0,
+            "variation_": -1
+          },
+          "count_": 200000,
+          "createTime_": 0,
+          "expireTime_": 212660251199,
+          "itemId_": 2886807361144489520,
+          "msgkey_": "DELITEM_PowerPack_Challenge_Reward",
+          "parts_": {
+            "carCode_": -1,
+            "category_": -1,
+            "engineCode_": -1,
+            "index_": 0
+          },
+          "thumbnail_": "",
+          "ticket_": {
+            "rouletteid_": 0,
+            "seed_": 0
+          },
+          "tuner_": {
+            "tunerCode_": -1
+          },
+          "version_": 6
+        },
+        "rewardId_": 1132
+      },
+      {
+        "clearCount_": 3,
+        "reward_": {
+          "car_": {
+            "carCode_": -1,
+            "cpjson_": [],
+            "styleid_": 0,
+            "variation_": -1
+          },
+          "count_": 1,
+          "createTime_": 0,
+          "expireTime_": 212660251199,
+          "itemId_": 2891310960771860017,
+          "msgkey_": "DELITEM_PowerPack_Challenge_Reward",
+          "parts_": {
+            "carCode_": -1,
+            "category_": -1,
+            "engineCode_": -1,
+            "index_": 0
+          },
+          "thumbnail_": "",
+          "ticket_": {
+            "rouletteid_": 11,
+            "seed_": 0
+          },
+          "tuner_": {
+            "tunerCode_": -1
+          },
+          "version_": 6
+        },
+        "rewardId_": 1137
+      }
+    ],
+    "startGMT_dt_": "2026-10-02T00:00:00",
+    "endGMT_dt_": "2026-10-08T23:59:59"
+  },
+  "lastUpdate_": "2026-07-24T19:53:26Z",
+  "rewardExpireGMT_dt_": "2026-10-31T23:59:59"
+}

@@ -1,0 +1,45 @@
+[04:01:50.659] [DEBUG] [network][gtonline] session_base.cxx:600 user = jimnastic, jimnastic
+[04:01:50.659] [DEBUG] [network][gtonline] multiplay_session.cxx:818 setRepresentativeUser() e4155b88e8
+[04:01:50.659] [DEBUG] [network][gtonline] session_base.cxx:600 user = jimnastic, jimnastic
+[04:01:50.659] [DEBUG] [network][gtonline] network_update.cxx:39 StartNetworkUpdate
+[04:01:57.377] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 188511
+[04:01:57.634] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 122822
+[04:01:57.759] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 260650
+[04:01:57.949] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 245211
+[04:01:58.217] [DEBUG] [retry] retry\detail.h:175 n = 2, delayTime = 455373
+[04:01:58.392] [DEBUG] [retry] retry\detail.h:175 n = 2, delayTime = 415574
+[04:01:58.872] [DEBUG] [retry] retry\detail.h:175 n = 3, delayTime = 830942
+[04:01:59.004] [DEBUG] [retry] retry\detail.h:175 n = 3, delayTime = 878416
+[04:01:59.903] [ERROR] [retry] Done: ret = -2143223322, elapsed = 2728ms, attempts = 5/5
+[04:02:00.086] [ERROR] [retry] Done: ret = -2143223322, elapsed = 2651ms, attempts = 5/5
+[04:02:02.094] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 101711
+[04:02:02.434] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 212700
+[04:02:02.855] [DEBUG] [retry] retry\detail.h:175 n = 2, delayTime = 402699
+[04:02:03.464] [DEBUG] [retry] retry\detail.h:175 n = 3, delayTime = 864610
+[04:02:04.117] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 123549
+[04:02:04.535] [ERROR] [retry] Done: ret = -2143223322, elapsed = 2646ms, attempts = 5/5
+[04:02:07.192] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 122338
+[04:02:09.528] [DEBUG] [render] external_texture.h:44 decken (0x127c761850 - 0x127c761868)
+[04:02:12.831] [DEBUG] [render] external_texture.h:44 decken (0x1289388210 - 0x1289388228)
+[04:02:14.117] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 261611
+[04:02:17.192] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 243476
+[04:02:18.690] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 113743
+[04:02:19.001] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 292049
+[04:02:19.097] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 149269
+[04:02:19.490] [DEBUG] [retry] retry\detail.h:175 n = 2, delayTime = 495313
+[04:02:20.178] [DEBUG] [retry] retry\detail.h:175 n = 3, delayTime = 891328
+[04:02:21.265] [ERROR] [retry] Done: ret = -2143223322, elapsed = 2767ms, attempts = 5/5
+[04:02:21.461] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 190885
+[04:02:21.849] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 295715
+[04:02:22.337] [DEBUG] [retry] retry\detail.h:175 n = 2, delayTime = 471053
+[04:02:23.009] [DEBUG] [retry] retry\detail.h:175 n = 3, delayTime = 846951
+[04:02:24.064] [ERROR] [retry] Done: ret = -2143223322, elapsed = 2797ms, attempts = 5/5
+[04:02:24.117] [DEBUG] [retry] retry\detail.h:175 n = 2, delayTime = 483153
+[04:02:27.192] [DEBUG] [retry] retry\detail.h:175 n = 2, delayTime = 433692
+[04:02:28.180] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 181614
+[04:02:28.566] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 225835
+[04:02:29.020] [DEBUG] [retry] retry\detail.h:175 n = 2, delayTime = 464826
+[04:02:29.098] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 278086
+[04:02:29.506] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 124886
+[04:02:29.691] [DEBUG] [retry] retry\detail.h:175 n = 3, delayTime = 836313
+[04:02:30.761] [ERROR] [retry] Done: ret = -2143223322, elapsed = 2777ms, attempts = 5/5

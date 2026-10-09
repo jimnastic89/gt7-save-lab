@@ -1,0 +1,14 @@
+{
+  "captured_utc": "2026-10-08T23:46:52.316422+00:00",
+  "label": "book16-after-scapes-experiment-cafe-still-in-progress",
+  "source": "http://10.0.0.24:8097",
+  "payload": {
+    "version": "0.4.1",
+    "title": "PPSA01317",
+    "gameRunning": 1,
+    "blocked": false,
+    "platform": "PS5"
+  },
+  "bytes": 248868,
+  "sha256": "96bfa5787535e7e9df93bc6666a462a1cfb703acba132732bf4185f5ebe3c1f2"
+}

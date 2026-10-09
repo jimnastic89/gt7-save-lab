@@ -1,0 +1,700 @@
+[04:24:39.544] [DEBUG] [network][gtonline] session_base.cxx:600 user = jimnastic, jimnastic
+[04:24:39.544] [DEBUG] [network][gtonline] multiplay_session.cxx:818 setRepresentativeUser() e4155c08e8
+[04:24:39.544] [DEBUG] [network][gtonline] session_base.cxx:600 user = jimnastic, jimnastic
+[04:24:39.545] [DEBUG] [network][gtonline] network_update.cxx:39 StartNetworkUpdate
+[04:24:46.252] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 135992
+[04:24:46.535] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 129709
+[04:24:46.640] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 208359
+[04:24:46.919] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 235136
+[04:24:47.054] [DEBUG] [retry] retry\detail.h:175 n = 2, delayTime = 496735
+[04:24:47.354] [DEBUG] [retry] retry\detail.h:175 n = 2, delayTime = 479280
+[04:24:47.745] [DEBUG] [retry] retry\detail.h:175 n = 3, delayTime = 814294
+[04:24:48.028] [DEBUG] [retry] retry\detail.h:175 n = 3, delayTime = 878609
+[04:24:48.763] [ERROR] [retry] Done: ret = -2143223322, elapsed = 2762ms, attempts = 5/5
+[04:24:49.133] [ERROR] [retry] Done: ret = -2143223322, elapsed = 2839ms, attempts = 5/5
+[04:24:51.202] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 136794
+[04:24:51.545] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 239107
+[04:24:51.993] [DEBUG] [retry] retry\detail.h:175 n = 2, delayTime = 463745
+[04:24:52.668] [DEBUG] [retry] retry\detail.h:175 n = 3, delayTime = 895898
+[04:24:52.935] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 185726
+[04:24:53.784] [ERROR] [retry] Done: ret = -2143223322, elapsed = 2803ms, attempts = 5/5
+[04:24:56.021] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 155547
+[04:25:02.935] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 249686
+[04:25:06.021] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 257856
+[04:25:12.935] [DEBUG] [retry] retry\detail.h:175 n = 2, delayTime = 444922
+[04:25:16.021] [DEBUG] [retry] retry\detail.h:175 n = 2, delayTime = 472230
+[04:25:22.936] [DEBUG] [retry] retry\detail.h:175 n = 3, delayTime = 819753
+[04:25:26.021] [DEBUG] [retry] retry\detail.h:175 n = 3, delayTime = 840702
+[04:25:32.936] [ERROR] [retry] Done: ret = -836624334, elapsed = 50000ms, attempts = 5/5
+[04:25:36.021] [ERROR] [retry] Done: ret = -836624334, elapsed = 50000ms, attempts = 5/5
+[04:30:48.159] [DEBUG] [render] external_texture.h:44 decken (0x127c788210 - 0x127c788228)
+[04:30:51.577] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 115123
+[04:30:51.889] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 290459
+[04:30:52.380] [DEBUG] [retry] retry\detail.h:175 n = 2, delayTime = 417814
+[04:30:52.585] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 199520
+[04:30:52.978] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 264981
+[04:30:53.000] [DEBUG] [retry] retry\detail.h:175 n = 3, delayTime = 811579
+[04:30:53.437] [DEBUG] [retry] retry\detail.h:175 n = 2, delayTime = 474558
+[04:30:54.008] [ERROR] [retry] Done: ret = -2143223322, elapsed = 2658ms, attempts = 5/5
+[04:30:54.120] [DEBUG] [retry] retry\detail.h:175 n = 3, delayTime = 844424
+[04:30:55.177] [ERROR] [retry] Done: ret = -2143223322, elapsed = 2784ms, attempts = 5/5
+[04:30:57.690] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 177337
+[04:31:01.367] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 101272
+[04:31:07.690] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 269031
+[04:31:11.367] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 275921
+[04:31:17.690] [DEBUG] [retry] retry\detail.h:175 n = 2, delayTime = 436074
+[04:31:21.368] [DEBUG] [retry] retry\detail.h:175 n = 2, delayTime = 487189
+[04:31:27.690] [DEBUG] [retry] retry\detail.h:175 n = 3, delayTime = 875020
+[04:31:31.368] [DEBUG] [retry] retry\detail.h:175 n = 3, delayTime = 800731
+[04:31:37.690] [ERROR] [retry] Done: ret = -836624334, elapsed = 50000ms, attempts = 5/5
+[04:31:41.368] [ERROR] [retry] Done: ret = -836624334, elapsed = 50000ms, attempts = 5/5
+[04:32:06.166] [DEBUG] [render] external_texture.h:44 decken (0x127c788210 - 0x127c788228)
+[04:32:15.701] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 107243
+[04:32:25.701] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 290265
+[04:32:35.701] [DEBUG] [retry] retry\detail.h:175 n = 2, delayTime = 460550
+[04:32:45.701] [DEBUG] [retry] retry\detail.h:175 n = 3, delayTime = 825262
+[04:32:55.701] [ERROR] [retry] Done: ret = -836624334, elapsed = 50000ms, attempts = 5/5
+[04:33:03.759] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 111317
+[04:33:04.065] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 294637
+[04:33:04.558] [DEBUG] [retry] retry\detail.h:175 n = 2, delayTime = 475837
+[04:33:04.808] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 102319
+[04:33:05.117] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 244192
+[04:33:05.234] [DEBUG] [retry] retry\detail.h:175 n = 3, delayTime = 895416
+[04:33:05.565] [DEBUG] [retry] retry\detail.h:175 n = 2, delayTime = 491368
+[04:33:06.248] [DEBUG] [retry] retry\detail.h:175 n = 3, delayTime = 870513
+[04:33:06.323] [ERROR] [retry] Done: ret = -2143223322, elapsed = 2759ms, attempts = 5/5
+[04:33:07.352] [ERROR] [retry] Done: ret = -2143223322, elapsed = 2744ms, attempts = 5/5
+[04:33:13.583] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 187389
+[04:33:23.583] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 231806
+[04:33:33.584] [DEBUG] [retry] retry\detail.h:175 n = 2, delayTime = 425129
+[04:33:43.584] [DEBUG] [retry] retry\detail.h:175 n = 3, delayTime = 805887
+[04:33:53.584] [ERROR] [retry] Done: ret = -836624334, elapsed = 50000ms, attempts = 5/5
+[04:45:44.619] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 163591
+[04:45:44.862] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 197685
+[04:45:44.982] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 295368
+[04:45:45.254] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 272155
+[04:45:45.471] [DEBUG] [retry] retry\detail.h:175 n = 2, delayTime = 461174
+[04:45:45.523] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 147521
+[04:45:45.721] [DEBUG] [retry] retry\detail.h:175 n = 2, delayTime = 405193
+[04:45:46.170] [DEBUG] [retry] retry\detail.h:175 n = 3, delayTime = 833536
+[04:45:46.365] [DEBUG] [retry] retry\detail.h:175 n = 3, delayTime = 839586
+[04:45:47.201] [ERROR] [retry] Done: ret = -2143223322, elapsed = 2777ms, attempts = 5/5
+[04:45:47.401] [ERROR] [retry] Done: ret = -2143223322, elapsed = 2732ms, attempts = 5/5
+[04:45:54.440] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 192043
+[04:45:55.523] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 234479
+[04:46:02.555] [INFO] [race][RaceVariable] race_global_variable.cxx:135 ignore settings from server: built-in=10 server=0
+[04:46:02.555] [DEBUG] [race] race_request.cxx:2697 event interface set: e415567a50
+[04:46:02.584] [DEBUG] [race][RESOURCE] race_internal.cxx:878 change entry max: 1 -> 1
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 0(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 1(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 2(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 3(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 4(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 5(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 6(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 7(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 8(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 9(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 10(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 11(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 12(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 13(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 14(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 15(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 16(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 17(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 18(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 19(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 20(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 21(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 22(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 23(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 24(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 25(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 26(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 27(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 28(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 29(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 30(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 31(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 32(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 33(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 34(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 35(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 36(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 37(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 38(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 39(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 40(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 41(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 42(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 43(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 44(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 45(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 46(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 47(complete=0) collision count=0 Pit
+[04:46:02.584] [DEBUG] [race][flag] flagstate.cxx:301 reset flag state: rule set=1
+[04:46:02.584] [DEBUG] [race][consider][ConsiderAPI] consider_api.cxx:499 Consideration Web API launched
+[04:46:02.584] [DEBUG] [race][CarriedParam] race.cxx:1525 initialize DATETIME:    0/ 0/ 0  0: 0: 0(progress:1.000000)(water:0.000000):seed 0
+[04:46:02.584] [DEBUG] [race] race.cxx:644 build initialize. entry_max_: 1 racers_max_: 1
+[04:46:02.584] [DEBUG] [race][OnlineRace] race.cxx:753 build offline race
+[04:46:02.618] [DEBUG] [gtengine] pilot_resource_holder.h:186 num pilots = 4, num options = 1
+[04:46:02.618] [DEBUG] [race][RESOURCE] race_internal.cxx:878 change entry max: 1 -> 1
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 0(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 1(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 2(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 3(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 4(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 5(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 6(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 7(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 8(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 9(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 10(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 11(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 12(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 13(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 14(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 15(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 16(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 17(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 18(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 19(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 20(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 21(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 22(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 23(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 24(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 25(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 26(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 27(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 28(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 29(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 30(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 31(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 32(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 33(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 34(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 35(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 36(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 37(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 38(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 39(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 40(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 41(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 42(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 43(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 44(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 45(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 46(complete=0) collision count=0 Pit
+[04:46:02.618] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 47(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [race][RESOURCE] race_resource.cxx:459 Race Loading Course <b> start time 16 ...
+[04:46:02.668] [DEBUG] [race][RESOURCE] race_internal.cxx:878 change entry max: 1 -> 1
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 0(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 1(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 2(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 3(complete=0) collision count=0 Pit
+race_resource.cxx:341 loading course file: c053)
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 4(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 5(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 6(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 7(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 8(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 9(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 10(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 11(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 12(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 13(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 14(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 15(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 16(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 17(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 18(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 19(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 20(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 21(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 22(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 23(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 24(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 25(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 26(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 27(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 28(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 29(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 30(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 31(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 32(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 33(complete=0) collision count=0 Pit
+[04:46:02.668] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 34(complete=0) collision count=0 Pit
+[04:46:02.669] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 35(complete=0) collision count=0 Pit
+[04:46:02.669] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 36(complete=0) collision count=0 Pit
+[04:46:02.669] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 37(complete=0) collision count=0 Pit
+[04:46:02.669] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 38(complete=0) collision count=0 Pit
+[04:46:02.669] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 39(complete=0) collision count=0 Pit
+[04:46:02.669] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 40(complete=0) collision count=0 Pit
+[04:46:02.669] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 41(complete=0) collision count=0 Pit
+[04:46:02.669] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 42(complete=0) collision count=0 Pit
+[04:46:02.669] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 43(complete=0) collision count=0 Pit
+[04:46:02.669] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 44(complete=0) collision count=0 Pit
+[04:46:02.669] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 45(complete=0) collision count=0 Pit
+[04:46:02.669] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 46(complete=0) collision count=0 Pit
+[04:46:02.669] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 47(complete=0) collision count=0 Pit
+[04:46:02.669] [DEBUG] [race][RESOURCE][Course] recorded_racestatus.cxx:45 course code cache: -1 -> 11(c053)
+[04:46:02.695] [DEBUG] [race][entry] entry_slot.cxx:441 entry: 0/0
+[04:46:02.695] [DEBUG] [race][entry][OnlineRace] race_internal.cxx:429 allocated slot[0]: time 16
+[04:46:02.695] [DEBUG] [race][RaceInOut] race.cxx:2331 Control::requestEntry(0/1)
+[04:46:02.695] [DEBUG] [race][NetGen] race.cxx:2394 entry callback: slot=0 level=0
+[04:46:02.695] [INFO] [race] entry_slot_manager.cxx:283 countRacers() entry=1/1 racers=0/0 localEntries=1/1 localRacers=0/0 expected=0/0 loaded=0/0
+[04:46:02.696] [DEBUG] [race][entry] entry_slot.cxx:441 entry: 0/ec059a9020
+[04:46:02.696] [DEBUG] [race][entry][RaceInOut] race_request.cxx:1207 entry racer done.(initialize at onUpdate): slot=0 resource=0 vehicle=ec059a9020
+[04:46:02.696] [DEBUG] [race][entry] race.cxx:2408 entry callback success![0]
+[04:46:02.701] [INFO] [race] entry_slot_manager.cxx:283 countRacers() entry=1/1 racers=0/0 localEntries=1/1 localRacers=0/0 expected=1/1 loaded=0/0
+[04:46:03.170] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 149206
+[04:46:04.138] [DEBUG] [race][RESOURCE] race_resource.cxx:415 loading course complete: b(hash 0) load time=1469.997msec(minimum=0)
+[04:46:04.169] [DEBUG] [race] race_request.cxx:970 Enter Course request!!
+[04:46:04.178] [DEBUG] [race] race.cxx:7381 call course in callback: 108560
+[04:46:04.178] [DEBUG] [race] race.cxx:7383 call course in callback done.:1
+[04:46:04.186] [DEBUG] [race] race.cxx:1621 Enter Course.
+[04:46:04.189] [DEBUG] [race][penalty_line] race_calculation_util.cxx:633 course penalty line notify=2200 punish=2900
+[04:46:04.189] [DEBUG] [race][penalty_line] race_calculation_util.cxx:633 course penalty line notify=0 punish=0
+[04:46:04.189] [DEBUG] [race][penalty_line] race_calculation_util.cxx:633 course penalty line notify=0 punish=0
+[04:46:04.189] [DEBUG] [race][penalty_line] race_calculation_util.cxx:633 course penalty line notify=0 punish=0
+[04:46:04.189] [DEBUG] [race][RESOURCE] race_internal.cxx:1075   - enter course done
+[04:46:04.189] [DEBUG] [race][CarriedParam] race.cxx:1525 initialize DATETIME:    0/ 0/ 0  0: 0: 0(progress:1.000000)(water:0.000000):seed 0
+[04:46:04.219] [DEBUG] [race][CarriedParam] race_request.cxx:2924  Ignore this information for the first session.
+[04:46:04.219] [DEBUG] [race][consider][drivingchecker] driving_checker.cxx:380 enable driving checker: target=0
+[04:46:04.219] [DEBUG] [race][RaceVariable] race_global_variable.cxx:340 not loading race customize file: disabled.
+[04:46:04.293] [DEBUG] [race][reset][weather] race.cxx:6982 ignore ground reset
+[04:46:04.293] [DEBUG] [race] race_request.cxx:821 change race parameter by argument.
+[04:46:04.293] [DEBUG] [race][reset] entry_slot_manager.cxx:413 Clear vehicle condition.
+[04:46:04.293] [DEBUG] [race][RESOURCE] race.cxx:5938 clear condition request: STILL
+[04:46:04.302] [INFO] [race] race.cxx:1022 Start Session: 16
+[04:46:04.302] [INFO] [race] race.cxx:331 Change phase 3 to 0
+[04:46:04.303] [DEBUG] [race] race_calculation_util.cxx:262 start chequer V coord: 500.0(length:4340.2)
+[04:46:04.303] [DEBUG] [race][flag] flagstate.cxx:301 reset flag state: rule set=1
+[04:46:04.303] [INFO] [race][consider] consideration.cxx:126 ignore settings from server: default ver=14 server ver=0
+[04:46:04.303] [DEBUG] [race][consider] consideration.cxx:1325 enable driving checker.
+[04:46:04.303] [DEBUG] [race][consider][drivingchecker] driving_checker.cxx:56 config: spd limit=80.0
+[04:46:04.303] [DEBUG] [race][Start] race_internal.cxx:1266 freerun=false, comp=None, distance=0, course=(start=0.0, finish=0.0) flying=false target=[dist id=0, start: id=0 grid=0]
+[04:46:04.303] [DEBUG] [race][CarriedParam] race.cxx:1048 track temp: 20.00
+[04:46:04.303] [DEBUG] [race] race.cxx:1054 reset weather call [reset callback]
+[04:46:04.303] [DEBUG] [race][vehicle] race_calculation_util.cxx:706 tire wear range: 1.0 ~ 1.0
+[04:46:04.303] [DEBUG] [race] race.cxx:1111 sort list type: 0
+[04:46:04.303] [DEBUG] [race][reset][weather] race.cxx:6968 reset ground(road) by weather
+[04:46:04.303] [INFO] [race][OnlineRace][CT] race.cxx:1169 session start time: target=16 current=16 number=1 crs time=1428
+[04:46:04.303] [INFO] [race][CT] race.cxx:1175   CT: -720 Hour: 0 Minute:-12
+[04:46:04.303] [DEBUG] [race] race_internal.cxx:2618 last grid(default) is: 0
+[04:46:04.303] [DEBUG] [race] race.cxx:824 initialize_vehicle_condition
+[04:46:04.303] [DEBUG] [race] race_internal.cxx:1455 pitcorrection_time: pp_time=10.00sec(AB=20.00-10.00)
+[04:46:04.303] [DEBUG] [race] race_internal.cxx:1508 pitcorrection_time: pitlane_mps=22.222,pitlane_acc=8.889
+[04:46:04.303] [DEBUG] [race] race_internal.cxx:1514 pitcorrection_time: ad_time=0.71sec,ad_vdiff=18.10(160.33-142.24)m
+[04:46:04.303] [DEBUG] [race] race_internal.cxx:1549 pitcorrection_time: pwt_cr=4.26sec,scn_tm=2.98-7.74sec
+[04:46:04.303] [DEBUG] [race] race_internal.cxx:1552 pitcorrection_time: pc_time=6.31sec
+[04:46:04.303] [DEBUG] [race][RedFlag] redflag_procedure.cpp:137 Disabled Resume Sequence by RED-FLAG
+[04:46:04.303] [INFO] [race][Formation][Start] race.cxx:1328 start session race number: 1(management=1) now=16 wait=0, Practice
+[04:46:04.303] [DEBUG] [race][NetGen] race_internal.cxx:405  * EntryLevel: R                                               
+[04:46:04.303] [DEBUG] [race][CarResource] race.cxx:5946 start session
+[04:46:04.303] [DEBUG] [race] race.cxx:6063 no entry in course, cancel first update.
+[04:46:04.441] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 296193
+[04:46:04.453] [DEBUG] [gtengine] data_request_container.h:73 checkReady: ready. 0xe4156f6ac8, gadget
+[04:46:04.453] [DEBUG] [gtengine] data_request_container.h:73 checkReady: ready. 0xe41568d530, raceVFX
+[04:46:04.453] [DEBUG] [gtengine] data_request_container.h:73 checkReady: ready. 0xe4156806b8, raceVFX
+[04:46:04.720] [DEBUG] [race][RESOURCE] race.cxx:6195 $$$$$ PILOT loading start [0(resource:0, priority:2 busy:true)]  vehicleLoad:true ... 433
+[04:46:05.523] [DEBUG] [retry] retry\detail.h:175 n = 2, delayTime = 421445
+[04:46:09.508] [DEBUG] [race][RESOURCE] entry_slot.cxx:827 load resource done: slot=0
+[04:46:09.508] [DEBUG] [race][RESOURCE] race.cxx:6139 $$$$$ slot[0](resource:0) is loading done... 5216
+[04:46:09.508] [DEBUG] [race] entry_slot.cxx:1579 enter course: 0 reset 0/in course 0
+[04:46:09.508] [DEBUG] [race][Trouble][ENR] entry_process.cxx:526  enable trouble: engine=(0.00/0%)0.00
+[04:46:09.508] [DEBUG] [race] race.cxx:2695 start type grid: slot=0 grid=0 type=4
+[04:46:09.508] [DEBUG] [race] race_service.cxx:200 Course in vehicle: 0 stype:4 velocity:120 km/h start_v:3240.156738 pos:436.660767 -89.969101
+[04:46:09.508] [DEBUG] [race][Start] race.cxx:2726 launch parameter get by old method: slot=0 start type=4
+[04:46:09.508] [DEBUG] [race][entry][Start][Parking] race.cxx:2741 <LOCAL RESET> position: slot=0 racenumber=1(manage=1) [436.660767, -5.408288, -89.969101(vel:120)] Parking=-1
+[04:46:09.508] [DEBUG] [race] race.cxx:2775 start type[Running]
+[04:46:09.508] [INFO] [race][reset][entry] race.cxx:2813 slot_enter_course: slot=0 grid=0 start type=4 local reset=true
+[04:46:09.508] [DEBUG] [race][vehicle] race_calculation_util.cxx:739 reset status for demo: not accumulation & consumption
+[04:46:09.508] [DEBUG] [race] entry_slot_manager.cxx:364 attach success: 0 ac: 1
+[04:46:09.508] [DEBUG] [race][VisibleCollision][RaceInOut] entry_slot.cxx:1965 Init Status: slot=0 visible=true transparent=false reset=true
+[04:46:09.508] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 0(complete=0) collision count=0 Pit
+[04:46:09.508] [INFO] [race][SlotControl] slot_control_service.cxx:191 slot force command: 0 type=SpeedLimit command=0
+[04:46:09.508] [INFO] [race][SlotControl] slot_control_service.cxx:144 slot command: 0 type=OrderToCruise command=0 -> 1
+[04:46:09.508] [DEBUG] [race][Start][entry] race.cxx:3055 slot start: slot=0 stay=0 limit=0 cruise=1 speed=120
+[04:46:09.508] [DEBUG] [race][TireHist] race_vehicle_status.cxx:368 start: lap=-1 v=3237.9 start=0.0 pit=4154.5 protrude=NO
+[04:46:09.508] [DEBUG] [race][flag] flagstate.cxx:416 clear: slot_id=0
+[04:46:09.508] [WARNING] [race][consider][ConsiderLog] consider_log.cxx:283 not set name: slot=0(/0) name=jimnastic
+[04:46:09.508] [INFO] [race][entry] race.cxx:3249 slot enter course vehicle: slot=0 is enter course at 5216(attach=1) LOCAL rstate=0
+[04:46:09.509] [INFO] [race] entry_slot_manager.cxx:283 countRacers() entry=1/1 racers=1/1 localEntries=1/1 localRacers=1/1 expected=1/1 loaded=1/1
+[04:46:09.509] [DEBUG] [render] external_texture.h:44 decken (0x127b9ea4e0 - 0x127b9ea4f8)
+[04:46:09.524] [INFO] [race][RESOURCE] race_internal.cxx:2306 loading vehicle done: count=1/1 time=5233
+[04:46:09.524] [INFO] [race] entry_slot_manager.cxx:283 countRacers() entry=1/1 racers=1/1 localEntries=1/1 localRacers=1/1 expected=1/1 loaded=0/0
+[04:46:09.618] [DEBUG] [pilot] driver_color_scheme.h:150 initializeFromDriver 5 7 paint:off paint:off
+[04:46:13.171] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 224313
+[04:46:13.703] [DEBUG] [render] external_texture.h:44 decken (0x128b954dd0 - 0x128b954dd0)
+[04:46:13.731] [DEBUG] [render] external_texture.h:44 liveryDecalTexture (0x128b954dd0 - 0x128b954de8)
+[04:46:13.731] [DEBUG] [render] external_texture.h:44 liveryDecalTextureSS (0x128b954de8 - 0x128b954de8)
+[04:46:13.745] [INFO] [race] entry_slot_manager.cxx:283 countRacers() entry=1/1 racers=1/1 localEntries=1/1 localRacers=1/1 expected=1/1 loaded=1/1
+[04:46:13.842] [DEBUG] [render] external_texture.h:44 driver_decken (0x1269ff6868 - 0x1269ff6880)
+[04:46:13.842] [DEBUG] [render] external_texture.h:44 driver_national_flag (0x1269ff6880 - 0x1269ff6898)
+[04:46:13.842] [DEBUG] [render] external_texture.h:44 driver_window_sticker (0x1269ff6898 - 0x1269ff68b0)
+[04:46:13.842] [DEBUG] [render] external_texture.h:44 driver_decken (0x1270d4f8e0 - 0x1270d4f8f8)
+[04:46:13.842] [DEBUG] [render] external_texture.h:44 driver_national_flag (0x1270d4f8f8 - 0x1270d4f928)
+[04:46:13.842] [DEBUG] [render] external_texture.h:44 driver_window_sticker (0x1270d4f928 - 0x1270d4f940)
+[04:46:13.842] [DEBUG] [render] external_texture.h:44 driver_decken (0x1270d4f8e0 - 0x1270d4f8f8)
+[04:46:13.842] [DEBUG] [render] external_texture.h:44 driver_national_flag (0x1270d4f8f8 - 0x1270d4f928)
+[04:46:13.842] [DEBUG] [render] external_texture.h:44 driver_window_sticker (0x1270d4f928 - 0x1270d4f940)
+[04:46:13.842] [DEBUG] [render] external_texture.h:44 driver_national_flag (0x126a165510 - 0x126a165510)
+[04:46:13.842] [DEBUG] [render] external_texture.h:44 driver_national_flag (0x1271278060 - 0x1271278078)
+[04:46:13.842] [DEBUG] [render] external_texture.h:44 driver_national_flag (0x1271278060 - 0x1271278078)
+[04:46:13.962] [DEBUG] [race][RESOURCE] race_request.cxx:1999 render ready ON
+[04:46:13.962] [DEBUG] [race][RESOURCE] race.cxx:5879 reload done. 9600
+[04:46:13.962] [INFO] [race][SlotControl] slot_control_service.cxx:215 [Stay OFF]: 0(ec06ef1000)
+[04:46:13.962] [DEBUG] [race][SlotControl] slot_control_service.cxx:242 [Cruise ON/1]: 0(ec06ef1000)
+[04:46:13.962] [INFO] [race][SlotControl] slot_control_service.cxx:288 [Brake OFF]: 0(ec06ef1000)
+[04:46:13.962] [DEBUG] [race][SlotControl] slot_control_service.cxx:261 [SpeedLimit OFF/0]: 0(ec06ef1000)
+[04:46:13.962] [DEBUG] [race][SlotControl] slot_control_service.cxx:228 [RunRoadSide OFF]: 0(ec06ef1000)
+[04:46:13.962] [DEBUG] [race][SlotControl] slot_control_service.cxx:276 [KeepLine OFF]: 0(ec06ef1000)
+[04:46:13.962] [DEBUG] [race][SlotControl] slot_control_service.cxx:282 [Parade OFF]: 0(ec06ef1000)
+[04:46:13.962] [INFO] [race][SlotControl] slot_control_service.cxx:223 [Stop OFF]: 0(ec06ef1000)
+[04:46:13.962] [INFO] [race][SlotControl] slot_control_service.cxx:294 [SideBrake OFF]: 0(ec06ef1000)
+[04:46:13.962] [DEBUG] [race][entry][VisibleCollision] entry_slot.cxx:2599 visible Normal(vehicle=1/transparent=0): slot=0 code=0 LOCAL time=9616
+[04:46:13.979] [DEBUG] [race][Start] race.cxx:4826  provisional start time: 0
+[04:46:13.979] [INFO] [race] race.cxx:331 Change phase 0 to 1
+[04:46:13.979] [DEBUG] [race][Start] race.cxx:4890 start request event pushed: 9616 start time: 9616 elapsed frame=577 countdown=0
+[04:46:13.979] [INFO] [race][Start] race.cxx:5967 start request: 9616 elapsed frame 577 target: 9616(0)
+[04:46:13.979] [DEBUG] [race][Start] race.cxx:4732 current start time: start=9616(now=9633)/random_offset=0/timer=false
+[04:46:13.979] [DEBUG] [race] entry_slot.cxx:1467 start vehicle: slot=0
+[04:46:13.979] [INFO] [race][entry][Start][RaceTimer] race.cxx:4125 on start vehicle: slot=0 laps=-1/0 v=3239.0 @ 9633<ON START><TARGET>
+[04:46:14.442] [DEBUG] [retry] retry\detail.h:175 n = 2, delayTime = 469695
+[04:46:15.524] [DEBUG] [retry] retry\detail.h:175 n = 3, delayTime = 873868
+[04:46:23.155] [DEBUG] [race] race_request.cxx:913 End Session Request in Race (prohibit 0)
+[04:46:23.155] [INFO] [race] race_request.cxx:1532 Finish Race request 18783(now 18800) satisfied 1, result -1 drop 0 is_drop false
+[04:46:23.155] [INFO] [race][ENR] race.cxx:4365 finish by time. (now 18800/18783)
+[04:46:23.155] [DEBUG] [race][ENR] race.cxx:4479 ignore winner wait: local racers: 1
+[04:46:23.155] [INFO] [race][entry] race.cxx:6394 set_slot_complete called: slot_id=0, goal=true, check_type=0, penalty_remote=0, export_lt=false
+[04:46:23.155] [DEBUG] [race][entry] entry_slot.cxx:2258 finish road dist: slot=0 dist=-75213 fv=3588.0
+[04:46:23.155] [INFO] [race][entry] race_vehicle_status.cxx:489 vehicle complete GOAL(flag:false time:0 laps:0<fix:0>) laps:0 goal time 0 last lap 1209599999 penalty 0 offset 0
+[04:46:23.155] [DEBUG] [race][entry] entry_slot.cxx:3733 vehicle complete finish V: 3588.03
+[04:46:23.155] [DEBUG] [race] entry_process.cxx:898 [entry] report: 0 gas=0.2 trip=342.77
+[04:46:23.155] [INFO] [race][entry] race.cxx:6788 complete slot failed 0(jimnastic): rank 0 laps 0(type 0): 1209599999(road:-75213) at 18800
+[04:46:23.155] [DEBUG] [race] race.cxx:4570 finish race no satisfied
+[04:46:23.155] [DEBUG] [race][livetiming] race_internal.cxx:1381 update satisfied: start=0 page=0
+[04:46:23.155] [DEBUG] [race][OnlineRace] race.cxx:4649 finish drop:0 late_so:1
+[04:46:23.155] [INFO] [race] race.cxx:331 Change phase 1 to 2
+[04:46:23.171] [DEBUG] [retry] retry\detail.h:175 n = 2, delayTime = 486953
+[04:46:23.171] [DEBUG] [race][CarriedParam] race.cxx:1385 carried time: 1428( 23:48 )
+[04:46:23.171] [INFO] [race][SlotControl] slot_control_service.cxx:144 slot command: 0 type=SpeedLimit command=0 -> 10
+[04:46:23.171] [DEBUG] [race][consider][ConsiderLog] consider_log.cxx:198 finish consider log: no work
+[04:46:23.171] [DEBUG] [race][flag] flagstate.cxx:306 down all flags: remain=0
+[04:46:23.171] [INFO] [race] race.cxx:331 Change phase 2 to 3
+[04:46:23.171] [DEBUG] [race][NetGen] race.cxx:1479 end session complete: rn=1
+[04:46:23.171] [INFO] [race][SlotControl] slot_control_service.cxx:191 slot force command: 0 type=SpeedLimit command=0
+[04:46:23.171] [DEBUG] [race][entry] entry_slot_manager.cxx:1383 force penalty consume finish: slot_id=0
+[04:46:23.271] [DEBUG] [race][consider][drivingchecker] driving_checker.cxx:380 enable driving checker: target=0
+[04:46:23.271] [DEBUG] [race][RaceVariable] race_global_variable.cxx:340 not loading race customize file: disabled.
+[04:46:23.272] [DEBUG] [race][reset][weather] race.cxx:6982 ignore ground reset
+[04:46:23.272] [DEBUG] [race] race_request.cxx:821 change race parameter by argument.
+[04:46:23.272] [DEBUG] [race][CarriedParam] race.cxx:1525 initialize DATETIME:    0/ 0/ 0  0: 0: 0(progress:1.000000)(water:0.000000):seed 0
+[04:46:23.272] [DEBUG] [race] entry_slot_manager.cxx:390 detach success: 0
+[04:46:23.272] [DEBUG] [race][reset] entry_slot_manager.cxx:413 Clear vehicle condition.
+[04:46:23.272] [DEBUG] [race][RESOURCE] race.cxx:5938 clear condition request: STILL
+[04:46:23.273] [INFO] [race][SlotControl] slot_control_service.cxx:191 slot force command: 0 type=SpeedLimit command=0
+[04:46:23.273] [DEBUG] [race][entry] entry_slot_manager.cxx:1383 force penalty consume finish: slot_id=0
+[04:46:23.288] [INFO] [race] race.cxx:1022 Start Session: 18833
+[04:46:23.288] [INFO] [race] race.cxx:331 Change phase 3 to 0
+[04:46:23.288] [DEBUG] [race] race_calculation_util.cxx:262 start chequer V coord: 500.0(length:4340.2)
+[04:46:23.288] [DEBUG] [race][flag] flagstate.cxx:301 reset flag state: rule set=1
+[04:46:23.288] [INFO] [race][consider] consideration.cxx:126 ignore settings from server: default ver=14 server ver=0
+[04:46:23.288] [DEBUG] [race][consider] consideration.cxx:1325 enable driving checker.
+[04:46:23.288] [DEBUG] [race][consider][drivingchecker] driving_checker.cxx:56 config: spd limit=80.0
+[04:46:23.288] [DEBUG] [race][consider][ConsiderLog] consider_log.cxx:181 start consider log
+[04:46:23.288] [DEBUG] [race][Start][distance] race_calculation_util.cxx:874 race distance section: 385.0
+[04:46:23.288] [DEBUG] [race][Start] race_internal.cxx:1266 freerun=false, comp=ByStop, distance=3850, course=(start=0.0, finish=0.0) flying=false target=[dist id=0, start: id=0 grid=0]
+[04:46:23.288] [DEBUG] [race][CarriedParam] race.cxx:1048 track temp: 19.00
+[04:46:23.288] [DEBUG] [race] race.cxx:1054 reset weather call [reset callback]
+[04:46:23.288] [DEBUG] [race][vehicle] race_calculation_util.cxx:706 tire wear range: 1.0 ~ 1.0
+[04:46:23.288] [DEBUG] [race] race.cxx:1111 sort list type: 0
+[04:46:23.288] [DEBUG] [race][reset][weather] race.cxx:6968 reset ground(road) by weather
+[04:46:23.288] [INFO] [race][OnlineRace][CT] race.cxx:1169 session start time: target=18833 current=18833 number=2 crs time=1428
+[04:46:23.288] [INFO] [race][CT] race.cxx:1175   CT: -720 Hour: 0 Minute:-12
+[04:46:23.288] [DEBUG] [race] race_internal.cxx:2618 last grid(default) is: 0
+[04:46:23.288] [DEBUG] [race] race.cxx:824 initialize_vehicle_condition
+[04:46:23.288] [DEBUG] [race] entry_slot.cxx:1579 enter course: 0 reset 1/in course 1
+[04:46:23.288] [DEBUG] [race][Trouble][ENR] entry_process.cxx:526  enable trouble: engine=(0.00/0%)0.00
+[04:46:23.288] [DEBUG] [race] race.cxx:2695 start type grid: slot=0 grid=0 type=0
+[04:46:23.288] [DEBUG] [race][Start] entry_slot_manager.cxx:630 grid position: grid=0 pos=[88.9, -0.0, -384.2]
+[04:46:23.288] [DEBUG] [race][Start] entry_slot_manager.cxx:1080 launch in grid: slot=0 grid=0
+[04:46:23.289] [DEBUG] [race][Start] entry_slot_manager.cxx:1167 re-calc launch V: 4326.9565 -> 4326.9565
+[04:46:23.289] [DEBUG] [race][entry][Start][Parking] race.cxx:2741 <LOCAL RESET> position: slot=0 racenumber=2(manage=2) [88.922089, -0.000916, -384.208435(vel:0)] Parking=-1
+[04:46:23.289] [INFO] [race][reset][entry] race.cxx:2813 slot_enter_course: slot=0 grid=0 start type=0 local reset=true
+[04:46:23.289] [DEBUG] [race][vehicle] race_calculation_util.cxx:807 reset status: slot_id=0 accum=0
+[04:46:23.289] [DEBUG] [race][vehicle] race_calculation_util.cxx:813   tire: init=0.0, consume=0, temp=60(0)
+[04:46:23.289] [DEBUG] [race][vehicle] race_calculation_util.cxx:819   fuel: amount=-1/-1, consume=0, NOS=10
+[04:46:23.289] [DEBUG] [race] entry_slot_manager.cxx:364 attach success: 0 ac: 1
+[04:46:23.289] [DEBUG] [race][VisibleCollision][RaceInOut] entry_slot.cxx:1965 Init Status: slot=0 visible=true transparent=false reset=true
+[04:46:23.289] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 0(complete=0) collision count=0 Grid
+[04:46:23.289] [INFO] [race][SlotControl] slot_control_service.cxx:191 slot force command: 0 type=SpeedLimit command=0
+[04:46:23.289] [INFO] [race][SlotControl] slot_control_service.cxx:144 slot command: 0 type=OrderToStay command=0 -> 1
+[04:46:23.289] [DEBUG] [race][Start][entry] race.cxx:3055 slot start: slot=0 stay=1 limit=0 cruise=0 speed=0
+[04:46:23.289] [DEBUG] [race][TireHist] race_vehicle_status.cxx:368 start: lap=-1 v=4324.7 start=0.0 pit=4154.5 protrude=NO
+[04:46:23.289] [DEBUG] [race][flag] flagstate.cxx:416 clear: slot_id=0
+[04:46:23.289] [DEBUG] [race][consider][ConsiderLog] consider_log.cxx:264 set name: slot=0(/1) name=jimnastic LOCAL
+[04:46:23.289] [INFO] [race][entry] race.cxx:3249 slot enter course vehicle: slot=0 is reset position at 18833(attach=1) LOCAL rstate=1
+[04:46:23.289] [DEBUG] [race] race_internal.cxx:1455 pitcorrection_time: pp_time=17.35sec(AB=20.00-10.00)
+[04:46:23.289] [DEBUG] [race] race_internal.cxx:1508 pitcorrection_time: pitlane_mps=22.222,pitlane_acc=3.580
+[04:46:23.289] [DEBUG] [race] race_internal.cxx:1514 pitcorrection_time: ad_time=0.77sec,ad_vdiff=18.10(160.33-142.24)m
+[04:46:23.289] [DEBUG] [race] race_internal.cxx:1549 pitcorrection_time: pwt_cr=3.89sec,scn_tm=2.98-7.74sec
+[04:46:23.289] [DEBUG] [race] race_internal.cxx:1552 pitcorrection_time: pc_time=13.60sec
+[04:46:23.289] [DEBUG] [race][RedFlag] redflag_procedure.cpp:137 Disabled Resume Sequence by RED-FLAG
+[04:46:23.289] [INFO] [race][Formation][Start] race.cxx:1328 start session race number: 2(management=2) now=18833 wait=0, Final
+[04:46:23.289] [DEBUG] [race][NetGen] race_internal.cxx:405  * EntryLevel: R                                               
+[04:46:23.289] [DEBUG] [race][CarResource] race.cxx:5946 start session
+[04:46:23.289] [INFO] [race][SlotControl] slot_control_service.cxx:215 [Stay ON]: 0(ec06ef1000)
+[04:46:23.289] [DEBUG] [race][SlotControl] slot_control_service.cxx:237 [Cruise OFF]: 0(ec06ef1000)
+[04:46:23.289] [INFO] [race][SlotControl] slot_control_service.cxx:288 [Brake OFF]: 0(ec06ef1000)
+[04:46:23.289] [DEBUG] [race][SlotControl] slot_control_service.cxx:261 [SpeedLimit OFF/0]: 0(ec06ef1000)
+[04:46:23.289] [DEBUG] [race][SlotControl] slot_control_service.cxx:228 [RunRoadSide OFF]: 0(ec06ef1000)
+[04:46:23.289] [DEBUG] [race][SlotControl] slot_control_service.cxx:276 [KeepLine OFF]: 0(ec06ef1000)
+[04:46:23.289] [DEBUG] [race][SlotControl] slot_control_service.cxx:282 [Parade OFF]: 0(ec06ef1000)
+[04:46:23.289] [INFO] [race][SlotControl] slot_control_service.cxx:223 [Stop OFF]: 0(ec06ef1000)
+[04:46:23.289] [INFO] [race][SlotControl] slot_control_service.cxx:294 [SideBrake OFF]: 0(ec06ef1000)
+[04:46:23.289] [DEBUG] [race][entry][VisibleCollision] entry_slot.cxx:2599 visible Normal(vehicle=1/transparent=0): slot=0 code=0 LOCAL time=18833
+[04:46:23.672] [DEBUG] [race][RESOURCE] race_request.cxx:1999 render ready ON
+[04:46:23.672] [DEBUG] [race][RESOURCE] race.cxx:5879 reload done. 19200
+[04:46:23.688] [DEBUG] [race][Start] race.cxx:4826  provisional start time: 0
+[04:46:23.688] [INFO] [race] race.cxx:331 Change phase 0 to 1
+[04:46:23.689] [DEBUG] [race][Start] race.cxx:4890 start request event pushed: 19216 start time: 25216 elapsed frame=24 countdown=0
+[04:46:23.689] [INFO] [race][Start] race.cxx:5967 start request: 19216 elapsed frame 24 target: 25216(6000)
+[04:46:23.689] [DEBUG] [race][Start] race.cxx:4961 count down(online): time=6
+[04:46:23.705] [DEBUG] [race][Start] race.cxx:4961 count down(online): time=5
+[04:46:23.998] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 127335
+[04:46:24.442] [DEBUG] [retry] retry\detail.h:175 n = 3, delayTime = 839870
+[04:46:24.706] [DEBUG] [race][Start] race.cxx:4961 count down(online): time=4
+[04:46:25.524] [ERROR] [retry] Done: ret = -836624334, elapsed = 50000ms, attempts = 5/5
+[04:46:25.707] [DEBUG] [race][Start] race.cxx:4961 count down(online): time=3
+[04:46:26.708] [DEBUG] [race][Start] race.cxx:4961 count down(online): time=2
+[04:46:27.709] [DEBUG] [race][Start] race.cxx:4961 count down(online): time=1
+[04:46:28.710] [DEBUG] [race][Start] race.cxx:4961 count down(online): time=0
+[04:46:29.680] [DEBUG] [race][Start] race.cxx:4732 current start time: start=25216(now=25216)/random_offset=0/timer=true
+[04:46:29.680] [DEBUG] [race] entry_slot.cxx:1467 start vehicle: slot=0
+[04:46:29.680] [DEBUG] [race][Start] entry_slot_manager.cxx:515 slot=0 grid to running
+[04:46:29.680] [INFO] [race][entry][Start][RaceTimer] race.cxx:4125 on start vehicle: slot=0 laps=-1/0 v=4324.7 @ 25216<ON START><TARGET>
+[04:46:29.680] [INFO] [race][SlotControl] slot_control_service.cxx:144 slot command: 0 type=OrderToStay command=1 -> 0
+[04:46:29.685] [DEBUG] [race][Record] replay_record_manager.cxx:339 decode reset: n=48 ignore=0 version=1005
+[04:46:29.696] [INFO] [race][SlotControl] slot_control_service.cxx:215 [Stay OFF]: 0(ec06ef1000)
+[04:46:29.696] [DEBUG] [race][pit][entry] race_vehicle_status.cxx:1414 leave pit lane in grid sequence: slot=0
+[04:46:29.730] [DEBUG] [render] external_texture.h:44 decken (0x12879ea4e0 - 0x12879ea4f8)
+[04:46:32.231] [DEBUG] [race][Start][LapCheck] race_vehicle_status.cxx:945 across [START LINE]: V=0.00
+[04:46:32.231] [DEBUG] [race][LapCheck] race_vehicle_status.cxx:1103 lap up: laps=0->1 v=0.1
+[04:46:32.231] [DEBUG] [race][LapCheck][RaceTimer] race_vehicle_status.cxx:1170 section: 2 0
+[04:46:32.231] [DEBUG] [race][livetiming][SectorTime] race_internal.cxx:2235 stage=export slot=0 lap=1 sector=2 sector_time=1209599999 lap_split=1209599999 race_best_sector=1209599999 total_time=0 lap_time=1209599999 valid=true clean=true invalid_section=false lap_change=true networked=false
+[04:46:32.231] [DEBUG] [race][LTUpdate] race_internal.cxx:2278 LT update
+[04:46:33.171] [DEBUG] [retry] retry\detail.h:175 n = 3, delayTime = 831677
+[04:46:33.998] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 241768
+[04:46:34.442] [ERROR] [retry] Done: ret = -836624334, elapsed = 50001ms, attempts = 5/5
+[04:46:43.171] [ERROR] [retry] Done: ret = -836624334, elapsed = 50000ms, attempts = 5/5
+[04:46:43.999] [DEBUG] [retry] retry\detail.h:175 n = 2, delayTime = 414850
+[04:46:44.927] [DEBUG] [race][Start] race_vehicle_status.cxx:1891 event goal: oldV=385.0 nowV=385.4 finishV=385.0 ratio=0.02
+[04:46:47.680] [DEBUG] [race][STOP] race_vehicle_status.cxx:1742 wv 0.26735 la 8.932 t 2.99
+[04:46:47.680] [DEBUG] [race][Overtake] entry_slot.cxx:3603 without yellow: jimnastic 0 -> 1
+[04:46:47.680] [DEBUG] [race][flag] flagstate.cxx:271 not exist use stack: slot=0(stack size=0)
+[04:46:47.680] [DEBUG] [race][flag] flagstate.cxx:223 allocate course flag: ID=0(size=95,1) time=43200
+[04:46:47.680] [DEBUG] [race][flag] flagstate.cxx:368 + notice: slot_id=0 Yellow1 course v=419.3 time=45200 area=0
+[04:46:47.680] [DEBUG] [race][flag] flagstate.cxx:271 not exist use stack: slot=0(stack size=1)
+[04:46:47.680] [DEBUG] [race][flag] flagstate.cxx:223 allocate course flag: ID=1(size=94,2) time=43200
+[04:46:47.680] [DEBUG] [race][flag] flagstate.cxx:368 + notice: slot_id=0 Green course v=419.3 time=45200 area=1
+[04:46:47.680] [DEBUG] [race][considercheck] consideration.cxx:738 set slot state: id=0, index=0
+[04:46:47.680] [DEBUG] [race][consider] consideration.cxx:3375 ---- incident: id=0 slot_id=jimnastic(0) type=6 time=43200 ----
+[04:46:47.680] [DEBUG] [race][consider][NOTE] consideration.cxx:3269 note position: slot=0,-1 pos=-343.6, 0.2, -384.3
+[04:46:47.680] [DEBUG] [race][consider] race_internal.cxx:343 notifyIncident: offline notify<6>, 0 vs -1
+[04:46:47.680] [INFO] [race][SlotControl] slot_control_service.cxx:144 slot command: 0 type=OrderToFullbrake command=0 -> 1
+[04:46:47.680] [INFO] [race][entry] race.cxx:6394 set_slot_complete called: slot_id=0, goal=true, check_type=0, penalty_remote=0, export_lt=false
+[04:46:47.680] [DEBUG] [race] race.cxx:6512 slot[0] delay 0 sec
+[04:46:47.680] [DEBUG] [race][consider] consideration.cxx:3129 liquidate slot=0: free
+[04:46:47.680] [DEBUG] [race][entry] entry_slot.cxx:2258 finish road dist: slot=0 dist=41933 fv=419.3
+[04:46:47.680] [INFO] [race][entry] race_vehicle_status.cxx:489 vehicle complete GOAL(flag:true time:17968 laps:0<fix:1>) laps:1 goal time 17968 last lap 1209599999 penalty 0 offset 0
+[04:46:47.680] [DEBUG] [race][entry] entry_slot.cxx:3733 vehicle complete finish V: 419.34
+[04:46:47.680] [DEBUG] [race] entry_process.cxx:898 [entry] report: 0 gas=0.3 trip=434.75
+[04:46:47.680] [INFO] [race] race_request.cxx:1532 Finish Race request 63200(now 43200) satisfied 2, result 0 drop 0 is_drop false
+[04:46:47.680] [INFO] [race][entry] race.cxx:6788 complete slot success 0(jimnastic): rank 0 laps 1(type 0): 17968(road:41933) at 43200
+[04:46:47.685] [DEBUG] [race][Record] replay_record_manager.cxx:339 decode reset: n=48 ignore=0 version=1005
+[04:46:47.696] [INFO] [race][SlotControl] slot_control_service.cxx:288 [Brake ON]: 0(ec06ef1000)
+[04:46:47.758] [DEBUG] [race] race_request.cxx:1409 replace finish time: request=3600000 TimeToFinish=20000
+[04:46:47.758] [INFO] [race] race_request.cxx:1466 request time is further than what exists: 63200 <= 63266
+[04:46:49.698] [DEBUG] [race][flag] flagstate.cxx:527   *raise Green flag: ID=1 v=419 time=45216
+[04:46:49.698] [DEBUG] [race][flag] flagstate.cxx:527   *raise Yellow1 flag: ID=0 v=419 time=45216
+[04:46:53.999] [DEBUG] [retry] retry\detail.h:175 n = 3, delayTime = 827959
+[04:47:03.999] [ERROR] [retry] Done: ret = -836624334, elapsed = 50001ms, attempts = 5/5
+[04:47:07.700] [INFO] [race][ENR] race.cxx:4365 finish by time. (now 63200/63200)
+[04:47:07.700] [DEBUG] [race][ENR] race.cxx:4479 ignore winner wait: local racers: 1
+[04:47:07.700] [DEBUG] [race] race.cxx:4553 Finish Race: complete=1 top=0
+[04:47:07.704] [DEBUG] [race][livetiming] race_internal.cxx:1381 update satisfied: start=11 page=11
+[04:47:07.704] [DEBUG] [race][OnlineRace] race.cxx:4649 finish drop:0 late_so:0
+[04:47:07.704] [INFO] [race] race.cxx:331 Change phase 1 to 2
+[04:47:07.755] [DEBUG] [race] entry_process.cxx:898 [entry] report: 0 gas=0.3 trip=434.75
+[04:47:07.766] [DEBUG] [race] race_request.cxx:925 End Session Request in Immediate (prohibit 0)
+[04:47:07.766] [INFO] [race][SlotControl] slot_control_service.cxx:144 slot command: 0 type=OrderToCruise command=0 -> 1
+[04:47:07.766] [INFO] [race][SlotControl] slot_control_service.cxx:144 slot command: 0 type=SpeedLimit command=0 -> 10
+[04:47:07.766] [DEBUG] [race][consider][ConsiderLog] consider_log.cxx:79 terminate consider log: nb incident=0
+[04:47:07.766] [DEBUG] [race][consider][ConsiderLog] consider_log.cxx:194 finish consider log: work size=96
+[04:47:07.766] [DEBUG] [race][flag] flagstate.cxx:306 down all flags: remain=2
+[04:47:07.766] [INFO] [race] race.cxx:331 Change phase 2 to 3
+[04:47:07.766] [DEBUG] [race][NetGen] race.cxx:1479 end session complete: rn=2
+[04:47:07.933] [DEBUG] [race][reset][weather] race.cxx:6982 ignore ground reset
+[04:47:07.937] [DEBUG] [race][Record] replay_record_manager.cxx:339 decode reset: n=48 ignore=0 version=1005
+[04:47:08.350] [DEBUG] [race][RESOURCE] race_request.cxx:1999 render ready ON
+[04:47:14.923] [DEBUG] [race][consider][drivingchecker] driving_checker.cxx:380 enable driving checker: target=0
+[04:47:14.923] [DEBUG] [race][RaceVariable] race_global_variable.cxx:340 not loading race customize file: disabled.
+[04:47:14.923] [DEBUG] [race][reset][weather] race.cxx:6982 ignore ground reset
+[04:47:14.923] [DEBUG] [race] race_request.cxx:821 change race parameter by argument.
+[04:47:14.924] [DEBUG] [race] entry_slot_manager.cxx:390 detach success: 0
+[04:47:14.924] [DEBUG] [race][reset] entry_slot_manager.cxx:413 Clear vehicle condition.
+[04:47:14.924] [DEBUG] [race][RESOURCE] race.cxx:5938 clear condition request: STILL
+[04:47:14.940] [INFO] [race] race.cxx:1022 Start Session: 63250
+[04:47:14.940] [INFO] [race] race.cxx:331 Change phase 3 to 0
+[04:47:14.940] [DEBUG] [race] race_calculation_util.cxx:262 start chequer V coord: 500.0(length:4340.2)
+[04:47:14.940] [DEBUG] [race][flag] flagstate.cxx:301 reset flag state: rule set=1
+[04:47:14.940] [INFO] [race][consider] consideration.cxx:126 ignore settings from server: default ver=14 server ver=0
+[04:47:14.940] [DEBUG] [race][consider] consideration.cxx:1325 enable driving checker.
+[04:47:14.940] [DEBUG] [race][consider][drivingchecker] driving_checker.cxx:56 config: spd limit=80.0
+[04:47:14.940] [DEBUG] [race][Start] race_internal.cxx:1266 freerun=false, comp=None, distance=0, course=(start=0.0, finish=0.0) flying=false target=[dist id=0, start: id=0 grid=0]
+[04:47:14.940] [DEBUG] [race][CarriedParam] race.cxx:1048 track temp: 19.00
+[04:47:14.940] [DEBUG] [race] race.cxx:1054 reset weather call [reset callback]
+[04:47:14.940] [DEBUG] [race][vehicle] race_calculation_util.cxx:706 tire wear range: 1.0 ~ 1.0
+[04:47:14.940] [DEBUG] [race] race.cxx:1111 sort list type: 0
+[04:47:14.940] [DEBUG] [race][reset][weather] race.cxx:6968 reset ground(road) by weather
+[04:47:14.940] [INFO] [race][OnlineRace][CT] race.cxx:1169 session start time: target=63250 current=63250 number=3 crs time=1428
+[04:47:14.940] [INFO] [race][CT] race.cxx:1175   CT: -682 Hour: 0 Minute:-11
+[04:47:14.940] [DEBUG] [race] race_internal.cxx:2618 last grid(default) is: 0
+[04:47:14.940] [DEBUG] [race] race.cxx:824 initialize_vehicle_condition
+[04:47:14.940] [DEBUG] [race] entry_slot.cxx:1579 enter course: 0 reset 1/in course 1
+[04:47:14.940] [DEBUG] [race][Trouble][ENR] entry_process.cxx:526  enable trouble: engine=(0.00/0%)0.00
+[04:47:14.940] [DEBUG] [race] race.cxx:2695 start type grid: slot=0 grid=0 type=4
+[04:47:14.940] [DEBUG] [race] race_service.cxx:200 Course in vehicle: 0 stype:4 velocity:120 km/h start_v:3240.156738 pos:436.660767 -89.969101
+[04:47:14.940] [DEBUG] [race][Start] race.cxx:2726 launch parameter get by old method: slot=0 start type=4
+[04:47:14.940] [DEBUG] [race][entry][Start][Parking] race.cxx:2741 <LOCAL RESET> position: slot=0 racenumber=3(manage=3) [436.660767, -5.408288, -89.969101(vel:120)] Parking=-1
+[04:47:14.940] [DEBUG] [race] race.cxx:2775 start type[Running]
+[04:47:14.940] [INFO] [race][reset][entry] race.cxx:2813 slot_enter_course: slot=0 grid=0 start type=4 local reset=true
+[04:47:14.940] [DEBUG] [race][vehicle] race_calculation_util.cxx:739 reset status for demo: not accumulation & consumption
+[04:47:14.941] [DEBUG] [race] entry_slot_manager.cxx:364 attach success: 0 ac: 1
+[04:47:14.941] [DEBUG] [race][VisibleCollision][RaceInOut] entry_slot.cxx:1965 Init Status: slot=0 visible=true transparent=false reset=true
+[04:47:14.941] [DEBUG] [race][entry] entry_slot.cxx:1992 initializeStatus: 0(complete=0) collision count=0 Pit
+[04:47:14.941] [INFO] [race][SlotControl] slot_control_service.cxx:191 slot force command: 0 type=SpeedLimit command=0
+[04:47:14.941] [INFO] [race][SlotControl] slot_control_service.cxx:144 slot command: 0 type=OrderToCruise command=0 -> 1
+[04:47:14.941] [DEBUG] [race][Start][entry] race.cxx:3055 slot start: slot=0 stay=0 limit=0 cruise=1 speed=120
+[04:47:14.941] [DEBUG] [race][TireHist] race_vehicle_status.cxx:368 start: lap=-1 v=3237.9 start=0.0 pit=4154.5 protrude=NO
+[04:47:14.941] [DEBUG] [race][flag] flagstate.cxx:416 clear: slot_id=0
+[04:47:14.941] [WARNING] [race][consider][ConsiderLog] consider_log.cxx:283 not set name: slot=0(/0) name=jimnastic
+[04:47:14.941] [INFO] [race][entry] race.cxx:3249 slot enter course vehicle: slot=0 is reset position at 63250(attach=1) LOCAL rstate=0
+[04:47:14.941] [DEBUG] [race] race_internal.cxx:1455 pitcorrection_time: pp_time=17.35sec(AB=20.00-10.00)
+[04:47:14.941] [DEBUG] [race] race_internal.cxx:1508 pitcorrection_time: pitlane_mps=22.222,pitlane_acc=3.580
+[04:47:14.941] [DEBUG] [race] race_internal.cxx:1514 pitcorrection_time: ad_time=0.77sec,ad_vdiff=18.10(160.33-142.24)m
+[04:47:14.941] [DEBUG] [race] race_internal.cxx:1549 pitcorrection_time: pwt_cr=3.89sec,scn_tm=2.98-7.74sec
+[04:47:14.941] [DEBUG] [race] race_internal.cxx:1552 pitcorrection_time: pc_time=13.60sec
+[04:47:14.941] [DEBUG] [race][RedFlag] redflag_procedure.cpp:137 Disabled Resume Sequence by RED-FLAG
+[04:47:14.941] [INFO] [race][Formation][Start] race.cxx:1328 start session race number: 3(management=3) now=63250 wait=0, Practice
+[04:47:14.941] [DEBUG] [race][NetGen] race_internal.cxx:405  * EntryLevel: R                                               
+[04:47:14.941] [DEBUG] [race][CarResource] race.cxx:5946 start session
+[04:47:14.941] [INFO] [race][SlotControl] slot_control_service.cxx:215 [Stay OFF]: 0(ec06ef1000)
+[04:47:14.941] [DEBUG] [race][SlotControl] slot_control_service.cxx:242 [Cruise ON/1]: 0(ec06ef1000)
+[04:47:14.941] [INFO] [race][SlotControl] slot_control_service.cxx:288 [Brake OFF]: 0(ec06ef1000)
+[04:47:14.941] [DEBUG] [race][SlotControl] slot_control_service.cxx:261 [SpeedLimit OFF/0]: 0(ec06ef1000)
+[04:47:14.941] [DEBUG] [race][SlotControl] slot_control_service.cxx:228 [RunRoadSide OFF]: 0(ec06ef1000)
+[04:47:14.941] [DEBUG] [race][SlotControl] slot_control_service.cxx:276 [KeepLine OFF]: 0(ec06ef1000)
+[04:47:14.941] [DEBUG] [race][SlotControl] slot_control_service.cxx:282 [Parade OFF]: 0(ec06ef1000)
+[04:47:14.941] [INFO] [race][SlotControl] slot_control_service.cxx:223 [Stop OFF]: 0(ec06ef1000)
+[04:47:14.941] [INFO] [race][SlotControl] slot_control_service.cxx:294 [SideBrake OFF]: 0(ec06ef1000)
+[04:47:14.941] [DEBUG] [race][entry][VisibleCollision] entry_slot.cxx:2599 visible Normal(vehicle=1/transparent=0): slot=0 code=0 LOCAL time=63250
+[04:47:15.357] [DEBUG] [race][RESOURCE] race_request.cxx:1999 render ready ON
+[04:47:15.357] [DEBUG] [race][RESOURCE] race.cxx:5879 reload done. 63650
+[04:47:15.373] [DEBUG] [race][Start] race.cxx:4826  provisional start time: 0
+[04:47:15.373] [INFO] [race] race.cxx:331 Change phase 0 to 1
+[04:47:15.373] [DEBUG] [race][Start] race.cxx:4890 start request event pushed: 63666 start time: 63666 elapsed frame=26 countdown=0
+[04:47:15.373] [INFO] [race][Start] race.cxx:5967 start request: 63666 elapsed frame 26 target: 63666(0)
+[04:47:15.374] [DEBUG] [race][Start] race.cxx:4732 current start time: start=63666(now=63683)/random_offset=0/timer=false
+[04:47:15.374] [DEBUG] [race] entry_slot.cxx:1467 start vehicle: slot=0
+[04:47:15.374] [INFO] [race][entry][Start][RaceTimer] race.cxx:4125 on start vehicle: slot=0 laps=-1/0 v=3239.6 @ 63683<ON START><TARGET>
+[04:47:25.379] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 129844
+[04:47:35.379] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 234107
+[04:47:41.733] [DEBUG] [race][Start][LapCheck] race_vehicle_status.cxx:945 across [START LINE]: V=0.00
+[04:47:41.733] [DEBUG] [race][LapCheck] race_vehicle_status.cxx:1103 lap up: laps=0->1 v=0.9
+[04:47:41.733] [DEBUG] [race][LapCheck][RaceTimer] race_vehicle_status.cxx:1170 section: 2 0
+[04:47:44.347] [DEBUG] [pilot] driver_color_scheme.h:150 initializeFromDriver 5 7 paint:off paint:off
+[04:47:45.379] [DEBUG] [retry] retry\detail.h:175 n = 2, delayTime = 405285
+[04:47:48.674] [DEBUG] [race][Start] race_vehicle_status.cxx:1891 event goal: oldV=385.0 nowV=386.0 finishV=385.0 ratio=0.01
+[04:47:55.379] [DEBUG] [retry] retry\detail.h:175 n = 3, delayTime = 889994
+[04:48:05.379] [ERROR] [retry] Done: ret = -836624334, elapsed = 50001ms, attempts = 5/5
+[04:48:17.485] [DEBUG] [race] race_request.cxx:913 End Session Request in Race (prohibit 0)
+[04:48:17.485] [INFO] [race] race_request.cxx:1532 Finish Race request 125716(now 125733) satisfied 1, result -1 drop 0 is_drop false
+[04:48:17.486] [INFO] [race][ENR] race.cxx:4365 finish by time. (now 125733/125716)
+[04:48:17.486] [DEBUG] [race][ENR] race.cxx:4479 ignore winner wait: local racers: 1
+[04:48:17.486] [INFO] [race][entry] race.cxx:6394 set_slot_complete called: slot_id=0, goal=true, check_type=0, penalty_remote=0, export_lt=false
+[04:48:17.486] [DEBUG] [race][entry] entry_slot.cxx:2258 finish road dist: slot=0 dist=184979 fv=1849.8
+[04:48:17.486] [INFO] [race][entry] race_vehicle_status.cxx:489 vehicle complete GOAL(flag:false time:0 laps:0<fix:0>) laps:1 goal time 0 last lap 1209599999 penalty 0 offset 0
+[04:48:17.486] [DEBUG] [race][entry] entry_slot.cxx:3733 vehicle complete finish V: 1849.79
+[04:48:17.486] [DEBUG] [race] entry_process.cxx:898 [entry] report: 0 gas=1.2 trip=2925.93
+[04:48:17.486] [INFO] [race][entry] race.cxx:6788 complete slot failed 0(jimnastic): rank 0 laps 1(type 0): 1209599999(road:184979) at 125733
+[04:48:17.486] [DEBUG] [race] race.cxx:4570 finish race no satisfied
+[04:48:17.486] [DEBUG] [race][livetiming] race_internal.cxx:1381 update satisfied: start=11 page=11
+[04:48:17.486] [DEBUG] [race][OnlineRace] race.cxx:4649 finish drop:0 late_so:1
+[04:48:17.486] [INFO] [race] race.cxx:331 Change phase 1 to 2
+[04:48:17.502] [DEBUG] [race][CarriedParam] race.cxx:1385 carried time: 1428( 23:48 )
+[04:48:17.502] [INFO] [race][SlotControl] slot_control_service.cxx:144 slot command: 0 type=SpeedLimit command=0 -> 10
+[04:48:17.502] [DEBUG] [race][consider][ConsiderLog] consider_log.cxx:198 finish consider log: no work
+[04:48:17.502] [DEBUG] [race][flag] flagstate.cxx:306 down all flags: remain=0
+[04:48:17.502] [INFO] [race] race.cxx:331 Change phase 2 to 3
+[04:48:17.502] [DEBUG] [race][NetGen] race.cxx:1479 end session complete: rn=3
+[04:48:17.502] [INFO] [race][SlotControl] slot_control_service.cxx:191 slot force command: 0 type=SpeedLimit command=0
+[04:48:17.502] [DEBUG] [race][entry] entry_slot_manager.cxx:1383 force penalty consume finish: slot_id=0
+[04:48:17.719] [DEBUG] [race] entry_slot_manager.cxx:390 detach success: 0
+[04:48:17.719] [DEBUG] [race] race.cxx:6259 *** safety course out 0:entries 1 ***
+[04:48:17.719] [DEBUG] [race] race.cxx:3474 leaveRacePrivate[slot=0]: waiting clear resource
+[04:48:17.719] [INFO] [race] entry_slot_manager.cxx:283 countRacers() entry=1/1 racers=0/0 localEntries=1/1 localRacers=0/0 expected=1/1 loaded=1/1
+[04:48:17.736] [WARNING] [race] entry_slot.cxx:281 allocated state slot 0: 2
+[04:48:17.736] [DEBUG] [race][entry] entry_slot.cxx:441 entry: 0/0
+[04:48:17.736] [DEBUG] [race][RaceInOut] race.cxx:3469 leaveRacePrivate[slot=0]: done
+[04:48:17.736] [WARNING] [race][consider][ConsiderLog] consider_log.cxx:283 not set name: slot=0(/0) name=(null)
+[04:48:17.736] [DEBUG] [race][RaceInOut] race.cxx:2541 leaveEntryPrivate: slot_id=0
+[04:48:17.736] [DEBUG] [race][entry] race.cxx:6306 *** safety slot clear 0:entries 1 ***
+[04:48:17.736] [INFO] [race] entry_slot_manager.cxx:283 countRacers() entry=0/0 racers=0/0 localEntries=0/0 localRacers=0/0 expected=0/0 loaded=0/0
+[04:48:17.752] [DEBUG] [race] race_resource.cxx:181 Clear vehicle resource
+[04:48:17.752] [DEBUG] [race] race_resource.cxx:200 Clear pilot resource
+[04:48:17.769] [DEBUG] [race] race_request.cxx:992 Exit Course request!!
+[04:48:17.879] [DEBUG] [race] race.cxx:7413 call course out final callback: 119836
+[04:48:17.903] [DEBUG] [race] race.cxx:1806 Exit Course. wait start: 125766/to 119853
+[04:48:18.119] [DEBUG] [race] race.cxx:1817 Exit Course. done. 125766/alive 119853
+[04:48:18.153] [DEBUG] [race][RESOURCE] race_resource.cxx:120 course work module not finalized...
+[04:48:18.169] [DEBUG] [race][RESOURCE] race_resource.cxx:120 course work module not finalized...
+[04:48:18.186] [DEBUG] [race][RESOURCE] race_resource.cxx:120 course work module not finalized...
+[04:48:18.203] [DEBUG] [race][RESOURCE] race_resource.cxx:120 course work module not finalized...
+[04:48:18.220] [DEBUG] [race][RESOURCE] race_resource.cxx:120 course work module not finalized...
+[04:48:18.236] [DEBUG] [race][RESOURCE] race_resource.cxx:120 course work module not finalized...
+[04:48:18.253] [DEBUG] [race][RESOURCE] race_resource.cxx:120 course work module not finalized...
+[04:48:18.269] [DEBUG] [race][RESOURCE] race_resource.cxx:120 course work module not finalized...
+[04:48:18.286] [DEBUG] [race][RESOURCE] race_resource.cxx:120 course work module not finalized...
+[04:48:18.336] [DEBUG] [race] race_request.cxx:280 called destroy race.
+[04:48:18.336] [DEBUG] [race] race_request.cxx:2702 event interface clear
+[04:48:18.353] [DEBUG] [race] race_request.cxx:406 Race destroy normally
+[04:48:18.370] [DEBUG] [race][consider][ConsiderAPI] consider_api.cxx:514 Consideration Web API terminated
+[04:48:18.370] [DEBUG] [race] race_request.cxx:2702 event interface clear
+[04:48:18.370] [DEBUG] [race] race.cxx:665 race destroy sequence finalized.
+[04:48:18.403] [DEBUG] [race] race_resource.cxx:107 Clear resource all : course 1, vehicle 1, pilot 1
+[04:48:18.420] [DEBUG] [race] race_request.cxx:2702 event interface clear
+[04:48:23.395] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 141570
+[04:48:23.739] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 243893
+[04:48:24.197] [DEBUG] [retry] retry\detail.h:175 n = 2, delayTime = 447732
+[04:48:24.487] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 176485
+[04:48:24.837] [DEBUG] [retry] retry\detail.h:175 n = 3, delayTime = 885361
+[04:48:24.861] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 270753
+[04:48:25.327] [DEBUG] [retry] retry\detail.h:175 n = 2, delayTime = 467983
+[04:48:25.918] [ERROR] [retry] Done: ret = -2143223322, elapsed = 2717ms, attempts = 5/5
+[04:48:25.993] [DEBUG] [retry] retry\detail.h:175 n = 3, delayTime = 839518
+[04:48:27.030] [ERROR] [retry] Done: ret = -2143223322, elapsed = 2737ms, attempts = 5/5
+[04:48:29.404] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 173931
+[04:48:33.215] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 155928
+[04:48:39.404] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 222970
+[04:48:43.216] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 208651
+[04:48:49.405] [DEBUG] [retry] retry\detail.h:175 n = 2, delayTime = 468623
+[04:48:53.216] [DEBUG] [retry] retry\detail.h:175 n = 2, delayTime = 473845
+[04:48:59.405] [DEBUG] [retry] retry\detail.h:175 n = 3, delayTime = 882649
+[04:49:03.216] [DEBUG] [retry] retry\detail.h:175 n = 3, delayTime = 867435
+[04:49:03.697] [DEBUG] [retry] retry\detail.h:175 n = 0, delayTime = 193624
+[04:49:04.088] [DEBUG] [retry] retry\detail.h:175 n = 1, delayTime = 231324

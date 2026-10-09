@@ -1,0 +1,28 @@
+{
+  "date_local": "2026-10-09",
+  "timezone": "Australia/Sydney",
+  "snapshot": "20261008T143632.044171Z-menu09-before-tokyo-highway-parade.bin",
+  "dashboard_image": "../../1_download0_dashboard.png",
+  "context": "User restored 1_download0.dat and runs payload 0.1.0. Screenshot and live capture are nearby observations, not guaranteed simultaneous.",
+  "menu_book": {"number": 9, "name": "Championship: Tokyo Highway Parade", "state": "current, before completion"},
+  "dashboard": {
+    "play_time": "02:20:33",
+    "total_distance_km_display": 81.15,
+    "total_driving_time": "00:37:44",
+    "garage_cars": 12,
+    "garage_assets_credits": 13000,
+    "garage_country_counts": {"Japan": 6, "Germany": 4, "Italy": 2},
+    "collector_level": 5,
+    "collector_points": 405,
+    "collector_next_threshold": 550,
+    "car_collection": {"count": 562, "total": 574, "percent": 97},
+    "world_circuits": {"event_races": 11, "event_races_total": 272, "event_percent": 4, "championships": 1, "championships_total": 10, "championship_percent": 10, "podium_finishes": 13},
+    "cafe": {"percent": 7, "menu_books": 8, "menu_books_total": 39, "bonus_menus": 0, "bonus_menus_total": 12, "extra_menus": 0, "extra_menus_total": 54},
+    "circuit_experience": {"percent": 0, "gold": 0, "silver": 0, "bronze": 0, "total_each": 267},
+    "licences": {"percent": 0, "gold": 0, "silver": 1, "bronze": 1, "total_each": 100},
+    "missions": {"percent": 0, "gold": 0, "silver": 0, "bronze": 0, "total_each": 56},
+    "music_rally": {"percent": 0, "gold": 0, "silver": 0, "bronze": 0, "total_each": 12}
+  },
+  "live_save": {"credits": 11800, "gift_count": 68, "records_differing_from_image1": ["GAMECTX", "GMSTATS", "GIFTIV"]},
+  "notes": ["Garage assets are not the credit balance.", "Do not assume displayed medal totals are mutually exclusive.", "Café percentage is copied exactly; do not equate it with 8/39."]
+}

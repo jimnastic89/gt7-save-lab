@@ -1,0 +1,212 @@
+{
+  "changed_records": {
+    "GAMECTX": {
+      "sizes": [
+        976,
+        976,
+        976
+      ],
+      "changed_bytes": [
+        {
+          "payload_offset": "0xa2",
+          "values": [
+            7,
+            8,
+            9
+          ],
+          "returned_to_original": false
+        },
+        {
+          "payload_offset": "0xde",
+          "values": [
+            90,
+            92,
+            94
+          ],
+          "returned_to_original": false
+        }
+      ]
+    },
+    "GMSTATS": {
+      "sizes": [
+        672,
+        672,
+        672
+      ],
+      "changed_bytes": [
+        {
+          "payload_offset": "0x16e",
+          "values": [
+            116,
+            124,
+            180
+          ],
+          "returned_to_original": false
+        },
+        {
+          "payload_offset": "0x176",
+          "values": [
+            77,
+            90,
+            104
+          ],
+          "returned_to_original": false
+        },
+        {
+          "payload_offset": "0x232",
+          "values": [
+            48,
+            49,
+            50
+          ],
+          "returned_to_original": false
+        },
+        {
+          "payload_offset": "0x236",
+          "values": [
+            7,
+            8,
+            9
+          ],
+          "returned_to_original": false
+        }
+      ]
+    },
+    "GARAGE": {
+      "sizes": [
+        6170,
+        6170,
+        6170
+      ],
+      "changed_bytes": [
+        {
+          "payload_offset": "0x31",
+          "values": [
+            0,
+            3,
+            0
+          ],
+          "returned_to_original": true
+        },
+        {
+          "payload_offset": "0x35",
+          "values": [
+            42,
+            28,
+            42
+          ],
+          "returned_to_original": true
+        },
+        {
+          "payload_offset": "0x45",
+          "values": [
+            69,
+            70,
+            71
+          ],
+          "returned_to_original": false
+        },
+        {
+          "payload_offset": "0xaa",
+          "values": [
+            4,
+            4,
+            5
+          ],
+          "returned_to_original": false
+        },
+        {
+          "payload_offset": "0xb2",
+          "values": [
+            69,
+            69,
+            71
+          ],
+          "returned_to_original": false
+        },
+        {
+          "payload_offset": "0x69a",
+          "values": [
+            3,
+            4,
+            4
+          ],
+          "returned_to_original": false
+        },
+        {
+          "payload_offset": "0x6a2",
+          "values": [
+            68,
+            70,
+            70
+          ],
+          "returned_to_original": false
+        }
+      ]
+    },
+    "GIFTIV": {
+      "sizes": [
+        26616,
+        30666,
+        34716
+      ]
+    }
+  },
+  "candidates": [
+    {
+      "record": "GARAGE",
+      "payload_offset": "0x31",
+      "values": [
+        0,
+        3,
+        0
+      ],
+      "returned_to_original": true
+    },
+    {
+      "record": "GARAGE",
+      "payload_offset": "0x35",
+      "values": [
+        42,
+        28,
+        42
+      ],
+      "returned_to_original": true
+    }
+  ],
+  "gifts": {
+    "counts": [
+      59,
+      68,
+      77
+    ],
+    "transitions": [
+      {
+        "old_entries_unchanged_at_same_index": 59,
+        "old_count": 59,
+        "new_count": 68,
+        "distinct_entry_hashes_added": 9,
+        "distinct_entry_hashes_removed": 0
+      },
+      {
+        "old_entries_unchanged_at_same_index": 68,
+        "old_count": 68,
+        "new_count": 77,
+        "distinct_entry_hashes_added": 9,
+        "distinct_entry_hashes_removed": 0
+      }
+    ]
+  },
+  "progress_candidates": {
+    "credits_be_u32_at_0x152": [
+      11800,
+      11800,
+      11800
+    ],
+    "level_byte_at_0x15A": [
+      5,
+      5,
+      5
+    ]
+  }
+}

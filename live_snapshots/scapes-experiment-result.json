@@ -1,0 +1,84 @@
+{
+  "before": "20261008T231532.935365Z-book16-scapes-active-restored-save.bin",
+  "after": "20261008T234652.316422Z-book16-after-scapes-experiment-cafe-still-in-progress.bin",
+  "user_result": "Payload displays edited state; in-game Scapes marker remains and Cafe says in progress. v0.4.1 starts successfully. /data/gt7-save-lab not visible over FTP.",
+  "quest625_retained_changes": [
+    {
+      "entry_offset": "0x55",
+      "before": 0,
+      "after": 2
+    },
+    {
+      "entry_offset": "0x59",
+      "before": 2,
+      "after": 3
+    },
+    {
+      "entry_offset": "0x6b",
+      "before": 1,
+      "after": 2
+    },
+    {
+      "entry_offset": "0x159",
+      "before": 1,
+      "after": 3
+    },
+    {
+      "entry_offset": "0x15e",
+      "before": 0,
+      "after": 1
+    }
+  ],
+  "quest_header_length": [
+    96,
+    112
+  ],
+  "quest_header_list_count": 1,
+  "quest_header_first_id": 625,
+  "other_quest_entries_unchanged": true,
+  "unchanged_records": [
+    "BRCRPLY",
+    "CARCOLIV",
+    "CARDICIV",
+    "CUSSTSIV",
+    "DATALOGGER",
+    "ETMTIV",
+    "EVTRECIV",
+    "FVTDCAL",
+    "GARAGE",
+    "INVITEIV",
+    "LRDTINV",
+    "LCLRKG",
+    "LRTTINV",
+    "MLSTNACV",
+    "MISC",
+    "OPTION",
+    "PAINTIV",
+    "PPRECIV",
+    "PROGRESS",
+    "QSTARCIV",
+    "RACEASST",
+    "RESID",
+    "SCAPES",
+    "STGDBK",
+    "STOCKPIV",
+    "DRIVERIV",
+    "DRFILEIV",
+    "LIVERYIV",
+    "STYLEIV",
+    "VCIV",
+    "WHEELIV",
+    "BCWLIV",
+    "LCWLIV",
+    "UCWLIV"
+  ],
+  "next_experiment": {
+    "record": "PROGRESS",
+    "offset": "0x138",
+    "type": "u8",
+    "before": 0,
+    "after": 1,
+    "status": "Proposed only; not applied",
+    "reason": "0 to 1 at natural completion and 1 to 0 at claim for Books 9 and 10; unknown whether sufficient for Scapes"
+  }
+}

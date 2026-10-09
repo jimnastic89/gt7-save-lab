@@ -1,0 +1,18 @@
+{
+  "date_local": "2026-10-09",
+  "snapshot": "20261008T151829.263810Z-menu10-objectives-viewed-mazda-acquired.bin",
+  "sha256": "57a52d7e2d770beeb1edfd654abcfbccf4b884db3b9d026354d9507d2301f9f8",
+  "bytes": 151492,
+  "menu_book": {"number": 10, "name": "Collection: Japanese FR Sports Cars", "state": "started, one objective acquired"},
+  "objectives": [
+    {"car": "Nissan Silvia Q's (S13) '88", "acquired": false},
+    {"car": "Mazda Eunos Roadster (NA) '89", "acquired": true, "owned_before_book_started": true},
+    {"car": "Toyota Corolla Levin 1600GT APEX (AE86) '83", "acquired": false}
+  ],
+  "comparison_with_started_snapshot": {
+    "changed_record_payloads": ["GAMECTX", "GMSTATS"],
+    "progression_records_unchanged": true,
+    "credits": 69900
+  },
+  "notes": ["User explicitly confirms Mazda was owned before starting this book and objective displays Acquired.", "Viewing the objectives produced no saved payload changes outside GAMECTX and GMSTATS in this comparison.", "No console writes performed."]
+}

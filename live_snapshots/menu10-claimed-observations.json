@@ -1,0 +1,9 @@
+{
+  "snapshot": "20261008T222754.574642Z-menu10-claimed-next-not-started.bin",
+  "sha256": "bbae8cad85fd1420f7a381f1ead2d208738fe8b61a0ce43bf1b513d344b5eda4",
+  "payload_version": "0.3.0",
+  "user_report": {"book10": "fully completed", "next_book_started": false, "unlock": "Deep Forest Raceway", "ticket_census": {"1": 12, "2": 7, "3": 7, "4": 7, "5": 8, "6": 28}, "confirmed_car_only_6_star_msgkey": "DELITEM_9007199254770994", "confirmed_car_only_count": 7},
+  "comparison": {"changed_records": ["CARCOLIV", "GAMECTX", "GMSTATS", "PROGRESS", "QSTARCIV", "QUEST"], "gifts_unchanged": true, "archive_new_candidate_ids": [125, 602], "progress_marker_0x151": 9, "pending_flag_0x138": 0},
+  "corrections": ["PROGRESS+0x151 stayed9 after Book10 claim, disproving a general completed-book counter interpretation.", "No next-book number/name supplied; do not guess."],
+  "ticket_inferences": {"roulette_to_stars": {"1": 1, "2": 2, "3": 3, "4": 4, "5": 5, "6": 6, "10": 5, "11": 6, "12": 6, "13": 6}, "timestamp_unix_seconds_formula": "raw - 210866760000", "validation": "212660824448 converts to2026-11-08 02:14:08 Australia/Sydney, matching earlier reported availability8/11/2026 2:14", "confidence": "Census mapping and epoch inferred; car-only message key user-confirmed"}
+}

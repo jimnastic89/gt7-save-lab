@@ -1,0 +1,64 @@
+{
+  "before": "20261009T004222.478870Z-book16-after-progress138-still-in-progress.bin",
+  "after": "20261009T004705.651584Z-book16-scapes-marker-cleared-cafe-in-progress.bin",
+  "user_observation": {
+    "in_game_main_menu": "Menu book marked Completed",
+    "scapes_destination_marker": "Removed after PROGRESS+0x130 changed 1 to 0",
+    "cafe": "Still In progress; no reward claim"
+  },
+  "changes": {
+    "GAMECTX": {
+      "before_size": 992,
+      "after_size": 992,
+      "bytes": [
+        {
+          "offset": "0xe6",
+          "before": 174,
+          "after": 176
+        }
+      ]
+    },
+    "GMSTATS": {
+      "before_size": 672,
+      "after_size": 672,
+      "bytes": [
+        {
+          "offset": "0x16e",
+          "before": 209,
+          "after": 220
+        },
+        {
+          "offset": "0x1c6",
+          "before": 68,
+          "after": 76
+        },
+        {
+          "offset": "0x232",
+          "before": 105,
+          "after": 106
+        },
+        {
+          "offset": "0x25e",
+          "before": 27,
+          "after": 28
+        }
+      ]
+    },
+    "GIFTIV": {
+      "before_size": 76566,
+      "after_size": 80616
+    },
+    "PROGRESS": {
+      "before_size": 816,
+      "after_size": 816,
+      "bytes": [
+        {
+          "offset": "0x130",
+          "before": 1,
+          "after": 0
+        }
+      ]
+    }
+  },
+  "conclusion": "Edited state is retained but not sufficient for Cafe completion. Main-menu completion is confirmed in-game, not merely a payload display. No further arbitrary edits proposed."
+}

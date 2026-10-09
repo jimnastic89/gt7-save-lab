@@ -1,0 +1,35 @@
+{
+  "date_local": "2026-10-09",
+  "snapshot": "20261008T214648.052356Z-menu10-corolla-completed-before-prize.bin",
+  "sha256": "5e492ef389a1140bc937e8d93934b1adf598d665293a353abedbecac06f31fba",
+  "bytes": 157392,
+  "user_report": {
+    "finish_position": 1,
+    "car_reward": "Toyota Corolla Levin 1600GT APEX (AE86) '83",
+    "base_credit_reward": 10000,
+    "clean_race_bonus_received": true,
+    "bonus_amount_recalled": null,
+    "credits_spent_since_silvia_capture": 0,
+    "menu_book": 10,
+    "state": "Completed, prize unclaimed",
+    "unlocks": ["First unlock not recalled", "New tuning-store upgrade tier"],
+    "collector_level_unlock_cause": "User hypothesis; not confirmed",
+    "silvia_stage_clarification": "User confirms earlier tuning spending; exact spend and possible clean-race bonus not recalled"
+  },
+  "save_observations": {
+    "credits_before": 48250,
+    "credits_after": 63250,
+    "net_credit_increase": 15000,
+    "bonus_inferred_from_reported_base_and_no_spending": 5000,
+    "garage_entry_count_before": 15,
+    "garage_entry_count_after": 16,
+    "gift_count": 69,
+    "quest_archive_count": 16,
+    "progress_collector_level_candidate": {"offset": "0x15A", "before": 5, "after": 6},
+    "progress_active_candidate": {"offset": "0x135", "before": 1, "after": 0},
+    "progress_completed_pending_claim_candidate": {"offset": "0x138", "before": 0, "after": 1},
+    "progress_claimed_book_candidate": {"offset": "0x151", "before": 9, "after": 9},
+    "quest_objective_candidate": {"offset": "0x1132", "before": 1, "after": 5}
+  },
+  "notes": ["No console writes.", "QUEST byte values0,1,5 across acquisitions suggest flags rather than a simple acquired-car count.", "No new dashboard screenshot supplied; collector level6 is read from a correlated candidate field, not visually confirmed.", "Prior tuning spending is confirmed but exact credit reconciliation remains unresolved."]
+}

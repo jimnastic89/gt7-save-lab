@@ -1,0 +1,28 @@
+[
+  {
+    "path": "APP_DATA/logs/archived.log",
+    "before": {
+      "inode": "10",
+      "size": 3596,
+      "sha256": "21d93879494e16ee8308c4c43b9971002850e39835ce1bf4cd0d3257c28859b1"
+    },
+    "after": {
+      "inode": "10",
+      "size": 3583,
+      "sha256": "a981bed091c17c40825c261093674d2261feba2e5062229e6865dd899ad83809"
+    }
+  },
+  {
+    "path": "gt7save.bin",
+    "before": {
+      "inode": "219",
+      "size": 139818,
+      "sha256": "8818ff42c7bcb65a468ba74ae71fe1a225e31574450c7b369179762f24b38477"
+    },
+    "after": {
+      "inode": "134",
+      "size": 143868,
+      "sha256": "059826c39c4d1d6e6f0025e11b688dd6fb7cfe74563c6ade4c64eab3fd7dd857"
+    }
+  }
+]

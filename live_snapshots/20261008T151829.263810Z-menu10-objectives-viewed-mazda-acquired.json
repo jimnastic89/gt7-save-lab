@@ -1,0 +1,14 @@
+{
+  "captured_utc": "2026-10-08T15:18:29.263810+00:00",
+  "label": "menu10-objectives-viewed-mazda-acquired",
+  "source": "http://10.0.0.24:8097",
+  "payload": {
+    "version": "0.1.0",
+    "title": "PPSA01317",
+    "gameRunning": 1,
+    "blocked": false,
+    "platform": "PS5"
+  },
+  "bytes": 151492,
+  "sha256": "57a52d7e2d770beeb1edfd654abcfbccf4b884db3b9d026354d9507d2301f9f8"
+}
