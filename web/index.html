@@ -1,0 +1,595 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>GT7 Save Lab</title>
+    <style>
+        :root {
+            color-scheme: dark;
+            --bg: #202020;
+            --panel: #2b2b2b;
+            --line: #313131;
+            --text: #e7efec;
+            --muted: #a5b7b6;
+            --mint: #909090;
+            --amber: #ffcb83
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            margin: 0;
+            background: var(--bg);
+            color: var(--text);
+            font: 15px/1.5 system-ui, sans-serif
+        }
+
+        main {
+            max-width: 1500px;
+            margin: auto;
+            padding: 30px
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            border-bottom: 1px solid var(--line);
+            padding-bottom: 22px
+        }
+
+        h1 {
+            font-size: 32px;
+            letter-spacing: -1px;
+            margin: 0
+        }
+
+        h2 {
+            font-size: 18px;
+            margin: 0 0 14px
+        }
+
+        h3 {
+            font-size: 15px;
+            margin: 0
+        }
+
+        .eyebrow {
+            font: 12px ui-monospace, monospace;
+            letter-spacing: 2px;
+            color: var(--mint)
+        }
+
+        p {
+            margin: 8px 0
+        }
+
+        .muted,
+        small {
+            color: var(--muted)
+        }
+
+        .pill {
+            border: 1px solid var(--line);
+            border-radius: 30px;
+            padding: 5px 12px;
+            font-size: 12px
+        }
+
+        .toolbar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: center;
+            margin: 20px 0
+        }
+
+        button,
+        .file-button {
+            background: #25353a;
+            color: var(--text);
+            border: 1px solid #43565c;
+            border-radius: 7px;
+            padding: 9px 14px;
+            font: inherit;
+            cursor: pointer;
+            display: inline-block
+        }
+
+        button:hover,
+        .file-button:hover {
+            border-color: var(--mint)
+        }
+
+        button.primary {
+            background: var(--mint);
+            border-color: var(--mint);
+            color: #12221c;
+            font-weight: 650
+        }
+
+        button:disabled {
+            opacity: .4;
+            cursor: not-allowed
+        }
+
+        button.small {
+            font-size: 12px;
+            padding: 5px 9px
+        }
+
+        input,
+        select {
+            background: #1f1f1f;
+            border: 1px solid #434343;
+            border-radius: 5px;
+            padding: 9px;
+            color: var(--text);
+            font: inherit;
+            max-width: 100%
+        }
+
+        input[type=checkbox] {
+            accent-color: var(--mint)
+        }
+
+        input[type=file] {
+            display: none
+        }
+
+        label {
+            display: block
+        }
+
+        label small {
+            display: block;
+            margin-bottom: 5px
+        }
+
+        #message {
+            white-space: pre-wrap;
+            padding: 14px 16px;
+            border-left: 3px solid var(--mint);
+            background: #1a1a1a;
+            margin-bottom: 20px
+        }
+
+        #message.error {
+            border-color: #f49292;
+            background: #362325
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 12px;
+            margin: 20px 0
+        }
+
+        .card,
+        .panel {
+            border: 1px solid var(--line);
+            background: var(--panel);
+            border-radius: 10px;
+            padding: 18px
+        }
+
+        .card .value {
+            font: 30px ui-monospace, monospace;
+            margin: 10px 0
+        }
+
+        .card .tag {
+            color: var(--amber);
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px
+        }
+
+        .card p {
+            font-size: 12px
+        }
+
+        .layout {
+            display: grid;
+            grid-template-columns: 250px minmax(0, 1fr);
+            gap: 18px
+        }
+
+        .record-list {
+            max-height: 600px;
+            overflow: auto
+        }
+
+        .record {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            text-align: left;
+            margin: 5px 0;
+            font: 12px ui-monospace, monospace;
+            padding: 10px
+        }
+
+        .record.active {
+            border-color: var(--mint);
+            background: #28433b
+        }
+
+        .changed {
+            color: var(--amber)
+        }
+
+        .record-filter {
+            width: 100%;
+            margin-bottom: 10px
+        }
+
+        .flex {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            align-items: center
+        }
+
+        .spread {
+            justify-content: space-between
+        }
+
+        .editor {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 2fr auto;
+            gap: 10px;
+            align-items: end;
+            margin: 20px 0
+        }
+
+        .hex-wrap {
+            overflow: auto;
+            border: 1px solid var(--line);
+            border-radius: 6px
+        }
+
+        .hex {
+            border-collapse: collapse;
+            width: 100%;
+            font: 12px/1.4 ui-monospace, monospace
+        }
+
+        .hex th,
+        .hex td {
+            padding: 4px 3px;
+            text-align: center;
+            white-space: nowrap
+        }
+
+        .hex th {
+            color: var(--muted);
+            font-weight: 400
+        }
+
+        .hex td.byte {
+            cursor: pointer
+        }
+
+        .hex td.byte:hover {
+            outline: 1px solid var(--mint)
+        }
+
+        .hex td.diff {
+            background: #584225;
+            color: #ffe2b5
+        }
+
+        .hex td.staged {
+            background: #265242;
+            color: #b8ffda
+        }
+
+        .hex td.selected {
+            outline: 1px solid white
+        }
+
+        .hex .ascii {
+            text-align: left;
+            padding-left: 12px;
+            color: var(--muted)
+        }
+
+        .row {
+            border-bottom: 1px solid var(--line);
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            align-items: center
+        }
+
+        .wide {
+            width: 100%
+        }
+
+        .bottom {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 18px;
+            margin-top: 18px
+        }
+
+        .scroll {
+            max-height: 300px;
+            overflow: auto
+        }
+
+        code {
+            font: 12px ui-monospace, monospace;
+            overflow-wrap: anywhere
+        }
+
+        .notice {
+            color: var(--amber);
+            font-size: 13px
+        }
+
+        .review {
+            border-color: #646464;
+            margin-top: 18px
+        }
+
+        .inline {
+            display: flex;
+            align-items: center;
+            gap: 8px
+        }
+
+        details {
+            margin-top: 12px
+        }
+
+        summary {
+            cursor: pointer;
+            color: var(--muted)
+        }
+
+        footer {
+            padding: 24px 0;
+            color: var(--muted);
+            font-size: 12px
+        }
+
+        a {
+            color: var(--mint)
+        }
+
+        .busy {
+            cursor: progress
+        }
+
+        #watchLabel {
+            width: 250px
+        }
+
+        @media(max-width:1100px) {
+            .cards {
+                grid-template-columns: repeat(3, 1fr)
+            }
+
+            .editor {
+                grid-template-columns: 1fr 1fr
+            }
+
+            .bottom {
+                grid-template-columns: 1fr
+            }
+        }
+
+        @media(max-width:700px) {
+            main {
+                padding: 16px
+            }
+
+            .cards {
+                grid-template-columns: 1fr 1fr
+            }
+
+            .layout {
+                grid-template-columns: 1fr
+            }
+
+            .record-list {
+                max-height: 180px
+            }
+
+            header {
+                align-items: start
+            }
+
+            .hex {
+                font-size: 11px
+            }
+
+            .card .value {
+                font-size: 23px
+            }
+
+            .editor {
+                grid-template-columns: 1fr 1fr
+            }
+        }
+        /* Console-inspired charcoal panels and compact settings controls. */
+        :root{--bg:#121212;--panel:#202020;--line:#414141;--text:#eeeeee;--muted:#b8b8ba;--mint:#d6e8f4;--amber:#e7bd83}
+        body{background:radial-gradient(ellipse at top,#282b30 0,#141414 65%);font-family:Arial,Helvetica,sans-serif}
+        main{max-width:1480px;padding:40px 36px}header{border-bottom:0;padding-bottom:12px}h1{font-size:30px;font-weight:500;letter-spacing:-1px}h2{font-weight:500}small{line-height:1.6}
+        .panel,.card{background:linear-gradient(125deg,#24262a,#202020);border:1px solid #292b2e;border-radius:14px;box-shadow:0 3px 9px #0005;padding:24px}
+        .card{text-align:center;min-height:215px;display:flex;flex-direction:column;justify-content:space-between}.card .value{font:300 34px Arial,sans-serif}.eyebrow{color:#bfcbd4;letter-spacing:2px;font-size:11px}
+        button,.file-button{background:linear-gradient(#494b4f,#323335);border-color:#53565a;border-radius:24px;color:#eee;box-shadow:0 2px 3px #0004;padding:10px 18px}button.primary{background:linear-gradient(#e2e5e8,#aeb5bd);border-color:#cdd3d9;color:#14171b}button:hover,.file-button:hover{border-color:#fff;background:#555960}button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{outline:2px solid #fff;outline-offset:4px}
+        input,select{background:#08090b;border-color:#484b50;border-radius:3px}#message{background:#24282e;border-color:#a8bed0}#message.error{background:#382528}#source,#baselineStatus{font-size:12px}.record.active{background:#424850;border-color:#bac8d2}.record{border-radius:5px}.hex td.staged{background:#334e5b;color:#d9f1ff}.hex td.diff{background:#56432d}#gifts .row{align-items:start}pre{white-space:pre-wrap;overflow-wrap:anywhere;max-width:100%}.row>*,.card{min-width:0}
+        .section-nav{display:flex;justify-content:center;background:linear-gradient(#393939,#292929);border-radius:40px;overflow:hidden;margin:20px auto 28px;max-width:860px;box-shadow:0 3px 8px #0008}.section-nav a{flex:1;text-align:center;color:#ddd;padding:15px 12px;text-decoration:none;font-weight:600}.section-nav a:hover{background:#555}.menu-grid{display:grid;grid-template-columns:1fr 2fr;gap:26px;margin-top:18px}.menu-count{font-size:44px;font-weight:300}.menu-state{font-size:24px;margin:10px 0}.progress-track{background:#090909;border-radius:8px;height:6px;margin:14px 0;overflow:hidden}.progress-track span{display:block;height:100%;background:#b7ccdf}.menu-metadata{font:12px monospace;color:#b4bcc6}.panel[id]{scroll-margin-top:18px}
+        @media(max-width:700px){main{padding:20px 14px}.menu-grid{grid-template-columns:1fr}.section-nav{flex-wrap:wrap}.section-nav a{flex-basis:45%}.panel,.card{padding:18px}.cards{grid-template-columns:1fr 1fr}}
+        .menu-grid small{display:block;margin-top:8px}
+        #message{position:sticky;top:0;z-index:100;box-shadow:0 6px 18px #0009;max-height:30vh;overflow:auto}
+    </style>
+</head>
+
+<body>
+    <main>
+        <header>
+            <div>
+                <h1>GT7 Save Editor</h1>
+            </div><span class="pill" id="connection">Connecting…</span>
+        </header>
+        <nav class="section-nav" aria-label="Editor sections"><a href="#creditsPanel">Overview</a><a href="#menuPanel">Menu books</a><a href="#giftsPanel">Reward tickets</a><a href="#researchPanel">Research</a></nav>
+        <div class="toolbar"><button class="primary" id="loadConsole">Read console save</button><label
+                class="file-button">Open extracted save<input id="openFile" type="file" accept=".bin"></label><button
+                id="export" disabled>Download working copy</button><button id="baseline" disabled>Set comparison
+                baseline</button><label class="file-button">Load baseline file<input id="baselineFile" type="file"
+                    accept=".bin"></label></div>
+        <div id="message" role="status" aria-live="polite">Read the console save, or open an extracted gt7save.bin.
+            Original snapshots stay separate from staged edits.</div>
+        <div class="flex spread"><small id="source">No save loaded</small><small id="baselineStatus">No comparison
+                baseline</small></div>
+        <section class="panel" id="creditsPanel" style="margin-top:18px;border-color:var(--mint)">
+            <div class="eyebrow">CONFIRMED FIELDS</div>
+            <h2>Credits</h2>
+            <p class="muted">Verified by the 11,800 → 12,400 reward change and your console test.</p>
+            <div class="flex"><strong id="creditsDisplay"
+                    style="font:32px ui-monospace,monospace">—</strong><label><small>New credit balance</small><input
+                        id="creditsInput" inputmode="numeric" placeholder="Enter credits"></label><button
+                    class="primary" id="stageCredits" disabled>Stage credits</button></div><small>Changes are staged
+                until you use “Back up & apply to console” below.</small>
+        </section>
+        <section class="panel" style="margin-top:18px">
+            <h2>Current car</h2>
+            <div class="flex"><strong id="currentCar">—</strong><span id="currentCarIds" class="muted"></span><input
+                    id="carName" placeholder="Name for this car ID" aria-label="Car name"><button id="saveCarName"
+                    disabled>Save name</button><button class="small" id="exportLabels">Export labels &
+                    watches</button><label class="file-button">Import labels & watches<input id="importLabels"
+                        type="file" accept=".json"></label></div><small>Names describe your observed IDs; they do not
+                change the save. Labels are stored in this browser.</small>
+        </section>
+        <section class="panel" id="menuPanel" style="margin-top:18px">
+            <div class="flex spread"><h2>Café / Menu-book progression</h2><span class="pill">Research interpretation</span></div>
+            <div id="menuSummary">Load a save to inspect menu-book progress.</div>
+            <details id="scapesTest"><summary>Experimental Book 16 completion test</summary>
+                <p>This test changes five bytes in the quest 625 entry, inferred from natural Book 9/10 completion. It may not be sufficient: cached progress and the photo requirement may be re-evaluated by the game. It does not issue a reward or archive the quest.</p>
+                <p>Keep a complete download0.dat backup. Close GT7, read a fresh snapshot, and stage only this experiment. Apply below, then restart GT7 and check the Café. If unsuccessful, report the result before making more edits.</p>
+                <button id="stageScapes" disabled>Stage experimental Scapes completion</button><p id="scapesEligibility" class="muted"></p>
+            </details>
+            <p class="notice">Based on the Book 9 and Book 10 experiments. Unknown quest IDs are shown without guessing a book name. Only the guarded Scapes experiment below is available; completion editing is not yet game-validated.</p>
+        </section>
+        <h2 id="researchPanel" style="margin-top:24px">Experimental fields & record explorer</h2>
+        <section class="cards" id="cards" aria-label="Identified fields"></section>
+        <div class="layout">
+            <aside class="panel">
+                <h2>Records <span id="recordCount"></span></h2><input id="recordFilter" class="record-filter"
+                    placeholder="Filter record names" aria-label="Filter record names"><label class="inline"><input
+                        type="checkbox" id="changedOnly"> Changed from baseline</label>
+                <div id="records" class="record-list"></div>
+            </aside>
+            <section class="panel">
+                <div class="flex spread">
+                    <div>
+                        <h2 id="recordTitle">Record explorer</h2><small id="recordMeta">All offsets below are relative
+                            to a record's payload.</small>
+                    </div><span class="pill" id="diffCount">—</span>
+                </div>
+                <div class="editor"><label><small>Payload offset</small><input id="offset" value="0x0"
+                            aria-label="Payload offset"></label><label><small>Interpretation</small><select id="type">
+                            <option value="u8">Unsigned 8-bit</option>
+                            <option value="u16">Unsigned 16-bit</option>
+                            <option value="u32">Unsigned 32-bit</option>
+                            <option value="u64">Unsigned 64-bit</option>
+                            <option value="i16">Signed 16-bit</option>
+                            <option value="i32">Signed 32-bit</option>
+                            <option value="i64">Signed 64-bit</option>
+                            <option value="f32">Float 32-bit</option>
+                            <option value="f64">Float 64-bit</option>
+                            <option value="hex">Raw hex bytes</option>
+                        </select></label><label><small>Byte order</small><select id="endian">
+                            <option>BE</option>
+                            <option>LE</option>
+                        </select></label><label><small>New value</small><input id="value"
+                            placeholder="Select a byte or field"></label><button id="stage" disabled>Stage edit</button>
+                </div>
+                <div class="flex spread"><small id="interpreted">—</small>
+                    <div class="flex"><input id="watchLabel" placeholder="Name this unknown field"
+                            aria-label="Watch label"><button class="small" id="addWatch" disabled>Add watch</button>
+                    </div>
+                </div>
+                <div class="toolbar"><button class="small" id="previous">← Previous</button><span id="page"
+                        class="muted"></span><button class="small" id="next">Next →</button><button class="small"
+                        id="nextDiff">Next difference</button><small>Amber: baseline difference · Green: staged
+                        edit</small></div>
+                <div class="hex-wrap">
+                    <table class="hex" id="hex" aria-label="Record bytes"></table>
+                </div>
+                <details>
+                    <summary>Record framing and unknown header values</summary>
+                    <pre id="headerInfo"></pre>
+                    <p class="muted">The outer header uses little-endian framing. Payload fields can use a different
+                        byte order. Pointer-like values often change between launches and are excluded from payload
+                        comparisons.</p>
+                </details>
+            </section>
+        </div>
+        <div class="bottom">
+            <section class="panel">
+                <h2>Field watchlist</h2>
+                <p class="muted">Name unknown offsets and follow their values after changing something in the game.
+                    Watch definitions are saved in this browser.</p>
+                <div id="watches" class="scroll"></div><button class="small" id="exportWatches">Export watch
+                    definitions</button>
+            </section>
+            <section class="panel">
+                <h2>Changes from baseline</h2>
+                <p class="muted">Records are matched by name, so growing gift inventory does not shift later
+                    comparisons.</p>
+                <div id="comparison" class="scroll"></div>
+            </section>
+        </div>
+        <section class="panel" style="margin-top:18px">
+            <div class="flex spread">
+                <h2 id="giftsPanel">Reward tickets <span id="giftCount"></span></h2><span class="pill">Experimental removal</span>
+            </div>
+            <p class="muted">Decoded ticket JSON, including exact 64-bit item IDs. Star labels are inferred from your census; the car-only message key is confirmed. Dates use Australia/Sydney and an inferred epoch matched to your reported expiry. Raw timestamps remain visible. Type numbers are roulette
+                identifiers.</p>
+            <div class="toolbar"><button class="small" id="selectLatestGifts" disabled>Select newest
+                    batch</button><button class="small" id="selectDuplicateGifts" disabled>Select repeated types (keep
+                    earliest)</button><button class="small" id="clearGiftSelection">Clear selection</button><button
+                    id="removeGifts" disabled>Stage removal of selected gifts</button><button class="small"
+                    id="exportGifts" disabled>Export gift details</button></div>
+            <p class="notice">Removal rebuilds the count and index table, keeping other entries and ID counters
+                unchanged. Test with one ticket first. It does not stop the offline patch from issuing more gifts on the
+                next launch.</p>
+            <div id="gifts" class="scroll" style="max-height:420px"></div>
+        </section>
+        <section class="panel review">
+            <div class="flex spread">
+                <h2>Review staged edits</h2><button class="small" id="discard" disabled>Discard edits</button>
+            </div>
+            <div id="staged" class="scroll">No edits staged.</div>
+            <p class="notice">Unknown internal checksums are not recalculated. Normal edits preserve record framing.
+                Gift removal is the only supported operation that changes record length.</p>
+            <div class="toolbar"><label class="inline"><input type="checkbox" id="closed"> GT7 is fully closed, and I
+                    will keep it closed until the write finishes.</label><button class="primary" id="apply"
+                    disabled>Back up & apply to console</button></div><small>Writes recheck the original snapshot,
+                validate edits, create a verified backup, and atomically replace the save. Gift removal still needs
+                console validation.</small>
+        </section>
+        <footer>
+            <div class="toolbar"><button id="stopPayload" disabled>Stop payload</button><button id="installShortcut" disabled>Shortcut installation unavailable</button><span
+                    id="shortcutStatus">Shortcut installation is disabled while the console hang is investigated.</span>
+            </div>GT7 Save Lab 0.4.1 · PPSA01317 / GT7 1.71 offline-save experiment · No automatic polling or save
+            writes.
+        </footer>
+    </main>
+    <script src="/core.js"></script>
+    <script src="/app.js"></script>
+</body>
+
+</html>

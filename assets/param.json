@@ -1,0 +1,9 @@
+{
+  "applicationCategoryType": 65536,
+  "titleId": "GTSL08097",
+  "deeplinkUri": "http://127.0.0.1:8097/",
+  "localizedParameters": {
+    "defaultLanguage": "en-US",
+    "en-US": { "titleName": "GT7 Save Lab" }
+  }
+}

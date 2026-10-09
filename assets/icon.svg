@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="64" fill="#101719"/>
+  <rect x="28" y="28" width="456" height="456" rx="42" fill="#192326" stroke="#90dfbe" stroke-width="3"/>
+  <path d="M96 111h320M96 123h226" stroke="#90dfbe" stroke-width="5"/>
+  <text x="76" y="283" fill="#e7efec" font-family="sans-serif" font-size="138" font-weight="bold">GT7</text>
+  <text x="83" y="350" fill="#90dfbe" font-family="sans-serif" font-size="43" letter-spacing="6">SAVE LAB</text>
+  <path d="M85 402h61m18 0h61m18 0h61" stroke="#ffcb83" stroke-width="12"/>
+</svg>
